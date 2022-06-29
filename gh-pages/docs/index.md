@@ -1,25 +1,10 @@
 # Bem-vindo ao projeto
 
-O projeto de reengenharia e implementação de funções no aplicativo Guardiões da Saúde desenvolvido por uma equipe de alunos da matéria de Métodos de Desenvolvimento de Software e Requisitos de Software.
+O projeto de reengenharia e implementação de novas funções no aplicativo Guardiões da Saúde foi desenvolvido por uma equipe de alunos da matéria de Métodos de Desenvolvimento de Software e Requisitos de Software.
 
-## Ciclo de Vida
-
-* Incremental
-    
-    O ciclo de vida incremental foi escolhido para flexibilizar os requisitos que, mesmo sendo fixos, pode ser que sejam feitas alterações.
-
-## Tecnologias
-
-O projeto Guardiões da Saúde já possui tecnologias bem definidas, sendo assim, apenas adotamos as mesmas, sendo elas:
-
-- Ruby/Ruby on Rails
-- React Native
-- Docker
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" alt="ruby" width="50rem"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" alt="rails" width="50rem"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react" width="50rem"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="docker" width="50rem"/>
+![](https://pbs.twimg.com/media/FBYGRzAXMAE2Go0?format=jpg&name=large "hm")
+![](https://i.pinimg.com/736x/5b/b6/43/5bb64390aab2460649560bbfbad21d81--dogs-funny-things.jpg "hm")
+![](https://pbs.twimg.com/media/E4hmdNVWYAEaYVs.png "hm")
 
 ## Colaboradores
 
