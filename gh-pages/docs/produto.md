@@ -1,3 +1,0 @@
-# Produto
-
-## Documento de Requisitos

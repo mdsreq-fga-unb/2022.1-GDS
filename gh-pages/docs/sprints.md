@@ -1,3 +1,0 @@
-# Sprints
-
-### Sprint 00
