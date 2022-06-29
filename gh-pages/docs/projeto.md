@@ -1,10 +1,43 @@
 # Projeto
 
-![](https://i.pinimg.com/236x/dd/49/f0/dd49f0459a05ab0c35c6ab7fdb01a7ce.jpg "feiooo")
-
 ## Ciclo de Vida: Incremental
     
 O ciclo de vida incremental foi escolhido para flexibilizar os requisitos que, mesmo sendo fixos, pode ser que sejam feitas alterações.
+
+
+## Processo de Desenvolvimento
+
+O processo de desenvolvimento foi baseado na metodologia eXtreme Programming, pela periodicidade dos loops e o lançamentos de pequenas releases. Utiliza-se desta metodologia:
+
+- Programação em pares (Pair Programming)
+- Refatoração de código
+- Testes unitários
+- Reuniões diárias (Dailies)
+- Posse de código coletiva (Collective Code Ownership)
+
+Para a gestão de tarefas serão utilizadas as Sprints, vindas da metodologia Scrum, e a tabela Kanban, vinda da metodologia Kanban.
+
+Dentre as atividades, serão desempenhadas:
+
+- Requisitos
+    
+        - Definição das User Stories.
+
+- Análise e Design
+
+        - Modelagem visual.
+        
+        - Validação do protótipo.
+
+- Construção
+
+        - Mapeamento para código a partir da modelagem visual. 
+
+        - Implementação do código através de classes criadas.
+
+- Testes
+
+        - Automação de testes unitários utilizando Docker.
 
 ## Tecnologias
 
