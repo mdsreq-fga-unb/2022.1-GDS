@@ -144,33 +144,34 @@ O produto será replanejado caso entenda-se que o escopo está inadequado, isto 
   
   
 
-  ## 4 PROCESSO DE ENGENHARIA DE REQUISITOS 
+
+## 4 PROCESSO DE ENGENHARIA DE REQUISITOS 
 
   O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definido para o desenvolvimento de software, uma vez que as equipes de engenharia de requisitos e de engenharia de software estão trabalhando conjuntamente. Isso tornará mais fácil a integração entre as duas equipes. Com isso em mente, o processo escolhido foi o Extreme Programming, ou XP, e as atividades que serão executadas pela equipe de engenharia de requisitos podem ser vistas detalhadamente nas tabelas presentes nos subtópicos abaixo. 
 
-  ### 4.1 Elicitação de Requisitos 
+### 4.1 Elicitação de Requisitos 
 
   | Atividade | Método | Ferramenta | Entrega |
   |--|--|--|--
   | Criação de Histórias de Usuário | Levantamento de necessidades das clientes | Reunião com as clientes | Histórias de usuário |
 
-  ### 4.2 Análise de Requisitos
+### 4.2 Análise de Requisitos
   
   | Atividade | Método | Ferramenta | Entrega |
   |--|--|--|--|
   | Análise das Histórias de Usuário recebidas / Análise dos requisitos já existentes | Detalhamento e clarificação das Histórias de Usuário, analisando com base nos princípios de Engenharia de Requisitos  | Reunião com a equipe de Engenharia de Requisitos | Lista com as Histórias de Usuário descritas de forma clara e concisa. |  
   
-  ### 4.3 Documentação de Requisitos 
+### 4.3 Documentação de Requisitos 
   | Atividade | Método | Ferramenta | Entrega |
   |--|--|--|--|
   | Criação do Documento de Requisitos | Criação de um documento contendo todos os requisitos levantados na análise de requisitos | GitHub Pages | Documento de Requisitos |
   
-  ### 4.4 Verificação e Validação de Requisitos 
+### 4.4 Verificação e Validação de Requisitos 
   | Atividade | Método | Ferramenta | Entrega |
   |--|--|--|--|
   | Análise dos resultados por meio dos testes de aceitação / Análise do documento de requisitos  | Testagem dos resultados obtidos com base nos critérios de aceitação definidos / Validação dos requisitos criados, para analisar se os mesmos foram bem identificados e registrados | GitHub Issues / GitHub Pages | Aceitação ou não, dos resultados produzidos pela equipe de desenvolvimento / Reavaliação dos requisitos presentes no Documento de Requisitos |
 
-  ### 4.5 Gerenciamento de Requisitos  
+### 4.5 Gerenciamento de Requisitos  
   
   | Atividade | Método | Ferramenta | Entrega |
   |--|--|--|--|
