@@ -21,23 +21,52 @@ Dentre as atividades, serão desempenhadas:
 
 - Requisitos
 
-        - Definição das User Stories.
+        Definição das User Stories.
 
 - Análise e Design
 
-        - Modelagem visual.
+        Métodos:
+                - Modelagem visual (casos de uso);
+                - Prototipagem.
 
-        - Validação do protótipo.
+        Ferramentas:
+                - Figma;
+                - Lucidchart.
+
+        Entrega:
+                - Modelo e protótipo prontos para implementação.
 
 - Construção
 
-        - Mapeamento para código a partir da modelagem visual. 
+        Métodos:
 
-        - Implementação do código através de classes criadas.
+                - Pair programming;
+                - Refatoração;
+                - Sprint;
+                - Dailies;
+                - Baby Steps.
+
+        Ferramentas:
+
+                - VS Code;
+                - Discord;
+                - Whatsapp (comunicação).
+
+        Entrega:
+
+                - Código pronto para os testes.
 
 - Testes
 
-        - Automação de testes unitários utilizando Docker.
+        Métodos:
+                - Testes unitários automatizados;
+                - Containerização.
+
+        Ferramentas:
+                - Docker.
+
+        Entrega:
+                - Código preliminar para aprovação do PO.
 
 ## Tecnologias
 
