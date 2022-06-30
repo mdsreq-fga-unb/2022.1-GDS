@@ -21,7 +21,17 @@ Dentre as atividades, serão desempenhadas:
 
 - Requisitos
 
-        Definição das User Stories.
+        Métodos:
+                - Sprint;
+                - Dailies;
+                - Baby steps.
+
+        Ferramentas:
+                - Discord;
+                - WhatsApp.
+
+        Entrega:
+                - User Stories devidamente definidos.
 
 - Análise e Design
 
@@ -64,7 +74,7 @@ Dentre as atividades, serão desempenhadas:
 
         Ferramentas:
                 - Docker.
-
+                
         Entrega:
                 - Código preliminar para aprovação do PO.
 
