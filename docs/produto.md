@@ -19,7 +19,6 @@
     - 3.2.2 Atividade 2
     - 3.2.3 Atividade 3
     - 3.2.4 Atividade 4
-    - 3.2.5 Atividade 5
 - 4 Processo de Engenharia de Requisitos
   - 4.1 Elicitação de Requisitos
   - 4.2 Análise de Requisitos
@@ -177,7 +176,7 @@ Dentre as atividades das sprints, serão desempenhadas:
 
   | Atividade | Método | Ferramenta | Entrega |
   |--|--|--|--|
-  | Documentação dos requisitos | Criação de Épicos, features e Histórias de usuários a partir dos requisitos | Quadro Kanban do Trello | Product backlog |
+  | Documentação dos requisitos | Criação de Épicos, features e Histórias de usuários a partir dos requisitos | Quadro Kanban do ZenHub | Product backlog |
 
 ### 4.4 Verificação e Validação de Requisitos
 
@@ -193,7 +192,7 @@ Dentre as atividades das sprints, serão desempenhadas:
 
   | Atividade | Método | Ferramenta | Entrega |
   |--|--|--|--|
-  | Criação de itens do product backlog | Criar os itens do product backlog com base requisitos funcionais e não-funcionais do projeto | Reuniões da equipe de requisitos com as clientes para a criação de itens no quadro Kanban (Trello) do projeto | Product Backlog |
+  | Criação de itens do product backlog | Criar os itens do product backlog com base requisitos funcionais e não-funcionais do projeto | Reuniões da equipe de requisitos com as clientes para a criação de itens no quadro Kanban (ZenHub) do projeto | Product Backlog |
 
   | Atividade | Método | Ferramenta | Entrega |
   |--|--|--|--|
@@ -225,10 +224,11 @@ Nesta unidade 2, aprendemos, em primeiro lugar, a importância de uma sala inver
 
 #### 5.2.2 Requisitos
 
-
 Na equipe de requisitos tivemos alguns problemas para definirmos os requisitos onde aconteceu um equivoco quando foram definidos alguns requisitos funcionais e não funcionais. Com isso foram colocadas algumas regras de negócio e atividades que seriam realizadas no processo de desenvolvimento como requisitos funcionais, fazendo com que tivéssemos que revisar e planejar novamente os requisitos do projeto, mas dessa vez de forma correta.
 
 #### 5.2.1 MDS-Requisitos
+
+As duas equipes aprenderam a melhorar a comunicação de ambas as partes, para seja comunicado o que ambas as equipes estão fazendo para que não aja confusões ou questionamento das atividades das equipes, assim não atrasando as entregas e facitando a organização das tarefas.
 
 ### 5.3 Unidade 3
 #### 5.3.1 MDS
@@ -241,7 +241,3 @@ Na equipe de requisitos tivemos alguns problemas para definirmos os requisitos o
 #### 5.4.3 MDS-Requisitos
 
 ## 6 Referências bibliográficas
-
-
-
-
