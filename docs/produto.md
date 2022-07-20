@@ -90,7 +90,7 @@ Cliente|Definir necessidades de melhoria no produto e novas ferramentas a serem 
 |Sprint 13|Garantir que o usuário possa realizar o quiz sem necessariamente ter estudado material proposto (US-12)|05/09/22|11/09/22|
 |Sprint 14|Realizar Testes|12/09/22|15/09/22|
 
-### 2.3
+### 2.3 Matriz de Comunicação
 |Descricao|Area/Envolvidos|Periodicidade|Produtos Gerados|
 |---------|---------------|-------------|----------------|
 | Acompanhamento das Atividades em Andamento<br/> Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores| Equipe de MDS e Equipe de Requisitos | Semanal - MDS, Quinzenal-REQ| Ata de Reunião, Relatório de Situação do Projeto|
@@ -108,6 +108,10 @@ Cliente|Definir necessidades de melhoria no produto e novas ferramentas a serem 
     - Aumentar produtividade na semana anterior e posterior
   - Dificuldades de comunicação entre as equipes de MDS e Requisitos
     - Manter contato ao menos uma vez na semana, na reunião semanal de acompanhamento da sprint.
+  - Dificuldades de comunicação entre as equipes de MDS e o Ítalo
+    - Manter contato constante ao fim de cada sprint, e marcar reuniões com certa frequência
+  - Dificuldades de comunicação entre as equipes de Requisitos e as Clientes
+    - Manter contato constante com as clientes encontrando o melhor horário para pelo menos uma delas, ou tirando dúvidas pelo whatsapp
 
 ### 2.5 Critérios de Replanejamento
 
