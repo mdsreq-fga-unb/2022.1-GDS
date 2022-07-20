@@ -135,7 +135,7 @@ Dentre as atividades das sprints, serão desempenhadas:
 
 |Atividade | Método | Ferramenta | Entrega | Feedback |
 |-|-|-|-|-|
-| Validação do protótipo. | Esclarecimentos entre equipe e Cliente | Whatsapp para conversas informais e Discord para reuniões | Protótipo pronto para implementação | Horas |
+| Validação do protótipo. | Esclarecimentos entre equipe e cliente e aceitação do protótipo | Whatsapp para conversas informais e Discord para reuniões | Protótipo pronto para implementação | Horas |
 
 ### 3.2.3 Atividade 3
 
