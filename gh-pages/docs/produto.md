@@ -13,10 +13,13 @@
   - 2.4 Gerenciamento de Riscos
   - 2.5 Critérios de Replanejamento
 - 3 Processo de Desenvolvimento de Software
-  - 3.1 Atividade 1
-  - 3.2 Atividade 2
-  - 3.3 Atividade 3
-  - 3.4 Atividade "N"
+  - 3.1 Metodologia Adotada
+  - 3.2 Atividades
+    - 3.2.1 Atividade 1
+    - 3.2.2 Atividade 2
+    - 3.2.3 Atividade 3
+    - 3.2.4 Atividade 4
+    - 3.2.5 Atividade 5
 - 4 Processo de Engenharia de Requisitos
   - 4.1 Elicitação de Requisitos
   - 4.2 Análise de Requisitos
@@ -112,35 +115,39 @@ O produto será replanejado caso entenda-se que o escopo está inadequado, isto 
 
 ## 3 Processo de desenvolvimento de software
 
-### 3.1 Atividade 1
+### 3.1 Metodologia Adotada
 
-   Atividade      | Método        | Ferramenta            |Entrega
----------|-------------|-------------|-----------------
-  Definição das User Stories   |Sprint, Dailies e Baby Steps.     | Discord e WhatsApp. |User Stories devidamente definidos.
+Pensamos em uma metodologia para se trabalhar, porém não conseguimos nos identificar com nenhuma, no entanto, a partir da abordagem Gupta, percebemos que era melhor um ciclo de vida evolutivo devido ao pouco conhecimento da tecnologia pelos participantes, portanto escolhemos a metodologia XP, seguindo seus valores de comunicação, simplicidade, feedback, coragem e respeito.
 
-### 3.2 Atividade 2
+### 3.2 Atividades de Desenvolvimento
 
-   Atividade      | Método        | Ferramenta            |Entrega
----------|-------------|-------------|-----------------
-  Modelagem visual.    |Modelagem Visual (casos de uso) e protipagem.   | Figma e Lucidchart.  |Protótipo pronto para análise.
+Utilizaremos para a gestão de tarefas as Sprints, da metodologia Scrum, tendo intervalos de uma semana entre as entregas, e a tabela vinda da metodologia KanBan
 
-### 3.3 Atividade 3
+Dentre as atividades das sprints, serão desempenhadas:
 
-   Atividade      | Método        | Ferramenta            |Entrega
----------|-------------|-------------|-----------------
-  Validação do protótipo.    |Prototipagem.      | Figma e Lucidchart.  |Modelo e protótipo prontos para implementação.
+### 3.2.1 Atividade 1
 
-### 3.4 Atividade 4
+|Atividade | Método | Ferramenta | Entrega | Feedback |
+|-|-|-|-|-|
+| Design do prototipo | Prototipagem em pares | Figma | Protótipo pronto para análise | Segundos |
 
-   Atividade      | Método        | Ferramenta            |Entrega
----------|-------------|-------------|-----------------
-  Mapeamento e implementação do código através de classes criadas.    |Pair Programming, Refatoração, Sprint, Dailies, Baby Steps.     | VS. Code, Discord e WhatsApp.  |Código pronto para testes.
+### 3.2.2 Atividade 2
 
-### 3.5 Atividade 5
+|Atividade | Método | Ferramenta | Entrega | Feedback |
+|-|-|-|-|-|
+| Validação do protótipo. | Esclarecimentos entre equipe e Cliente | Whatsapp para conversas informais e Discord para reuniões | Protótipo pronto para implementação | Horas |
 
-   Atividade      | Método        | Ferramenta            |Entrega
----------|-------------|-------------|-----------------
-  Automação de testes unitários utilizando Docker.    |Testes unitários automatizados e Containerização.      | Docker.  |Funcionalidades devidamente testadas.
+### 3.2.3 Atividade 3
+
+|Atividade | Método | Ferramenta | Entrega | Feedback |
+|-|-|-|-|-|
+| Construção do Código | Pair Programming, Refatoração, Sprint, Dailies, Baby Steps | VS Code para a construção, Discord para comunicação durante a programação em pares e WhatsApp para conversas pontuais |Código pronto para testagem | Segundos |
+
+### 3.2.4 Atividade 4
+
+|Atividade | Método | Ferramenta | Entrega | Feedback |
+|-|-|-|-|-|
+| Testagem do Código | Testes unitários automatizados e containerização | Docker |Funcionalidades devidamente testadas. | Minutos |
 
 ## 4 PROCESSO DE ENGENHARIA DE REQUISITOS
 
