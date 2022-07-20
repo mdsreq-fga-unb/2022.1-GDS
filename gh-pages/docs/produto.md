@@ -142,9 +142,6 @@ O produto será replanejado caso entenda-se que o escopo está inadequado, isto 
 ---------|-------------|-------------|-----------------
   Automação de testes unitários utilizando Docker.    |Testes unitários automatizados e Containerização.      | Docker.  |Funcionalidades devidamente testadas.
   
-  
-
-
 ## 4 PROCESSO DE ENGENHARIA DE REQUISITOS 
 
   O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definido para o desenvolvimento de software, uma vez que as equipes de engenharia de requisitos e de engenharia de software estão trabalhando conjuntamente. Isso tornará mais fácil a integração entre as duas equipes. Com isso em mente, o processo escolhido foi o Extreme Programming, ou XP, e as atividades que serão executadas pela equipe de engenharia de requisitos podem ser vistas detalhadamente nas tabelas presentes nos subtópicos abaixo. 
@@ -152,31 +149,48 @@ O produto será replanejado caso entenda-se que o escopo está inadequado, isto 
 ### 4.1 Elicitação de Requisitos 
 
   | Atividade | Método | Ferramenta | Entrega |
-  |--|--|--|--
-  | Criação de Histórias de Usuário | Levantamento de necessidades das clientes | Reunião com as clientes | Histórias de usuário |
+  |--|--|--|--|
+  | Descoberta e compreensão dos requisitos | Estudo da documentação do produto, observação do produto, entrevistas com as clientes | Reunião com as clientes, leitura da documentação, utilização do produto | Conjunto não estruturado de requisitos |
+
+  | Atividade | Método | Ferramenta | Entrega |
+  |--|--|--|--|
+  | Classificação e organização dos requisitos | Agrupamento e organização do conjunto não estruturado em grupos correlatos | Reunião da equipe de requisitos | Conjunto organizado de requisitos do projeto |
 
 ### 4.2 Análise de Requisitos
   
   | Atividade | Método | Ferramenta | Entrega |
   |--|--|--|--|
-  | Análise das Histórias de Usuário recebidas / Análise dos requisitos já existentes | Detalhamento e clarificação das Histórias de Usuário, analisando com base nos princípios de Engenharia de Requisitos  | Reunião com a equipe de Engenharia de Requisitos | Lista com as Histórias de Usuário descritas de forma clara e concisa. |  
+  | Priorização e negociação dos requisitos | Alinhamento com as clientes dos requisitos organizados | Reunião com as clientes e a equipe de egenharia de requisitos | Definição/Redefinição dos requisitos do projeto |
   
 ### 4.3 Documentação de Requisitos 
+  
   | Atividade | Método | Ferramenta | Entrega |
   |--|--|--|--|
-  | Criação do Documento de Requisitos | Criação de um documento contendo todos os requisitos levantados na análise de requisitos | GitHub Pages | Documento de Requisitos |
+  | Documentação dos requisitos | Criação de Épicos, features e Histórias de usuários a partir dos requisitos | Quadro Kanban do Trello | Product backlog |
   
 ### 4.4 Verificação e Validação de Requisitos 
+   
   | Atividade | Método | Ferramenta | Entrega |
   |--|--|--|--|
-  | Análise dos resultados por meio dos testes de aceitação / Análise do documento de requisitos  | Testagem dos resultados obtidos com base nos critérios de aceitação definidos / Validação dos requisitos criados, para analisar se os mesmos foram bem identificados e registrados | GitHub Issues / GitHub Pages | Aceitação ou não, dos resultados produzidos pela equipe de desenvolvimento / Reavaliação dos requisitos presentes no Documento de Requisitos |
+  | Inspeção | Revisão por pares | Reunião da equipe de requisitos (em pares) para inspeção das entregas | Novas tarefas de correção de bugs no product backlog |
 
+  | Atividade | Método | Ferramenta | Entrega |
+  |--|--|--|--|
+  | Acompanhamento das atividades de desenvolvimento | Comunicação constante entre equipes de Engenharia de Requisitos e Desenvolvimento | Conversas e reuniões informais durante a sprint | Maior alinhamento da equipe com os requisitos definidos |
+ 
 ### 4.5 Gerenciamento de Requisitos  
-  
+ 
   | Atividade | Método | Ferramenta | Entrega |
   |--|--|--|--|
-  | Criação e manutenção do product backlog e do sprint backlog  | Criar e fazer o manejo das issues com base nos requisitos funcionais e não-funcionais do projeto. | ZenHub | Product Backlog |
+  | Criação de itens do product backlog | Criar os itens do product backlog com base requisitos funcionais e não-funcionais do projeto | Reuniões da equipe de requisitos com as clientes para a criação de itens no quadro Kanban (Trello) do projeto | Product Backlog |
+ 
+  | Atividade | Método | Ferramenta | Entrega |
+  |--|--|--|--|
+  | Manutenção do product backlog | Fazer o manejo do product backlog com base nos requisitos funcionais e não-funcionais do projeto. | Alinhamentos com as clientes por meio de reuniões, gerenciamento pela equipe de Engenharia de Requisitos dos itens do product backlog | Refinamento do Product Backlog |
 
+  | Atividade | Método | Ferramenta | Entrega |
+  |--|--|--|--|
+  | Definição das tarefas da sprint | Definição das tarefas a serem executadas na sprint com base nos itens do product backlog | Reuniões de sprint planning | Sprint Backlog |
   
 ## 5 Lições aprendidas
 ### 5.1 Unidade 1
