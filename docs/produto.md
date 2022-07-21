@@ -449,9 +449,7 @@ Dentre as atividades das sprints, serão desempenhadas:
   </tr>
 </tbody>
 
-<div>
-  <img src="../assets/Canvas_MVP.png">
-</div>
+![](https://raw.githubusercontent.com/mdsreq-fga-unb/2022.1-GDS/ff06dafb8a6f4d2d8896457556084a261359f04a/assets/Canvas_MVP.png)
 
 ## 6 Lições aprendidas
 ### 6.1 Unidade 1
