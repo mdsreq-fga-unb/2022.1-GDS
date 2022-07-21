@@ -448,7 +448,8 @@ Dentre as atividades das sprints, serão desempenhadas:
     <td>As instituições contratantes devem acessar as funcionalidades por meio de dashboards web</td>
   </tr>
 </tbody>
-</table>
+
+![Canvas MVP do produto Guardiões da Saúde - Quizzes & Reports](../assets/Canvas_MVP.png)
 
 ## 6 Lições aprendidas
 ### 6.1 Unidade 1
