@@ -201,43 +201,291 @@ Dentre as atividades das sprints, serão desempenhadas:
   | Atividade | Método | Ferramenta | Entrega |
   |--|--|--|--|
   | Definição das tarefas da sprint | Definição das tarefas a serem executadas na sprint com base nos itens do product backlog | Reuniões de sprint planning | Sprint Backlog |
+ 
+## 5 Escopo do Produto
 
-## 5 Lições aprendidas
-### 5.1 Unidade 1
-#### 5.1.1 MDS
+### 5.1 Requisitos funcionais
+
+#### Lista de Requisitos Funcionais (Reengenharia)
+
+- RF01: Realizar cadastro de uma nova conta
+- RF02: Recuperar a senha do usuário pelo e-mail cadastrado
+- RF03: Cadastrar dados da universidade
+- RF04: Reportar diariamente estado
+- RF05: Enviar notificações de report 
+- RF06: Cadastrar vacinas 
+- RF07: Mostrar dias que os reports foram feitos 
+- RF08: Mostrar gráfico com porcentagem dos reports feitos 
+- RF09: Marcar no mapa a localização de onde o report foi feito 
+- RF10: Mostrar opções de dicas de saúde e higiene 
+- RF11: Mostrar notícias do Twitter da Proepi 
+- RF12: Cancelar a sua participação no aplicativo 
+- RF13: Editar seus dados cadastrais 
+- RF14: Mostrar número de reports seguidos marcados como bem
+- RF15: Adicionar mais contas conectadas ao aplicativo 
+- RF16: Trocar de conta
+- RF17: Mostrar no mapa hospitais/unidades de saúde
+- RF18: Acessar os dados de reportes de saúde 
+
+### Lista de Requisitos Funcionais (Clientes)
+
+- RF19: Reportar semanalmente o estado do usuário 
+- RF20: Notificar o usuário até o reporte ser realizado
+- RF21: Criar quiz
+- RF22: Editar quiz
+- RF23: Remover quiz
+- RF24: Visualizar dados sobre o quiz
+- RF25: Criar curso
+- RF26: Editar curso
+- RF27: Remover curso
+
+## 5.2 Regras de Negócio
+
+### Mobile
+
+#### Reportar semanalmente o estado do usuário
+- O reporte só pode ser realizado uma vez por dia
+- Após o reporte ser concluído ele não pode ser alterado
+- Para ganhar crédito o usuário deve responder o resporte semanal ao menos uma vez
+
+#### Notificar o usuário até o reporte ser realizado
+- Se o usuário realizar o reporte ao menos uma vez na semana não deverá receber notificações durante o resto daquela semana
+
+### Web
+
+#### Criar quiz semanal
+
+- Cada quiz deve estar inserido dentro de um módulo específico
+- O usuário deve ter acesso ao quiz referente ao módulo que está
+- O quiz deverá ter no mínimo 1 questão e no máximo 5 questões
+- Caso a instituição deseje aumentar o número de questões em um quiz deve existir um campo que permite a ação
+- O quiz deve ter seu gabarito definido no momento da criação
+- Caso o usuário refaça o quiz as questões não devem ser repetidas
+- O usuário não precisa assistir ao curso para realizar o quiz
+- Só pode passar para o próximo módulo o usuário que acertar no mínimo 50% do quiz
+
+#### Visualizar dados sobre o quiz
+
+- A instituição deve ter acesso a nota do maior resultado do quiz por usuário
+- A instituição deve ter acesso ao nome do usuário que respondeu o quiz e sua respectiva matrícula e nota no quiz
+
+#### Criar curso por módulo
+
+- O usuário deve ter acesso apenas ao curso referente ao módulo em que se encontra
+- O usuário pode acessar o curso quantas vezes quiser desde que seja do módulo em que se encontra
+
+# Requisitos Funcionais - SAFE
+
+<table style="width:100%">
+<thead>
+  <tr>
+    <th>ÉPICO</th>
+    <th>OJETIVO</th>
+    <th>FEATURE</th>
+    <th>ID</th>
+    <th>HISTÓRIA</th>
+    <th>PRIORIDADE</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="3">Reporte Semanal (mobile)</td>
+    <td rowspan="3">Mudança do estado de reporte de diário para semanal</td>
+    <td rowspan="1">Reporte semanal</td>
+    <td>US - 01</td>
+    <td>Eu, como instituição, desejo receber pelo menos um reporte por semana de cada usuário</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+  <td rowspan="2">Notificação</td>
+    <td>US - 02</td>
+    <td>Eu, como usuário do produto, desejo ser notificado do reporte</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 03</td>
+    <td>Eu, como usuário do produto, desejo não ser mais notificado caso já tenha realizado o reporte</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td rowspan="9">Quizes</td>
+    <tr>
+    <td rowspan="4">Curso (Web/Mobile)</td>
+    <td rowspan="4">Criar um curso por módulo</td>
+    <tr>
+    <td>US - 04</td>
+    <td>Eu, como instituição, desejo inserir informações sobre o conteúdo que será estudado</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 05</td>
+    <td>Eu, como instituição, desejo editar as informações inseridas no curso</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 06</td>
+    <td>Eu, como instituição, desejo poder excluir um curso</td>
+    <td align="center"></td>
+  </tr>
+    <td rowspan="12">Criação das funcionalidades de Quizes para os usuários e para as instituições. Avaliar e passar conhecimento</td>
+    <td rowspan="9">Criar quiz semanal</td>
+    <td>US - 07</td>
+    <td>Eu, como instituição, desejo criar quiz para avaliar o conhecimento dos estudantes</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 08</td>
+    <td>Eu, como instituição, desejo poder editar o quiz, para que esteja sempre atualizado</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 09</td>
+    <td>Eu, como instituição, desejo poder excluir um quiz, caso queira</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 10</td>
+    <td>Eu, como instituição, desejo saber os resultados obtidos por meus estudantes</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td rowspan="5">Dados do quiz</td>
+    <td>US - 11</td>
+    <td>Eu, como usuário do produto, desejo saber qual foi minha nota no quiz</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 12</td>
+    <td>Eu, como usuário do produto, desejo saber se passei no quiz ou se preciso fazer novamente</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 13</td>
+    <td>Eu, como usuário do produto, desejo poder fazer o quiz novamente caso queira aumentar minha nota ou não tenha obtido nota suficiente</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 14</td>
+    <td>Eu, como instituição, desejo visualizar como os estudantes se saíram no quiz</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 15</td>
+    <td>Eu, como usuário do produto, desejo saber se já completei o quiz</td>
+  <td align="center"></td>
+  </tr>
+  
+</tbody>
+</table>
+
+|         Legenda (prioridades)  |Definição 	                                                  |
+| :----------------------------: | :------------------------------------------------------------------------------------ |
+| Alta                           |  Requisitos sem os quais a aplicação é considerada incompleta |
+| Média                          |  Requisitos importantes que podem ser postergados      |
+| Baixa                          |  Requisitos sem os quais o Sistema funciona de maneira satisfatória   |
+
+
+# Requisitos não funcionais
+
+<table>
+<thead>
+  <tr>
+    <th>Requisitos Não Funcionais (Classificação)</th>
+    <th>RNf</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="4">Requisitos de Implementação</td>
+    <td>O backend do produto deve ser desenvolvido em JavaScript</td>
+  </tr>
+  <tr>
+    <td>O frontend do produto será desenvolvido em React Native</td>
+  </tr>
+  <tr>
+    <td>O protótipo do front end será feito no Figma</td>
+  </tr>
+  <tr>
+    <td>A responsidade do produto será feita utilizando a aplicação PWA</td>
+  </tr>
+  <tr>
+    <td>Requisitos Legislativos</td>
+    <td>O produto esteja de acordo com a LGPD (Lei geral de proteção de dados)</td>
+  </tr>
+  <tr>
+    <td rowspan="9">Requisitos de Usabilidade</td>
+    <td>O produto deve funcionar em android e ios</td>
+  </tr>
+  <tr>
+    <td>O produto deve deixar destacado caso o usuário termine o curso</td>
+  </tr>
+  <tr>
+    <td>O produto deve deixar destacado caso o usuário termine o quiz com nota maior que 50%</td>
+  </tr>
+  <tr>
+    <td>O produto deve mostrar a nota do quiz, referente ao módulo que o usuário está</td>
+  </tr>
+  <tr>
+    <td>O produto deve funcionar apenas com acesso à internet</td>
+  </tr>
+  <tr>
+    <td>O produto deve dar a opção entre refazer quiz ou passar para o próximo módulo</td>
+  </tr>
+  <tr>
+    <td>O produto deve fazer uso de pop-ups</td>
+  </tr>
+  <tr>
+    <td>Deve ser possível ver seu histórico de reports tanto no formato de calendário quanto de estatística (gráfico de pizza)</td>
+  </tr>
+  <tr>
+    <td>O aplicativo não deve exigir muito do aparelho em que está sendo usado</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Requisito de Portabilidade</td>
+    <td>O produto deve ser acessível via mobile</td>
+  </tr>
+  <tr>
+    <td>As instituições contratantes devem acessar as funcionalidades por meio de dashboards web</td>
+  </tr>
+</tbody>
+</table>
+
+## 6 Lições aprendidas
+### 6.1 Unidade 1
+#### 6.1.1 MDS
 
   Nessa primeira unidade tivemos um pouco de dificuldade em situar toda a dinâmica de trabalho em grupo que a disciplina propõe. Todos os conteúdos foram mais do que achávamos que seria e isso acabou prejudicando não só o individual, mas também toda minha equipe, onde por muitas vezes estávamos perdidos. No entanto, na semana da entrega foi quando conseguimos nos sintonizar melhor e decidir de vez tudo aquilo que iríamos fazer, e isso acabou esclarecendo muitas coisas e fazendo com que muitos de nós estudássemos mais e fossemos mais atrás das coisas, sendo sincero com o que sabíamos ou não. Portanto, aprendi muito sobre diálogo, sobre como devemos agir como equipe e como precisamos também ir atrás das coisas individualmente para assim fazer um trabalho melhor em conjunto.
 
-#### 5.1.2 Requisitos
+#### 6.1.2 Requisitos
 
 Na equipe de requisitos antes de tudo tivemos que aperfeiçoar nossa comunicação, tendo em vista que alguns membros não se conheciam. Após esse obstáculo trabalhamos nossa organização para conseguirmos um horário bom para a maioria do time conseguir se reunir e aprender mais sobre o Guardiões da Saúde, onde todos já haviam tido contato, mas não conhecíamos o background da aplicação, entendendo melhor como funciona suas funcionalidades, como a equipe que desenvolveu trabalhou e fazendo um trabalho de análise e adaptação para passar informações de forma mais clara para a equipe de MDS.
 
 Além disso, nos colocamos no lugar do cliente para entender o que e como exatamente ele gostaria das suas requisições. Com todas essas informações, tivemos que pensar de forma crítica para formular perguntas que surgiram a partir das explicações do cliente, ou aspectos que não foram tão bem explicados para a equipe. Contudo, tivemos que aprender melhor sobre o produto, justamente para conseguir fazer um processo de reengenharia e formular os requisitos do que já foi construído até o momento. Portanto, tivemos várias lições aprendidas, dentre elas, comunicação, organização, compreensão e criticidade.
 
-#### 5.1.3 MDS-Requisitos
+#### 6.1.3 MDS-Requisitos
 
 A maior lição aprendida nessa unidade com certeza foi a comunicação, as equipes não se conheciam totalmente ainda, então foram gerados encontros para esse obstáculo ser ultrapassado, além do que as informações devem ser passadas de forma clara entre os times para não acontecer confusões ou trabalhos extras. Outra questão que foi gerada com isso foi a empatia, já que as equipes são interdependentes em algumas tarefas, então não é tão simples pedir que uma atividade seja feita, existe todo uma forma de se comunicar para não causar sentimentos ruins entre as equipes.
 
-### 5.2 Unidade 2
-#### 5.2.1 MDS
+### 6.2 Unidade 2
+#### 6.2.1 MDS
 Nesta unidade 2, aprendemos, em primeiro lugar, a importância de uma sala invertida para o compartilhamento de conhecimentos plurais e acessíveis, numa linguagem que todos compartilham. Assim, conseguimos também desenvolver softskills relacionadas à comunicação e resiliência para solução dos problemas durante a apresentação. Dessa forma, aprendemos sobre as tecnologias de testes de sistemas Cypress, testes unitários com Jpress, Linguagem de programação TypeScript, React com typescript, Git, entre outros conhecimentos adicionais compartilhados durante os momentos de ensino.
 
-#### 5.2.2 Requisitos
+#### 6.2.2 Requisitos
 
 Na equipe de requisitos tivemos alguns problemas para definirmos os requisitos onde aconteceu um equivoco quando foram definidos alguns requisitos funcionais e não funcionais. Com isso foram colocadas algumas regras de negócio e atividades que seriam realizadas no processo de desenvolvimento como requisitos funcionais, fazendo com que tivéssemos que revisar e planejar novamente os requisitos do projeto, mas dessa vez de forma correta.
 
-#### 5.2.1 MDS-Requisitos
+#### 6.2.1 MDS-Requisitos
 
 As duas equipes aprenderam a melhorar a comunicação de ambas as partes, para seja comunicado o que ambas as equipes estão fazendo para que não aja confusões ou questionamento das atividades das equipes, assim não atrasando as entregas e facitando a organização das tarefas.
 
-### 5.3 Unidade 3
-#### 5.3.1 MDS
-#### 5.3.2 Requisitos
-#### 5.3.3 MDS-Requisitos
+### 6.3 Unidade 3
+#### 6.3.1 MDS
+#### 6.3.2 Requisitos
+#### 6.3.3 MDS-Requisitos
 
-### 5.4 Unidade 4
-#### 5.4.1 MDS
-#### 5.4.2 Requisitos
-#### 5.4.3 MDS-Requisitos
+### 6.4 Unidade 4
+#### 6.4.1 MDS
+#### 6.4.2 Requisitos
+#### 6.4.3 MDS-Requisitos
 
-## 6 Referências bibliográficas
+## 7 Referências bibliográficas
