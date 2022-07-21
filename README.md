@@ -57,9 +57,9 @@ Primeiro verifique se você atende aos seguintes requisitos:
 
 ## Equipe MDS
 
-|![Iago](https://avatars.githubusercontent.com/u/69009465?v=4)|![Marcus](https://avatars.githubusercontent.com/u/89209017?v=4)|![Juan](https://avatars.githubusercontent.com/u/81720562?v=4)| |![Thiago](https://avatars.githubusercontent.com/u/80918128?v=4)|
+|![Iago](https://avatars.githubusercontent.com/u/69009465?v=4)|![Marcus](https://avatars.githubusercontent.com/u/89209017?v=4)|![Juan](https://avatars.githubusercontent.com/u/81720562?v=4)|![Igor](https://avatars.githubusercontent.com/u/78519040?v=4) |![Thiago](https://avatars.githubusercontent.com/u/80918128?v=4)|
 | - | - | - | - | - |
-|[iagoscm](https://github.com/iagoscm)|[marcusmartinsxx](https://github.com/marcusmartinsxx)|[juanmangueira](https://github.com/juanmangueira)||[thiago-vivan](https://github.com/thiago-vivan)|
+|[iagoscm](https://github.com/iagoscm)|[marcusmartinsxx](https://github.com/marcusmartinsxx)|[juanmangueira](https://github.com/juanmangueira)|[Alladin-51](https://github.com/Alladin-51)|[thiago-vivan](https://github.com/thiago-vivan)|
 
 ## Equipe Requisitos
 
