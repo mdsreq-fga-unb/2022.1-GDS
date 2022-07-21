@@ -448,6 +448,7 @@ Dentre as atividades das sprints, serão desempenhadas:
     <td>As instituições contratantes devem acessar as funcionalidades por meio de dashboards web</td>
   </tr>
 </tbody>
+</table>
 
 # 6 Canvas MVP
 
