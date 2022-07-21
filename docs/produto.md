@@ -449,7 +449,9 @@ Dentre as atividades das sprints, serão desempenhadas:
   </tr>
 </tbody>
 
-![Canvas MVP do produto Guardiões da Saúde - Quizzes & Reports](../assets/Canvas_MVP.png)
+<div>
+  <img src="../assets/Canvas_MVP.png">
+</div>
 
 ## 6 Lições aprendidas
 ### 6.1 Unidade 1
