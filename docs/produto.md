@@ -15,10 +15,9 @@
 - 3 Processo de Desenvolvimento de Software
   - 3.1 Metodologia Adotada
   - 3.2 Atividades
-    - 3.2.1 Atividade 1
-    - 3.2.2 Atividade 2
-    - 3.2.3 Atividade 3
-    - 3.2.4 Atividade 4
+    - 3.2.1 Análise e Design
+    - 3.2.2 Construção
+    - 3.2.3 Testes
 - 4 Processo de Engenharia de Requisitos
   - 4.1 Elicitação de Requisitos
   - 4.2 Análise de Requisitos
@@ -128,25 +127,20 @@ Utilizaremos para a gestão de tarefas as Sprints, da metodologia Scrum, tendo i
 
 Dentre as atividades das sprints, serão desempenhadas:
 
-### 3.2.1 Atividade 1
+### 3.2.1 Análise e Design
 
 |Atividade | Método | Ferramenta | Entrega | Feedback |
 |-|-|-|-|-|
 | Design do prototipo | Prototipagem em pares | Figma | Protótipo pronto para análise | Segundos |
-
-### 3.2.2 Atividade 2
-
-|Atividade | Método | Ferramenta | Entrega | Feedback |
-|-|-|-|-|-|
 | Validação do protótipo. | Esclarecimentos entre equipe e cliente e aceitação do protótipo | Whatsapp para conversas informais e Discord para reuniões | Protótipo pronto para implementação | Dias |
 
-### 3.2.3 Atividade 3
+### 3.2.2 Construção
 
 |Atividade | Método | Ferramenta | Entrega | Feedback |
 |-|-|-|-|-|
 | Construção do Código | Pair Programming, Refatoração, Sprint, Dailies, Baby Steps | VS Code para a construção, Discord para comunicação durante a programação em pares e WhatsApp para conversas pontuais |Código pronto para testagem | Segundos |
 
-### 3.2.4 Atividade 4
+### 3.2.3 Testes
 
 |Atividade | Método | Ferramenta | Entrega | Feedback |
 |-|-|-|-|-|
