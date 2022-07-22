@@ -20,13 +20,34 @@ A divisão MDS da equipe, durante o segundo módulo da matéria de Métodos de D
 ## Conceitos
 
 Foram apresentados os conceitos de:
-- React
+- ReactJS
+    - Uma biblioteca mantida pela Meta, Inc.
+    - Focada em UI, assim construindo de forma simples e eficiente plataformas responsivas
+    - Usa de Single Page Application, sendo uma aplicação que roda em uma única página, trazendo a impressão de ser uma aplicação Web
+    - Possui linguagem declarativa, ou seja, baseada em programação funcional, lógica e restritiva
+        - O CSS é um exemplo de linguagem declarativa
+    - Baseada em componentes, então alterações afetam componentes específicos
+    - Reativa
 - React Native
-- User Interface
-- Single Page Application
-- Linguagem Declarativa
-- Componentes e componentização
-- Projetos Typescript
+    - Possuindo os mesmos princípios do React, quis trazer, de forma nativa, seus elementos para aplicações Mobile
+    - Mas o que é ser Nativo?
+        - As primitivas do React são renderizadas para a interface do usuário da plataforma nativa, ou seja, utiliza as mesmas APIs que outros aplicativos usam
+    - Sendo assim, é um framework multiplataforma, onde é possível manter duas plataformas, compartilhando uma tecnologia comum
+
+## Inicializando um projeto em TypeScript
+
+- No terminal, já na pasta que queremos inicializar o projeto, utilizaremos o comando:
+
+` npx create-react-app --template typescript nome-projeto --use-npm `
+
+- Para assim utilizar o npm para gerenciar os pacotes e criar o app no template de typescript
+
+## Para começar o projeto
+
+1) ` cd nome-projeto `
+2) ` npm start `
+
+- Ao fazer isso, o terminal rodará um comando ` react-scripts start ` e o projeto será executado na URL localhost:3000
 
 ## Referências
 
