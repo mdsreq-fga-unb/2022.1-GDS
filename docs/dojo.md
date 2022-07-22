@@ -36,6 +36,7 @@ Foram apresentados os conceitos de:
 
 ## Inicializando um projeto em TypeScript
 
+- Fazendo este projeto, temos como objetivo ensinar conceitos básicos de react, tais como a componentização e o uso dos componentes dentro do projeto
 - No terminal, já na pasta que queremos inicializar o projeto, utilizaremos o comando:
 
 ` npx create-react-app --template typescript nome-projeto --use-npm `
@@ -48,6 +49,11 @@ Foram apresentados os conceitos de:
 2) ` npm start `
 
 - Ao fazer isso, o terminal rodará um comando ` react-scripts start ` e o projeto será executado na URL localhost:3000
+
+- Adiante, foram realizados os passo-a-passo com os alunos na montagem da calculadora que está disponível no repositório https://github.com/marcusmartinsxx/Projeto-Calculadora-React
+    - Na branch main está onde o projeto estava sendo feito com os alunos
+    - Na branch dev está a calculadora já feita
+- A duração foi de aproximadamente 1h30, não foi possível realizar tudo o que era desejado, principalmente por complicaçõs dos computadores disponíveis aos alunos, mas foi possível conduzir bem a apresentação
 
 ## Referências
 
