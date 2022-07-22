@@ -19,7 +19,7 @@ A divisão MDS da equipe, durante o segundo módulo da matéria de Métodos de D
 
 ## Conceitos
 
-Foram apresentados os conceitos de:
+### Foram apresentados os conceitos de:
 - ReactJS
     - Uma biblioteca mantida pela Meta, Inc.
     - Focada em UI, assim construindo de forma simples e eficiente plataformas responsivas
