@@ -8,21 +8,21 @@
 
 | Nome | Matrícula |
 | - | - |
-| Iago de Sousa Campelo Matos |  |
-| Igor Thiago Lima de Santana |  |
-| Juan Mangueira Alves |  |
-| Marcus Vinícius Paiva Martins |  |
-| Thiago Vivan Bastos |  |
+| Iago de Sousa Campelo Matos | 202023743 |
+| Igor Thiago Lima de Santana | 190029692 |
+| Juan Mangueira Alves | 202016669 |
+| Marcus Vinícius Paiva Martins | 211043683 |
+| Thiago Vivan Bastos | 190020407 |
 
 # 👨‍💻 Integrantes da Equipe (Requisitos)
 
 | Nome | Matrícula |
 | - | - |
-| Caio César Oliveira |  |
-| Hian Praxedes de Souza |  |
-| Luiz Guilherme Palhares Pettengill |  |
-| Matheus Pimentel Leal |  |
-| Taynara Cristina Ribeiro Marcellos |  |
+| Caio César Oliveira | 190085291 |
+| Hian Praxedes de Souza | 200019520 |
+| Luiz Guilherme Palhares Pettengill | 150138202 |
+| Matheus Pimentel Leal | 150141629 |
+| Taynara Cristina Ribeiro Marcellos | 211031833 |
 
 # Nosso Site
 
