@@ -15,9 +15,10 @@
 - 3 Processo de Desenvolvimento de Software
   - 3.1 Metodologia Adotada
   - 3.2 Atividades
-    - 3.2.1 Análise e Design
-    - 3.2.2 Construção
-    - 3.2.3 Testes
+    - 3.2.1 Atividade 1
+    - 3.2.2 Atividade 2
+    - 3.2.3 Atividade 3
+    - 3.2.4 Atividade 4
 - 4 Processo de Engenharia de Requisitos
   - 4.1 Elicitação de Requisitos
   - 4.2 Análise de Requisitos
@@ -51,7 +52,7 @@ O guardiões da saúde é uma solução que foi desenvolvida graças a uma parce
 
 ### 1.2 Objetivos do Produto
 
-Reengenharia de features presentes no Guardiões da Saúde, alteração da necessidade diária de realizar o reporte para semanal. Desenvolvimento do QUIZ,  nova feature para o aplicativo com objetivo de testar o conhecimento do usuário em diversos módulos e desenvolvimento de ferramenta para criação de QUIZ pelas instituições. Será feito um processo de engenharia de requisitos que percorrerá ao Guardiões da Saúde como um todo, porém o desenvolvimento será referente somente a parte mobile.
+Reengenharia de features presentes no Guardiões da Saúde, alteração da necessidade diária de realizar o reporte para semanal. Desenvolvimento do QUIZ,  nova feature para o aplicativo com objetivo de testar o conhecimento do usuário em diversos módulos e desenvolvimento de ferramenta para criação de QUIZ pelas instituições.
 
 ### 1.3 Tecnologias a Serem Utilizadas
 
@@ -69,7 +70,7 @@ Para comunicação, utilizamos Whatsapp, Telegram e Discord. A api do Guardiões
 Engenharia de Requsitos|Atualizar o escopo do produto, organizar o escopo das sprints, definir product backlog|Requisitos|Caio César, Hian Praxedes, Matheus Pimentel, Luiz Pettengill, Taynara Cristina|
 Tech Lead|Validar as entregas de desenvolvimento|Ítalo|Marcus Martins, Igor Tiago, Juan Mangueira, Tiago Vivan, Iago, Ítalo|
 Cliente|Definir necessidades de melhoria no produto e novas ferramentas a serem desenvolvidas|Maria Vitória, Marcela, George Marsicano|Caio César, Hian Praxedes, Matheus Pimentel, Luiz Pettengill, Taynara Cristina, Maria Vitória, Marcela, George Marsicano|
-
+_____________ Arrumar isso aqui (definir melhor) ___________
 ### 2.2 Planejamento das Fases e/ou Iterações do Projeto
 |Sprint|Produto(Entrega)|Data Inicio|Data Fim|
 |------|----------------|-----------|--------|
@@ -88,6 +89,8 @@ Cliente|Definir necessidades de melhoria no produto e novas ferramentas a serem 
 |Sprint 13|Garantir que o usuário possa realizar o quiz sem necessariamente ter estudado material proposto (US-12)|05/09/22|11/09/22|
 |Sprint 14|Realizar Testes|12/09/22|15/09/22|
 
+
+_________________ tirar essa ata ______________________
 ### 2.3 Matriz de Comunicação
 |Descricao|Area/Envolvidos|Periodicidade|Produtos Gerados|
 |---------|---------------|-------------|----------------|
@@ -119,29 +122,33 @@ O produto será replanejado caso entenda-se que o escopo está inadequado, isto 
 
 ### 3.1 Metodologia Adotada
 
-A partir da abordagem Gupta percebemos, com base nos conhecimentos prévios da equipe, que um ciclo de vida evolutivo produziria melhores resultados. Portanto escolhemos a metodologia ScrumXP, guiado por seus valores de transparência, inspeção e adaptabilidade. E tendo sempre como valores: compromisso com o projeto, foco, abertura, respeito e coragem.
+Pensamos em uma metodologia para se trabalhar, porém não conseguimos nos identificar com nenhuma, no entanto, a partir da abordagem Gupta, percebemos que era melhor um ciclo de vida evolutivo devido ao pouco conhecimento da tecnologia pelos participantes, portanto escolhemos a metodologia XP, seguindo seus valores de comunicação, simplicidade, feedback, coragem e respeito.
 
 ### 3.2 Atividades de Desenvolvimento
 
-Utilizaremos para a gestão de tarefas as Sprints, da metodologia Scrum, tendo intervalos de uma semana entre cada ciclo, e a tabela vinda da metodologia Kanban para a organização dos itens que compõem o backlog do produto. 
+Utilizaremos para a gestão de tarefas as Sprints, da metodologia Scrum, tendo intervalos de uma semana entre as entregas, e a tabela vinda da metodologia KanBan
 
-**Refatorar**
 Dentre as atividades das sprints, serão desempenhadas:
 
-### 3.2.1 Análise e Design
+### 3.2.1 Atividade 1
 
 |Atividade | Método | Ferramenta | Entrega | Feedback |
 |-|-|-|-|-|
 | Design do prototipo | Prototipagem em pares | Figma | Protótipo pronto para análise | Segundos |
+
+### 3.2.2 Atividade 2
+
+|Atividade | Método | Ferramenta | Entrega | Feedback |
+|-|-|-|-|-|
 | Validação do protótipo. | Esclarecimentos entre equipe e cliente e aceitação do protótipo | Whatsapp para conversas informais e Discord para reuniões | Protótipo pronto para implementação | Dias |
 
-### 3.2.2 Construção
+### 3.2.3 Atividade 3
 
 |Atividade | Método | Ferramenta | Entrega | Feedback |
 |-|-|-|-|-|
 | Construção do Código | Pair Programming, Refatoração, Sprint, Dailies, Baby Steps | VS Code para a construção, Discord para comunicação durante a programação em pares e WhatsApp para conversas pontuais |Código pronto para testagem | Segundos |
 
-### 3.2.3 Testes
+### 3.2.4 Atividade 4
 
 |Atividade | Método | Ferramenta | Entrega | Feedback |
 |-|-|-|-|-|
@@ -203,71 +210,36 @@ Dentre as atividades das sprints, serão desempenhadas:
 
 #### Lista de Requisitos Funcionais (Reengenharia)
 
-- RF01: Realizar cadastro de uma nova conta
-- RF02: Recuperar a senha do usuário pelo e-mail cadastrado
-- RF03: Cadastrar dados da universidade
-- RF04: Reportar diariamente estado
-- RF05: Enviar notificações de report 
-- RF06: Cadastrar vacinas 
-- RF07: Mostrar dias que os reports foram feitos 
-- RF08: Mostrar gráfico com porcentagem dos reports feitos 
-- RF09: Marcar no mapa a localização de onde o report foi feito 
-- RF10: Mostrar opções de dicas de saúde e higiene 
-- RF11: Mostrar notícias do Twitter da Proepi 
-- RF12: Cancelar a sua participação no aplicativo 
-- RF13: Editar seus dados cadastrais 
-- RF14: Mostrar número de reports seguidos marcados como bem
-- RF15: Adicionar mais contas conectadas ao aplicativo 
-- RF16: Trocar de conta
-- RF17: Mostrar no mapa hospitais/unidades de saúde
-- RF18: Acessar os dados de reportes de saúde 
+- RF01: Realizar cadastro de uma nova conta (APP)
+- RF02: Recuperar a senha do usuário pelo e-mail cadastrado (APP)
+- RF03: Cadastrar dados da universidade (APP)
+- RF04: Reportar diariamente estado (APP)
+- RF05: Enviar notificações de report (APP)
+- RF06: Cadastrar vacinas (APP)
+- RF07: Mostrar dias que os reports foram feitos (APP)
+- RF08: Mostrar gráfico com porcentagem dos reports feitos (APP)
+- RF09: Informar localização de onde o report foi feito (APP)
+- RF10: Visualizar opções de dicas de saúde e higiene (APP)
+- RF11: Visualizar notícias do Twitter da Proepi (APP)
+- RF12: Cancelar participação no aplicativo (APP)
+- RF13: EEditar dados cadastrais do usuário (APP)
+- RF14: Visualizar número de reports seguidos marcados como bem (APP)
+- RF15: Adicionar mais contas conectadas ao aplicativo (APP)
+- RF16: Trocar de conta do usuário (APP)
+- RF17: Visualizar mapa hospitais/unidades de saúde (APP)
+- RF18: Acessar dados de reportes de saúde (APP)
 
 ### Lista de Requisitos Funcionais (Clientes)
 
-- RF19: Reportar semanalmente o estado do usuário 
-- RF20: Notificar o usuário até o reporte ser realizado
-- RF21: Criar quiz
-- RF22: Editar quiz
-- RF23: Remover quiz
-- RF24: Visualizar dados sobre o quiz
-- RF25: Criar curso
-- RF26: Editar curso
-- RF27: Remover curso
-
-## 5.2 Regras de Negócio
-
-### Mobile
-
-#### Reportar semanalmente o estado do usuário
-- O reporte só pode ser realizado uma vez por dia
-- Após o reporte ser concluído ele não pode ser alterado
-- Para ganhar crédito o usuário deve responder o resporte semanal ao menos uma vez
-
-#### Notificar o usuário até o reporte ser realizado
-- Se o usuário realizar o reporte ao menos uma vez na semana não deverá receber notificações durante o resto daquela semana
-
-### Web
-
-#### Criar quiz semanal
-
-- Cada quiz deve estar inserido dentro de um módulo específico
-- O usuário deve ter acesso ao quiz referente ao módulo que está
-- O quiz deverá ter no mínimo 1 questão e no máximo 5 questões
-- Caso a instituição deseje aumentar o número de questões em um quiz deve existir um campo que permite a ação
-- O quiz deve ter seu gabarito definido no momento da criação
-- Caso o usuário refaça o quiz as questões não devem ser repetidas
-- O usuário não precisa assistir ao curso para realizar o quiz
-- Só pode passar para o próximo módulo o usuário que acertar no mínimo 50% do quiz
-
-#### Visualizar dados sobre o quiz
-
-- A instituição deve ter acesso a nota do maior resultado do quiz por usuário
-- A instituição deve ter acesso ao nome do usuário que respondeu o quiz e sua respectiva matrícula e nota no quiz
-
-#### Criar curso por módulo
-
-- O usuário deve ter acesso apenas ao curso referente ao módulo em que se encontra
-- O usuário pode acessar o curso quantas vezes quiser desde que seja do módulo em que se encontra
+- RF19: Reportar semanalmente o estado do usuário (APP)
+- RF20: Notificar o usuário até o reporte ser realizado (APP)
+- RF21: Criar quiz (WEB)
+- RF22: Editar quiz (WEB)
+- RF23: Remover quiz (WEB)
+- RF24: Visualizar dados sobre o quiz (WEB)
+- RF25: Criar curso (WEB)
+- RF26: Editar curso (WEB)
+- RF27: Remover curso (WEB)
 
 # Requisitos Funcionais - SAFE
 
@@ -275,7 +247,6 @@ Dentre as atividades das sprints, serão desempenhadas:
 <thead>
   <tr>
     <th>ÉPICO</th>
-    <th>OJETIVO</th>
     <th>FEATURE</th>
     <th>ID</th>
     <th>HISTÓRIA</th>
@@ -285,91 +256,84 @@ Dentre as atividades das sprints, serão desempenhadas:
 <tbody>
   <tr>
     <td rowspan="3">Reporte Semanal (mobile)</td>
-    <td rowspan="3">Mudança do estado de reporte de diário para semanal</td>
-    <td rowspan="1">Reporte semanal</td>
+    <td rowspan="3">Reporte semanal</td>
     <td>US - 01</td>
-    <td>Eu, como instituição, desejo receber pelo menos um reporte por semana de cada usuário</td>
+    <td>Eu, como instituição, quero receber pelo menos um reporte por semana de cada usuário, para registrar a taxa de contaminação</td>
     <td align="center"></td>
   </tr>
   <tr>
-  <td rowspan="2">Notificação</td>
     <td>US - 02</td>
-    <td>Eu, como usuário do produto, desejo ser notificado do reporte</td>
+    <td>Eu, como usuário do produto, quero ser notificado do reporte, para que eu lembre de fazer o reporte semanal</td>
     <td align="center"></td>
   </tr>
   <tr>
     <td>US - 03</td>
-    <td>Eu, como usuário do produto, desejo não ser mais notificado caso já tenha realizado o reporte</td>
+    <td>Eu, como usuário do produto, quero não ser mais notificado caso já tenha realizado o reporte, para que não seja incomodado já tendo feito o reporte</td>
     <td align="center"></td>
   </tr>
   <tr>
-    <td rowspan="9">Quizes</td>
-    <tr>
-    <td rowspan="4">Curso (Web/Mobile)</td>
-    <td rowspan="4">Criar um curso por módulo</td>
-    <tr>
+    <td rowspan="12">Quizes</td>
+    <td rowspan="3">Criar um curso por módulo</td>
     <td>US - 04</td>
-    <td>Eu, como instituição, desejo inserir informações sobre o conteúdo que será estudado</td>
+    <td>Eu, como instituição, quero inserir informações sobre o conteúdo que será estudado, para que os usuários tenham um material para se informarem sobre os assuntos dos quizzes</td>
     <td align="center"></td>
   </tr>
   <tr>
     <td>US - 05</td>
-    <td>Eu, como instituição, desejo editar as informações inseridas no curso</td>
+    <td>Eu, como instituição, quero editar as informações inseridas no curso, para que eu consiga editar as informações caso necessário</td>
     <td align="center"></td>
   </tr>
   <tr>
     <td>US - 06</td>
-    <td>Eu, como instituição, desejo poder excluir um curso</td>
+    <td>Eu, como instituição, quero poder excluir um curso, para que eu consiga remover um curso que não é mais necessário</td>
     <td align="center"></td>
   </tr>
-    <td rowspan="12">Criação das funcionalidades de Quizes para os usuários e para as instituições. Avaliar e passar conhecimento</td>
-    <td rowspan="9">Criar quiz semanal</td>
+  <tr>
+    <td rowspan="3">Criar quiz semanal</td>
     <td>US - 07</td>
-    <td>Eu, como instituição, desejo criar quiz para avaliar o conhecimento dos estudantes</td>
+    <td>Eu, como instituição, quero criar quiz para avaliar o conhecimento dos estudantes, para dar um estímulo para ser um conhecimento básico sobre saúde</td>
     <td align="center"></td>
   </tr>
   <tr>
     <td>US - 08</td>
-    <td>Eu, como instituição, desejo poder editar o quiz, para que esteja sempre atualizado</td>
+    <td>Eu, como instituição, quero poder editar o quiz, para que esteja sempre atualizado</td>
     <td align="center"></td>
   </tr>
   <tr>
     <td>US - 09</td>
-    <td>Eu, como instituição, desejo poder excluir um quiz, caso queira</td>
-    <td align="center"></td>
-  </tr>
-  <tr>
-    <td>US - 10</td>
-    <td>Eu, como instituição, desejo saber os resultados obtidos por meus estudantes</td>
+    <td>Eu, como instituição, quero poder excluir um quiz caso. Para que esteja sempre atualizado.</td>
     <td align="center"></td>
   </tr>
   <tr>
     <td rowspan="5">Dados do quiz</td>
+    <td>US - 10</td>
+    <td>Eu, como usuário do produto, quero saber qual foi minha nota no quiz para saber se fui aprovado e avaliar meus conhecimentos</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
     <td>US - 11</td>
-    <td>Eu, como usuário do produto, desejo saber qual foi minha nota no quiz</td>
+    <td>Eu, como usuário do produto, quero saber se passei no quiz ou se preciso fazer novamente para não perder nenhuma avaliação</td>
     <td align="center"></td>
   </tr>
   <tr>
     <td>US - 12</td>
-    <td>Eu, como usuário do produto, desejo saber se passei no quiz ou se preciso fazer novamente</td>
+    <td>Eu, como usuário do produto, quero poder fazer o quiz novamente caso queira para aumentar minha nota ou não tenha obtido nota suficiente</td>
     <td align="center"></td>
   </tr>
   <tr>
     <td>US - 13</td>
-    <td>Eu, como usuário do produto, desejo poder fazer o quiz novamente caso queira aumentar minha nota ou não tenha obtido nota suficiente</td>
+    <td>Eu, como instituição, quero visualizar como os estudantes se saíram no quiz para avaliar seus conhecimentos</td>
     <td align="center"></td>
   </tr>
   <tr>
     <td>US - 14</td>
-    <td>Eu, como instituição, desejo visualizar como os estudantes se saíram no quiz</td>
-    <td align="center"></td>
-  </tr>
-  <tr>
-    <td>US - 15</td>
-    <td>Eu, como usuário do produto, desejo saber se já completei o quiz</td>
+    <td>Eu, como usuário do produto, quero saber se já completei o quiz para avaliar meus conhecimentos</td>
   <td align="center"></td>
   </tr>
   
+ 
+
+
 </tbody>
 </table>
 
