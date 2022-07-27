@@ -51,7 +51,7 @@ O guardiões da saúde é uma solução que foi desenvolvida graças a uma parce
 
 ### 1.2 Objetivos do Produto
 
-Reengenharia de features presentes no Guardiões da Saúde, alteração da necessidade diária de realizar o reporte para semanal. Desenvolvimento do QUIZ,  nova feature para o aplicativo com objetivo de testar o conhecimento do usuário em diversos módulos e desenvolvimento de ferramenta para criação de QUIZ pelas instituições.
+Reengenharia de features presentes no Guardiões da Saúde, alteração da necessidade diária de realizar o reporte para semanal. Desenvolvimento do QUIZ,  nova feature para o aplicativo com objetivo de testar o conhecimento do usuário em diversos módulos e desenvolvimento de ferramenta para criação de QUIZ pelas instituições. Será feito um processo de engenharia de requisitos que percorrerá ao Guardiões da Saúde como um todo, porém o desenvolvimento será referente somente a parte mobile.
 
 ### 1.3 Tecnologias a Serem Utilizadas
 
