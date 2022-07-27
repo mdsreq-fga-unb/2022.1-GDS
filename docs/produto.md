@@ -119,11 +119,11 @@ O produto será replanejado caso entenda-se que o escopo está inadequado, isto 
 
 ### 3.1 Metodologia Adotada
 
-A partir da abordagem Gupta, percebemos, com base nos conhecimentos previos da equipe, que um ciclo de vida evolutivo produziria melhores resultados. Portanto escolhemos a metodologia ScrumXP, guiado por seus valores de transparencia, inspecao e adaptabilidade. E tendo sempre como valores: compromisso com o projeto, foco, abertura, respeito e coragem.
+A partir da abordagem Gupta percebemos, com base nos conhecimentos prévios da equipe, que um ciclo de vida evolutivo produziria melhores resultados. Portanto escolhemos a metodologia ScrumXP, guiado por seus valores de transparência, inspeção e adaptabilidade. E tendo sempre como valores: compromisso com o projeto, foco, abertura, respeito e coragem.
 
 ### 3.2 Atividades de Desenvolvimento
 
-Utilizaremos para a gestão de tarefas as Sprints, da metodologia Scrum, tendo intervalos de uma semana entre cada ciclo, e a tabela vinda da metodologia Kanban para a organizacao dos itens que compoem o backlog do produto. 
+Utilizaremos para a gestão de tarefas as Sprints, da metodologia Scrum, tendo intervalos de uma semana entre cada ciclo, e a tabela vinda da metodologia Kanban para a organização dos itens que compõem o backlog do produto. 
 
 **Refatorar**
 Dentre as atividades das sprints, serão desempenhadas:
