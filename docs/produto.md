@@ -70,7 +70,7 @@ Para comunicação, utilizamos Whatsapp, Telegram e Discord. A api do Guardiões
 Engenharia de Requsitos|Atualizar o escopo do produto, organizar o escopo das sprints, definir product backlog|Requisitos|Caio César, Hian Praxedes, Matheus Pimentel, Luiz Pettengill, Taynara Cristina|
 Tech Lead|Validar as entregas de desenvolvimento|Ítalo|Marcus Martins, Igor Tiago, Juan Mangueira, Tiago Vivan, Iago, Ítalo|
 Cliente|Definir necessidades de melhoria no produto e novas ferramentas a serem desenvolvidas|Maria Vitória, Marcela, George Marsicano|Caio César, Hian Praxedes, Matheus Pimentel, Luiz Pettengill, Taynara Cristina, Maria Vitória, Marcela, George Marsicano|
-_____________ Arrumar isso aqui (definir melhor) ___________
+
 ### 2.2 Planejamento das Fases e/ou Iterações do Projeto
 |Sprint|Produto(Entrega)|Data Inicio|Data Fim|
 |------|----------------|-----------|--------|
@@ -90,13 +90,13 @@ _____________ Arrumar isso aqui (definir melhor) ___________
 |Sprint 14|Realizar Testes|12/09/22|15/09/22|
 
 
-_________________ tirar essa ata ______________________
+
 ### 2.3 Matriz de Comunicação
 |Descricao|Area/Envolvidos|Periodicidade|Produtos Gerados|
 |---------|---------------|-------------|----------------|
-| Acompanhamento das Atividades em Andamento<br/> Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores| Equipe de MDS e Equipe de Requisitos | Semanal - MDS, Quinzenal-REQ| Ata de Reunião, Relatório de Situação do Projeto|
-|Comunicar Situacao do Projeto|Equipe de MDS, Equipe de Requisitos, Professor|Semanal|Ata de reuniao, Relatorio de Situacao de Projeto|
-|Reunião diária para alinhamento da equipe e levantar dúvidas para que se possa seguir com a sprint| Equipe de MDS, Equipe de Requisitos| Diario (Segunda a Sexta)| Ata de Reuniao|
+| Acompanhamento das Atividades em Andamento<br/> Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores| Equipe de MDS e Equipe de Requisitos | Semanal - MDS, Quinzenal-REQ| Sem produtos gerados|
+|Comunicar Situacao do Projeto|Equipe de MDS, Equipe de Requisitos, Professor|Semanal|Sem produtos gerados|
+|Reunião diária para alinhamento da equipe e levantar dúvidas para que se possa seguir com a sprint| Equipe de MDS, Equipe de Requisitos| Diario (Segunda a Sexta)| Sem produtos gerados|
 |Reunião semanal de acompanhamento da sprint|Equipe de MDS, Equipe de Requisitos|Semanal|Funcionalidades da Aplicacao|Apresentação do progresso da equipe|Equipe de MDS, Equipe de Requisitos|Ao fim de cada módulo|Produto e projeto, funcionalidades desenvolvidas
 
 ### 2.4 Gerenciamento de Riscos
