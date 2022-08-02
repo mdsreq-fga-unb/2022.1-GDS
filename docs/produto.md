@@ -83,7 +83,7 @@ Cliente|Definir necessidades de melhoria no produto e novas ferramentas a serem 
 ### 2.2 Planejamento das Fases e/ou Iterações do Projeto
 
 
-![Planejamento de iteracoes](../assets/Ciclo_agil.png)
+![Planejamento de iteracoes](./assets/Ciclo_agil.png)
 >A imagem acima exemplifica o processo de desenvolvimento da equipe. As atividades acima dispostas ocorrerao dentro de CADA uma das sprints salvo as sprints 1 e 2 que foram de documentacao, planejamento e capacitacao da equipe.
 
 |Sprint|Produto(Entrega)|Data Inicio|Data Fim|
@@ -482,7 +482,7 @@ Visualizar nota dos quizzes ()APP# 5.2 Requisitos Funcionais - SAFE
     <tr>
       <th>ÉPICO</th>
       <th>FEATURE</th>
-      <th>ID</t - v1h>
+      <th>ID</th>
       <th>HISTÓRIA</th>
       <th>PRIORIDADE</th>
     </tr>
@@ -567,76 +567,75 @@ Visualizar nota dos quizzes ()APP# 5.2 Requisitos Funcionais - SAFE
   </tbody>
 </table>
 
-|         Legenda (prioridades)  |Definição 	                                                  |
-| :----------------------------: | :------------------------------------------------------------------------------------ |
-| Alta                           |  Requisitos sem os quais a aplicação é considerada incompleta |
-| Média                          |  Requisitos importantes que podem ser postergados      |
-| Baixa                          |  Requisitos sem os quais o Sistema funciona de maneira satisfatória   |
-
+| Legenda (prioridades) | Definição |
+|-----------------------|-----------|
+| Alta  |  Requisitos sem os quais a aplicação é considerada incompleta |
+| Média |  Requisitos importantes que podem ser postergados |
+| Baixa |  Requisitos sem os quais o Sistema funciona de maneira satisfatória |
 
 # Requisitos não funcionais
 
 <table>
-<thead>
-  <tr>
-    <th>Requisitos Não Funcionais (Classificação)</th>
-    <th>RNf</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td rowspan="4">Requisitos de Implementação</td>
-    <td>O backend do produto deve ser desenvolvido em JavaScript</td>
-  </tr>
-  <tr>
-    <td>O frontend do produto será desenvolvido em React Native</td>
-  </tr>
-  <tr>
-    <td>O protótipo do front end será feito no Figma</td>
-  </tr>
-  <tr>
-    <td>A responsidade do produto será feita utilizando a aplicação PWA</td>
-  </tr>
-  <tr>
-    <td>Requisitos Legislativos</td>
-    <td>O produto esteja de acordo com a LGPD (Lei geral de proteção de dados)</td>
-  </tr>
-  <tr>
-    <td rowspan="9">Requisitos de Usabilidade</td>
-    <td>O produto deve funcionar em android e ios</td>
-  </tr>
-  <tr>i
-    <td>O produto deve deixar destacado caso o usuário termine o curso</td>
-  </tr>
-  <tr>
-    <td>O produto deve deixar destacado caso o usuário termine o quiz com nota maior que 50%</td>
-  </tr>
-  <tr>
-    <td>O produto deve mostrar a nota do quiz, referente ao módulo que o usuário está</td>
-  </tr>
-  <tr>
-    <td>O produto deve funcionar apenas com acesso à internet</td>
-  </tr>
-  <tr>
-    <td>O produto deve dar a opção entre refazer quiz ou passar para o próximo módulo</td>
-  </tr>
-  <tr>
-    <td>O produto deve fazer uso de pop-ups</td>
-  </tr>
-  <tr>
-    <td>Deve ser possível ver seu histórico de reports tanto no formato de calendário quanto de estatística (gráfico de pizza)</td>
-  </tr>
-  <tr>
-    <td>O aplicativo não deve exigir muito do aparelho em que está sendo usado</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Requisito de Portabilidade</td>
-    <td>O produto deve ser acessível via mobile</td>
-  </tr>
-  <tr>
-    <td>As instituições contratantes devem acessar as funcionalidades por meio de dashboards web</td>
-  </tr>
-</tbody>
+  <thead>
+    <tr>
+      <th>Requisitos Não Funcionais (Classificação)</th>
+      <th>RNf</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="4">Requisitos de Implementação</td>
+      <td>O backend do produto deve ser desenvolvido em JavaScript</td>
+    </tr>
+    <tr>
+      <td>O frontend do produto será desenvolvido em React Native</td>
+    </tr>
+    <tr>
+      <td>O protótipo do front end será feito no Figma</td>
+    </tr>
+    <tr>
+      <td>A responsidade do produto será feita utilizando a aplicação PWA</td>
+    </tr>
+    <tr>
+      <td>Requisitos Legislativos</td>
+      <td>O produto esteja de acordo com a LGPD (Lei geral de proteção de dados)</td>
+    </tr>
+    <tr>
+      <td rowspan="9">Requisitos de Usabilidade</td>
+      <td>O produto deve funcionar em android e ios</td>
+    </tr>
+    <tr>i
+      <td>O produto deve deixar destacado caso o usuário termine o curso</td>
+    </tr>
+    <tr>
+      <td>O produto deve deixar destacado caso o usuário termine o quiz com nota maior que 50%</td>
+    </tr>
+    <tr>
+      <td>O produto deve mostrar a nota do quiz, referente ao módulo que o usuário está</td>
+    </tr>
+    <tr>
+      <td>O produto deve funcionar apenas com acesso à internet</td>
+    </tr>
+    <tr>
+      <td>O produto deve dar a opção entre refazer quiz ou passar para o próximo módulo</td>
+    </tr>
+    <tr>
+      <td>O produto deve fazer uso de pop-ups</td>
+    </tr>
+    <tr>
+      <td>Deve ser possível ver seu histórico de reports tanto no formato de calendário quanto de estatística (gráfico de pizza)</td>
+    </tr>
+    <tr>
+      <td>O aplicativo não deve exigir muito do aparelho em que está sendo usado</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Requisito de Portabilidade</td>
+      <td>O produto deve ser acessível via mobile</td>
+    </tr>
+    <tr>
+      <td>As instituições contratantes devem acessar as funcionalidades por meio de dashboards web</td>
+    </tr>
+  </tbody>
 </table>
 
 # 6 Definicao dos MVPs
@@ -650,7 +649,7 @@ Visualizar nota dos quizzes ()APP# 5.2 Requisitos Funcionais - SAFE
 
 # 7 Canvas MVP
 
-![Quadro Canvas MVP](https://raw.githubusercontent.com/mdsreq-fga-unb/2022.1-GDS/ff06dafb8a6f4d2d8896457556084a261359f04a/assets/Canvas_MVP.png)
+![Quadro Canvas MVP](./assets/Canvas_MVP.png)
 
 ## 8 Lições aprendidas
 ### 8.1 Unidade 1
