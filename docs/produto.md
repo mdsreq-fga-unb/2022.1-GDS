@@ -30,13 +30,16 @@
     - 5.1.1 Lista de Requisitos Funcionais (Reengenharia)
     - 5.1.2 Lista de Requisitos Funcionais (Clientes)
     - 5.2 Requisitos Funcionais - SAFE
-- 6 Canvas MVP
-- 7 Lições Aprendidas
-  - 7.1 Unidade 1
-    - 7.1.1 MDS
-    - 7.1.2 Requisitos
-    - 7.1.3 MDS e Requisitos
-- 8 Referências Bibliográficas
+- 6 Definicao dos MVPs
+  - 6.1 MVP 1
+  - 6.2 MVP 2
+- 7 Canvas MVP
+- 8 Lições Aprendidas
+  - 8.1 Unidade 1
+    - 8.1.1 MDS
+    - 8.1.2 Requisitos
+    - 8.1.3 MDS e Requisitos
+- 9 Referências Bibliográficas
 
 ## Visão do Produto e Projeto
 
@@ -106,22 +109,22 @@ Cliente|Definir necessidades de melhoria no produto e novas ferramentas a serem 
 
 ### 2.4 Gerenciamento de Riscos
 
-  O gerenciamento de riscos do projeto irá permear todo o processo de desenvolvimento tendo como principais atividades as reuniões de Revisão e Retrospectiva das sprints para que sejam melhor comunicados os possiveis novos riscos e tratados os riscos que por ventura ocorreram durante a execucao das atividades da sprint.
+O gerenciamento de riscos do projeto irá permear todo o processo de desenvolvimento tendo como principais atividades as reuniões de Revisão e Retrospectiva das sprints para que sejam melhor comunicados os possiveis novos riscos e tratados os riscos que por ventura ocorreram durante a execucao das atividades da sprint.
 
-  - Não conseguir entregar o Backlog da sprint.
-    - Ver quais foram os responsáveis pelas partes não entregues e fornecer apoio necessário para que consiga realizar suas tarefas na próxima sprint.
-  - Membro da equipe trancar a matéria.
-    - Comunicação constante entre todos os membros da equipe para que todos os membros sejam informados com antecedência.
-  - Baixa produtividade em semana de prova.
-    - Aumentar produtividade na semana anterior e posterior
-  - Dificuldades de comunicação entre as equipes de MDS e Requisitos
-    - Manter contato ao menos uma vez na semana, na reunião semanal de acompanhamento da sprint.
-  - Dificuldades de comunicação entre as equipes de MDS e o Ítalo
-    - Manter contato constante ao fim de cada sprint, e marcar reuniões com certa frequência
-  - Dificuldades de comunicação entre as equipes de Requisitos e os Clientes
-    - Manter contato constante com as clientes encontrando o melhor horário para pelo menos uma delas, ou tirando dúvidas pelo whatsapp
-  - Riscos nao planejados
-    - Analisar impacto do risco, planejar rapidamento acoes necessarias para mitigar os impactos do mesmo.
+- Não conseguir entregar o Backlog da sprint.
+  - Ver quais foram os responsáveis pelas partes não entregues e fornecer apoio necessário para que consiga realizar suas tarefas na próxima sprint.
+- Membro da equipe trancar a matéria.
+  - Comunicação constante entre todos os membros da equipe para que todos os membros sejam informados com antecedência.
+- Baixa produtividade em semana de prova.
+  - Aumentar produtividade na semana anterior e posterior
+- Dificuldades de comunicação entre as equipes de MDS e Requisitos
+  - Manter contato ao menos uma vez na semana, na reunião semanal de acompanhamento da sprint.
+- Dificuldades de comunicação entre as equipes de MDS e o Ítalo
+  - Manter contato constante ao fim de cada sprint, e marcar reuniões com certa frequência
+- Dificuldades de comunicação entre as equipes de Requisitos e os Clientes
+  - Manter contato constante com as clientes encontrando o melhor horário para pelo menos uma delas, ou tirando dúvidas pelo whatsapp
+- Riscos nao planejados
+  - Analisar impacto do risco, planejar rapidamento acoes necessarias para mitigar os impactos do mesmo.
 
 ### 2.5 Critérios de Replanejamento
 
@@ -642,46 +645,55 @@ Visualizar nota dos quizzes ()APP# 5.2 Requisitos Funcionais - SAFE
 </tbody>
 </table>
 
-# 6 Canvas MVP
+# 6 Definicao dos MVPs
 
-![](https://raw.githubusercontent.com/mdsreq-fga-unb/2022.1-GDS/ff06dafb8a6f4d2d8896457556084a261359f04a/assets/Canvas_MVP.png)
+## 6.1 MVP 1
+- Modificacoes no App
+- Cursos
 
-## 7 Lições aprendidas
-### 7.1 Unidade 1
-#### 7.1.1 MDS
+## 6.2 MVP 2
+- Quiz
+
+# 7 Canvas MVP
+
+![Quadro Canvas MVP](https://raw.githubusercontent.com/mdsreq-fga-unb/2022.1-GDS/ff06dafb8a6f4d2d8896457556084a261359f04a/assets/Canvas_MVP.png)
+
+## 8 Lições aprendidas
+### 8.1 Unidade 1
+#### 8.1.1 MDS
 
 Nessa primeira unidade tivemos um pouco de dificuldade em situar toda a dinâmica de trabalho em grupo que a disciplina propõe. Todos os conteúdos foram mais do que achávamos que seria e isso acabou prejudicando não só o individual, mas também toda minha equipe, onde por muitas vezes estávamos perdidos. No entanto, na semana da entrega foi quando conseguimos nos sintonizar melhor e decidir de vez tudo aquilo que iríamos fazer, e isso acabou esclarecendo muitas coisas e fazendo com que muitos de nós estudássemos mais e fossemos mais atrás das coisas, sendo sincero com o que sabíamos ou não. Portanto, aprendi muito sobre diálogo, sobre como devemos agir como equipe e como precisamos também ir atrás das coisas individualmente para assim fazer um trabalho melhor em conjunto.
 
-#### 7.1.2 Requisitos
+#### 8.1.2 Requisitos
 
 Na equipe de requisitos antes de tudo tivemos que aperfeiçoar nossa comunicação, tendo em vista que alguns membros não se conheciam. Após esse obstáculo trabalhamos nossa organização para conseguirmos um horário bom para a maioria do time conseguir se reunir e aprender mais sobre o Guardiões da Saúde, onde todos já haviam tido contato, mas não conhecíamos o background da aplicação, entendendo melhor como funciona suas funcionalidades, como a equipe que desenvolveu trabalhou e fazendo um trabalho de análise e adaptação para passar informações de forma mais clara para a equipe de MDS.
 
 Além disso, nos colocamos no lugar do cliente para entender o que e como exatamente ele gostaria das suas requisições. Com todas essas informações, tivemos que pensar de forma crítica para formular perguntas que surgiram a partir das explicações do cliente, ou aspectos que não foram tão bem explicados para a equipe. Contudo, tivemos que aprender melhor sobre o produto, justamente para conseguir fazer um processo de reengenharia e formular os requisitos do que já foi construído até o momento. Portanto, tivemos várias lições aprendidas, dentre elas, comunicação, organização, compreensão e criticidade.
 
-#### 7.1.3 MDS-Requisitos
+#### 8.1.3 MDS-Requisitos
 
 A maior lição aprendida nessa unidade com certeza foi a comunicação, as equipes não se conheciam totalmente ainda, então foram gerados encontros para esse obstáculo ser ultrapassado, além do que as informações devem ser passadas de forma clara entre os times para não acontecer confusões ou trabalhos extras. Outra questão que foi gerada com isso foi a empatia, já que as equipes são interdependentes em algumas tarefas, então não é tão simples pedir que uma atividade seja feita, existe todo uma forma de se comunicar para não causar sentimentos ruins entre as equipes.
 
-### 7.2 Unidade 2
-#### 7.2.1 MDS
+### 8.2 Unidade 2
+#### 8.2.1 MDS
 Nesta unidade 2, aprendemos, em primeiro lugar, a importância de uma sala invertida para o compartilhamento de conhecimentos plurais e acessíveis, numa linguagem que todos compartilham. Assim, conseguimos também desenvolver softskills relacionadas à comunicação e resiliência para solução dos problemas durante a apresentação. Dessa forma, aprendemos sobre as tecnologias de testes de sistemas Cypress, testes unitários com Jpress, Linguagem de programação TypeScript, React com typescript, Git, entre outros conhecimentos adicionais compartilhados durante os momentos de ensino.
 
-#### 7.2.2 Requisitos
+#### 8.2.2 Requisitos
 
 Na equipe de requisitos tivemos alguns problemas para definirmos os requisitos onde aconteceu um equivoco quando foram definidos alguns requisitos funcionais e não funcionais. Com isso foram colocadas algumas regras de negócio e atividades que seriam realizadas no processo de desenvolvimento como requisitos funcionais, fazendo com que tivéssemos que revisar e planejar novamente os requisitos do projeto, mas dessa vez de forma correta.
 
-#### 7.2.1 MDS-Requisitos
+#### 8.2.1 MDS-Requisitos
 
 As duas equipes aprenderam a melhorar a comunicação de ambas as partes, para seja comunicado o que ambas as equipes estão fazendo para que não aja confusões ou questionamento das atividades das equipes, assim não atrasando as entregas e facitando a organização das tarefas.
 
-### 7.3 Unidade 3
-#### 7.3.1 MDS
-#### 7.3.2 Requisitos
-#### 7.3.3 MDS-Requisitos
+### 8.3 Unidade 3
+#### 8.3.1 MDS
+#### 8.3.2 Requisitos
+#### 8.3.3 MDS-Requisitos
 
-### 7.4 Unidade 4
-#### 7.4.1 MDS
-#### 7.4.2 Requisitos
-#### 7.4.3 MDS-Requisitos
+### 8.4 Unidade 4
+#### 8.4.1 MDS
+#### 8.4.2 Requisitos
+#### 8.4.3 MDS-Requisitos
 
-## 8 Referências bibliográficas
+## 9 Referências bibliográficas
