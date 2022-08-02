@@ -369,9 +369,6 @@ Visualizar status do quiz ()APP
 Visualizar nota dos quizzes ()APP# 5.2 Requisitos Funcionais - SAFE
 
 <table style="width:100%">
-
-
-<table style="width:100%">
 <thead>
   <tr>
     <th>ÉPICO-v2</th>
@@ -402,76 +399,80 @@ Visualizar nota dos quizzes ()APP# 5.2 Requisitos Funcionais - SAFE
   </tr>
   <tr>
     <td>US - 04</td>
-<>    <td>Eu, como usuário do produto, quero saber quantos dias tive os mesmos sintomas, com o intuito saber quantos dias eu permaneci c/td<td align="center"></td>
-</tr>
->/
-    <td>  <tr>
-    <td rowspan="9"Responder o quiz
-    <td rowspa5="4">>Responder o qui</td>z</td>
-    <td>US - 05</td>
-    <td>Eu, como usuário do produto, quero responder os quizzes disponibilizados para mim, com o intuito de testar meus conhecimentos adquiridos sobre o tema
-    <td>Eu, como instituição, quero inserir informações sobre o conteúdo que será estudado, para que os usuários tenham um material para se informarem sobre </td>
+    <td>Eu, como usuário do produto, quero saber quantos dias tive os mesmos sintomas, com o intuito saber quantos dias eu permaneci </td>
     <td align="center"></td>
   </tr>
   <tr>
-    <td>US < 06/td>os assuntos dos quizzes</td>
-    <td Eu, como usuário do produto, quero poder responder novamente o quiz caso sinta a necessidade, com o intuito de aumentar minha nota neste quiz respondidoa  </tr>
+    <td rowspan="9">Quiz</td>
+    <td rowspan="4">Responder o quiz</td>
+    <td>US - 05</td>
+    <td>Eu, como usuário do produto, quero responder os quizzes disponibilizados para mim, com o intuito de testar meus conhecimentos adquiridos sobre o tema</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 06</td>
+    <td>Eu, como usuário do produto, quero poder responder novamente o quiz caso sinta a necessidade, com o intuito de aumentar minha nota neste quiz respondido</td>
+    <td align="center"></td>
+  </tr>
   <tr>
     <td>US - 07</td>
     <td>Eu, como usuário do produto, quero visualizar o resultado das questões do quiz quando acabar de responde-lo, com o intuito de observar as respostas das questões que foram respondidas</td>
-  </tr>
-  <tr>
-    <td>US - 08</td>
-    <td></td>
-    <td align="center">Eu, como usuário do produto, quero ser notificado caso ainda não tenha respondido algum quiz do módulo, com o intuito de não esquecer nenhum quiz sem ser respondido</td>
-  </tr>
-  <tr>
-
-    <td>US - 00</td>
-    <td>Eu, como instituição, quero poder excluir um curso, para que eu consiga remover um curso que não é mais necessário</td>
-    <td align="center"></td>
-  </tr>
-  <tr>
-    <td rowspan="3">Criar quiz semanal</td>
-    <td>US - 07</td>
-    <td>Eu, como instituição, quero criar quiz para avaliar o conhecimento dos estudantes, para dar um estímulo para ser um conhecimento básico sobre saúde</td>
     <td align="center"></td>
   </tr>
   <tr>
     <td>US - 08</td>
-    <td>Eu, como instituição, quero poder editar o quiz, para que esteja sempre atualizado</td>
+    <td>Eu, como usuário do produto, quero ser notificado caso ainda não tenha respondido algum quiz do módulo, com o intuito de não esquecer nenhum quiz sem ser respondido</td>
     <td align="center"></td>
   </tr>
   <tr>
+    <td rowspan="3">Visualizar status do quiz</td>
     <td>US - 09</td>
-    <td>Eu, como instituição, quero poder excluir um quiz caso. Para que esteja sempre atualizado.</td>
+    <td>Eu, como usuário do produto, quero poder visualizar se os quizzes ainda não foram respondidos no módulo, com o intuito de saber qual quiz ainda não foi respondido</td>
     <td align="center"></td>
   </tr>
   <tr>
-    <td rowspan="5">Dados do quiz</td>
     <td>US - 10</td>
-    <td>Eu, como usuário do produto, quero saber qual foi minha nota no quiz para saber se fui aprovado e avaliar meus conhecimentos</td>
+    <td>Eu, como usuário do produto, quero poder visualizar se os quizzes então em aberto, com o intuito de saber se algum quiz não foi terminado</td>
     <td align="center"></td>
   </tr>
   <tr>
     <td>US - 11</td>
-    <td>Eu, como usuário do produto, quero saber se passei no quiz ou se preciso fazer novamente para não perder nenhuma avaliação</td>
+    <td>Eu, como usuário do produto, quero poder visualizar se os quizzes foram respondidos, com o intuito de saber quais módulos foram feitos</td>
     <td align="center"></td>
   </tr>
   <tr>
+    <td rowspan="2">Visualizar nota dos quizzes</td>
     <td>US - 12</td>
-    <td>Eu, como usuário do produto, quero poder fazer o quiz novamente caso queira para aumentar minha nota ou não tenha obtido nota suficiente</td>
+    <td>Eu, como usuário do produto, quero poder visualizar as notas dos quizzes que foram respondidos, com o intuito de saber meu desempenho</td>
     <td align="center"></td>
   </tr>
   <tr>
     <td>US - 13</td>
-    <td>Eu, como instituição, quero visualizar como os estudantes se saíram no quiz para avaliar seus conhecimentos</td>
+    <td>Eu, como usuário do produto, quero poder visualizar a média das notas dos quizzes por módulo, com o intuito de saber meu desempenho em cada módulo</td>
     <td align="center"></td>
   </tr>
   <tr>
+    <td rowspan="4">Curso</td>
+    <td rowspan="2">Visualizar dados do curso</td>
     <td>US - 14</td>
-    <td>Eu, como usuário do produto, quero saber se já completei o quiz para avaliar meus conhecimentos</td>
+    <td>Eu, como usuário do produto, quero poder visualizar tema de cada módulo do curso, com o intuito de saber o que será abordado</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 15</td>
+    <td>Eu, como usuário do produto, quero poder visualizar quanto módulos estão disponíveis para serem vistos, com o intuito de saber a quantidade de conteúdo para ser estudado</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Visualizar conteúdo do curso</td>
+    <td>US - 16</td>
+    <td>Eu, como usuário do produto, quero poder visualizar os link de redirecionamento para os conteúdos dos curso, com o intuito de estudar o assunto abordado</td>
   <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 17</td>
+    <td>Eu, como usuário do produto, quero poder visualizar se o conteúdo do curso já foi acessado, com o intuito de saber se quais conteúdos já foram vistos</td>
+    <td align="center"></td>
   </tr>
 
 
