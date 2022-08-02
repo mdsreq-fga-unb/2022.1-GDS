@@ -238,7 +238,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
 
 ### 4.2 Atividades
 
-### 4.2.1 Planejamento
+#### 4.2.1 Planejamento
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
@@ -260,7 +260,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
 |--|--|--|--|
 | Definir atividades de correcao de erros das sprints passadas | | | |
 
-### 4.2.2 Execucao
+#### 4.2.2 Execucao
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
@@ -286,7 +286,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
 |--|--|--|--|
 | Inspecao | | | |
 
-### 4.2.3 Revisao
+#### 4.2.3 Revisao
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
@@ -312,7 +312,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
 |--|--|--|--|
 | Validacao com o cliente | | | |
 
-### 4.2.4 Retrospectiva
+#### 4.2.4 Retrospectiva
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
@@ -359,7 +359,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
 - RF17: Visualizar mapa hospitais/unidades de saúde (APP)
 - RF18: Acessar dados de reportes de saúde (APP)
 
-### 5.1.Registar reportes ao menos uma vez na semanas)
+#### 5.1.2 Registar reportes ao menos uma vez na semanas
 Visualizar histórico de saúde
 - RF19: Responder o quizemAPPlmente o estado do usuário (APP)
 - RF20: Notificar o usuário até o reporte ser realizado (APP)
