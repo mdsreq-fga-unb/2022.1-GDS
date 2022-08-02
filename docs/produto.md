@@ -604,7 +604,7 @@ Visualizar nota dos quizzes ()APP# 5.2 Requisitos Funcionais - SAFE
       <td rowspan="9">Requisitos de Usabilidade</td>
       <td>O produto deve funcionar em android e ios</td>
     </tr>
-    <tr>i
+    <tr>
       <td>O produto deve deixar destacado caso o usuário termine o curso</td>
     </tr>
     <tr>
