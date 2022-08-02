@@ -14,23 +14,29 @@
   - 2.5 Critérios de Replanejamento
 - 3 Processo de Desenvolvimento de Software
   - 3.1 Metodologia Adotada
-  - 3.2 Atividades
-    - 3.2.1 Atividade 1
-    - 3.2.2 Atividade 2
-    - 3.2.3 Atividade 3
-    - 3.2.4 Atividade 4
+  - 3.2 Atividades de Desenvolvimento
+    - 3.2.1 Planejamento
+    - 3.2.2 Execução
+    - 3.2.3 Revisão
+    - 3.2.4 Retrospectiva
 - 4 Processo de Engenharia de Requisitos
   - 4.1 Elicitação de Requisitos
   - 4.2 Análise de Requisitos
   - 4.3 Documetação de Requisitos
   - 4.4 Verificação e Validação de requisitos
   - 4.5 Gerenciamento de Requisitos
-- 5 Lições Aprendidas
-  - 5.1 Unidade 1
-    - 5.1.1 MDS
-    - 5.1.2 Requisitos
-    - 5.1.3 MDS e Requisitos
-- 6 Referências Bibliográficas
+- 5 Escopo do Produto
+  - 5.1 Requisitos funcionais
+    - 5.1.1 Lista de Requisitos Funcionais (Reengenharia)
+    - 5.1.2 Lista de Requisitos Funcionais (Clientes)
+    - 5.2 Requisitos Funcionais - SAFE
+- 6 Canvas MVP
+- 7 Lições Aprendidas
+  - 7.1 Unidade 1
+    - 7.1.1 MDS
+    - 7.1.2 Requisitos
+    - 7.1.3 MDS e Requisitos
+- 8 Referências Bibliográficas
 
 ## Visão do Produto e Projeto
 
@@ -40,7 +46,7 @@ O guardiões da saúde é uma solução que foi desenvolvida graças a uma parce
 
 ### 1.1 Declaração de Posição do Produto
 
-  Ao utilizar desse produto, as instituições poderão realizar QUIZ semanais para avaliar                             	os usuários cadastrados.
+  Ao utilizar desse produto, as instituições poderão realizar QUIZ semanais para avaliar	os usuários cadastrados.
 
 | Para | As instituições que utilizam o GDS |
 |--|--|
@@ -72,34 +78,35 @@ Tech Lead|Validar as entregas de desenvolvimento|Ítalo|Marcus Martins, Igor Tia
 Cliente|Definir necessidades de melhoria no produto e novas ferramentas a serem desenvolvidas|Maria Vitória, Marcela, George Marsicano|Caio César, Hian Praxedes, Matheus Pimentel, Luiz Pettengill, Taynara Cristina, Maria Vitória, Marcela, George Marsicano|
 
 ### 2.2 Planejamento das Fases e/ou Iterações do Projeto
+
+
+![Planejamento de iteracoes](../assets/Ciclo_agil.png)
+>A imagem acima exemplifica o processo de desenvolvimento da equipe. As atividades acima dispostas ocorrerao dentro de CADA uma das sprints salvo as sprints 1 e 2 que foram de documentacao, planejamento e capacitacao da equipe.
+
 |Sprint|Produto(Entrega)|Data Inicio|Data Fim|
 |------|----------------|-----------|--------|
-|Sprint 1|Definicao do Produto|13/06/22|19/06/22|
-|Sprint 2|Backlog do Produto|20/06/22|26/06/22|
-|Sprint 3|MVP e Planejamento do Projeto|27/06/22|03/07/22|
-|Sprint 4|Protótipo de tela, ajustar ambiente de desenvolvimento|04/07/22|10/07/22|
-|Sprint 5|Reportar semanalmente o estado do usuário (US-01)|11/07/22|17/07/22|
-|Sprint 6|Notificar usuário até o reporte ser realizado (US-02), garantir que para ganhar crédito o usuário tenha respondido todas as semanas, ao menos uma vez (US-03)|18/07/22|24/07/22|
-|Sprint 7|Facilitar ao usuário a visualização de que não enviou um reporte (US-04), criar quiz semanais (US-05)|25/07/22|31/07/22|
-|Sprint 8|Criar tela de cadastro de quiz com número de questões definidas pela instituição até dado limite (US-06)|01/08/22|07/08/22|
-|Sprint 9|Garantir que o usuário terá acesso ao quis equivalente ao nível que se encontra (US-07)|08/08/22|14/08/22|
-|Sprint 10|Criar banco de dados contendo informações do usuário referente ao módulo que ele se encontra (US-08)|15/08/22|21/08/22|
-|Sprint 11|Criar ícone na barra de tarefas que direcionará para tela de quis (US-09), criar tela do quiz contendo botões que direcionarão para página de curso ou página de quis (US-10)|22/08/22|28/08/22|
-|Sprint 12|Criar campos para inserção de links do conteúdo e vídeo aulas de cada módulo (US-11) |29/08/22|04/09/22|
-|Sprint 13|Garantir que o usuário possa realizar o quiz sem necessariamente ter estudado material proposto (US-12)|05/09/22|11/09/22|
-|Sprint 14|Realizar Testes|12/09/22|15/09/22|
+| Sprint 1 | Definicao do Produto, Criacao do Backlog, Definicao do processo desenvolvimento | 13/06/22 | 24/06/22 |
+| Sprint 2 | Definicao do MVP, Negociacao dos Requisitos, Dojos de capacitacao | 27/06/22| 08/07/22 |
+| Sprint 3 | Ajuste do ambiente de desenvolvimento | 11/07/22 | 22/07/22 |
+| Sprint 4 | Protótipo de tela | 25/07/22| 05/08/22 |
+| Sprint 5 | Desenvolvimento de ... | 08/08/22 | 19/08/22 |
+| Sprint 6 | Desenvolvimento de ... | 22/08/22 | 02/09/22 |
+| Sprint 7 | Desenvolvimento de ... | 05/09/22 | 16/09/22 |
+| Sprint 8* | Entrega do projeto | 19/09/22 | 23/09/22 |
 
-
+>*= A sprint 8 sera de apenas 1 semana, por ser a sprint de entrega do projeto desenvolvido.
 
 ### 2.3 Matriz de Comunicação
-|Descricao|Area/Envolvidos|Periodicidade|Produtos Gerados|
-|---------|---------------|-------------|----------------|
-| Acompanhamento das Atividades em Andamento<br/> Acompanhamento dos Riscos, Compromissos, Ações Pendentes, Indicadores| Equipe de MDS e Equipe de Requisitos | Semanal - MDS, Quinzenal-REQ| Sem produtos gerados|
-|Comunicar Situacao do Projeto|Equipe de MDS, Equipe de Requisitos, Professor|Semanal|Sem produtos gerados|
-|Reunião diária para alinhamento da equipe e levantar dúvidas para que se possa seguir com a sprint| Equipe de MDS, Equipe de Requisitos| Diario (Segunda a Sexta)| Sem produtos gerados|
-|Reunião semanal de acompanhamento da sprint|Equipe de MDS, Equipe de Requisitos|Semanal|Funcionalidades da Aplicacao|Apresentação do progresso da equipe|Equipe de MDS, Equipe de Requisitos|Ao fim de cada módulo|Produto e projeto, funcionalidades desenvolvidas
+|Descricao|Area/Envolvidos|Periodicidade|Local|Produtos Gerados|
+|---------|---------------|-------------|-----|----------------|
+| Acompanhamento das Atividades em Andamento, Gerenciamento dos Riscos | Equipe de MDS e Equipe de Requisitos | Diário | Grupo do Whatsapp | Sem produtos gerados|
+| Comunicar Situação do Projeto | Equipe de MDS, Equipe de Requisitos, Professor | Semanal | Apresentacao parcial em sala de aula | Lista de modificações sugeridas pelo Professor |
+| Reunião de revisão e retrospectiva da sprint | Equipe de MDS, Equipe de Requisitos | 1x a cada 2 semanas (Ao final das sprints) | Servidor da equipe no Discord | Melhor gerenciamento de projeto e de riscos |
+| Apresentação do progresso da equipe | Equipe de MDS, Equipe de Requisitos, Professor | Ao fim de cada módulo | Apresentação do projeto em sala de aula | Produto e projeto parciais, funcionalidades e documentações desenvolvidas |
 
 ### 2.4 Gerenciamento de Riscos
+
+  O gerenciamento de riscos do projeto irá permear todo o processo de desenvolvimento tendo como principais atividades as reuniões de Revisão e Retrospectiva das sprints para que sejam melhor comunicados os possiveis novos riscos e tratados os riscos que por ventura ocorreram durante a execucao das atividades da sprint.
 
   - Não conseguir entregar o Backlog da sprint.
     - Ver quais foram os responsáveis pelas partes não entregues e fornecer apoio necessário para que consiga realizar suas tarefas na próxima sprint.
@@ -111,18 +118,20 @@ Cliente|Definir necessidades de melhoria no produto e novas ferramentas a serem 
     - Manter contato ao menos uma vez na semana, na reunião semanal de acompanhamento da sprint.
   - Dificuldades de comunicação entre as equipes de MDS e o Ítalo
     - Manter contato constante ao fim de cada sprint, e marcar reuniões com certa frequência
-  - Dificuldades de comunicação entre as equipes de Requisitos e as Clientes
+  - Dificuldades de comunicação entre as equipes de Requisitos e os Clientes
     - Manter contato constante com as clientes encontrando o melhor horário para pelo menos uma delas, ou tirando dúvidas pelo whatsapp
+  - Riscos nao planejados
+    - Analisar impacto do risco, planejar rapidamento acoes necessarias para mitigar os impactos do mesmo.
 
 ### 2.5 Critérios de Replanejamento
 
-O produto será replanejado caso entenda-se que o escopo está inadequado, isto é, grande ou pequeno demais para o tempo da matéria e tamanho da equipe. Também poderá ocorrer seu replanejamento caso as clientes necessitem de uma nova funcionalidade, sendo necessário um backlog atualizado e uma revisão das sprints.
+O produto será replanejado caso entenda-se que o escopo está inadequado, isto é, grande ou pequeno demais para o tempo da matéria e tamanho da equipe. Também poderá ocorrer seu replanejamento caso os clientes necessitem de uma nova funcionalidade, sendo necessário um backlog atualizado e uma revisão das sprints ate o presente momento.
 
 ## 3 Processo de desenvolvimento de software
 
 ### 3.1 Metodologia Adotada
 
-Pensamos em uma metodologia para se trabalhar, porém não conseguimos nos identificar com nenhuma, no entanto, a partir da abordagem Gupta, percebemos que era melhor um ciclo de vida evolutivo devido ao pouco conhecimento da tecnologia pelos participantes, portanto escolhemos a metodologia XP, seguindo seus valores de comunicação, simplicidade, feedback, coragem e respeito.
+A partir da abordagem Gupta, percebemos que era melhor um ciclo de vida evolutivo devido ao pouco conhecimento da tecnologia utilizada pelo projeto dos clientes por parte dos integrantes da equipe. Portanto escolhemos a metodologia ScrumXP (seguindo o manual essencial do SAFe), aderindo seus valores de comunicação, simplicidade, feedbacks, coragem e respeito.
 
 ### 3.2 Atividades de Desenvolvimento
 
@@ -130,85 +139,203 @@ Utilizaremos para a gestão de tarefas as Sprints, da metodologia Scrum, tendo i
 
 Dentre as atividades das sprints, serão desempenhadas:
 
-### 3.2.1 Atividade 1
+### 3.2.1 Planejamento
 
-|Atividade | Método | Ferramenta | Entrega | Feedback |
-|-|-|-|-|-|
-| Design do prototipo | Prototipagem em pares | Figma | Protótipo pronto para análise | Segundos |
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Planejamento de estrategias de desenvolvimento | | | |
 
-### 3.2.2 Atividade 2
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Planejar estrategias da equipe | | | |
 
-|Atividade | Método | Ferramenta | Entrega | Feedback |
-|-|-|-|-|-|
-| Validação do protótipo. | Esclarecimentos entre equipe e cliente e aceitação do protótipo | Whatsapp para conversas informais e Discord para reuniões | Protótipo pronto para implementação | Dias |
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Definicao dos pares do pair programming | | | |
 
-### 3.2.3 Atividade 3
+### 3.2.2 Execução
 
-|Atividade | Método | Ferramenta | Entrega | Feedback |
-|-|-|-|-|-|
-| Construção do Código | Pair Programming, Refatoração, Sprint, Dailies, Baby Steps | VS Code para a construção, Discord para comunicação durante a programação em pares e WhatsApp para conversas pontuais |Código pronto para testagem | Segundos |
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Manutenção | | | |
 
-### 3.2.4 Atividade 4
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Evolução | | | |
 
-|Atividade | Método | Ferramenta | Entrega | Feedback |
-|-|-|-|-|-|
-| Testagem do Código | Testes unitários automatizados e containerização | Docker |Funcionalidades devidamente testadas. | Minutos |
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Desenvolvimento | | | |
 
-## 4 PROCESSO DE ENGENHARIA DE REQUISITOS
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Testes manuais | | | |
 
-  O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definido para o desenvolvimento de software, uma vez que as equipes de engenharia de requisitos e de engenharia de software estão trabalhando conjuntamente. Isso tornará mais fácil a integração entre as duas equipes. Com isso em mente, o processo escolhido foi o Extreme Programming, ou XP, e as atividades que serão executadas pela equipe de engenharia de requisitos podem ser vistas detalhadamente nas tabelas presentes nos subtópicos abaixo.
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Testes Unitários Automatizados | | | |
 
-### 4.1 Elicitação de Requisitos
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Execução das estratégias de desenvolvimento | | | |
 
-  | Atividade | Método | Ferramenta | Entrega |
-  |--|--|--|--|
-  | Descoberta e compreensão dos requisitos | Estudo da documentação do produto, observação do produto, entrevistas com as clientes | Reunião com as clientes, leitura da documentação, utilização do produto | Conjunto não estruturado de requisitos |
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Prototipação | | | |
 
-  | Atividade | Método | Ferramenta | Entrega |
-  |--|--|--|--|
-  | Classificação e organização dos requisitos | Agrupamento e organização do conjunto não estruturado em grupos correlatos | Reunião da equipe de requisitos | Conjunto organizado de requisitos do projeto |
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Execução das estratégias de time | | | |
 
-### 4.2 Análise de Requisitos
+### 3.2.3 Revisão
 
-  | Atividade | Método | Ferramenta | Entrega |
-  |--|--|--|--|
-  | Priorização e negociação dos requisitos | Alinhamento com as clientes dos requisitos organizados | Reunião com as clientes e a equipe de egenharia de requisitos | Definição/Redefinição dos requisitos do projeto |
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Validação com a equipe de Requisitos | | | |
 
-### 4.3 Documentação de Requisitos
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Análise do feedback do professor | | | |
 
-  | Atividade | Método | Ferramenta | Entrega |
-  |--|--|--|--|
-  | Documentação dos requisitos | Criação de Épicos, features e Histórias de usuários a partir dos requisitos | Quadro Kanban do ZenHub | Product backlog |
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Apresentação dos resultados da sprint | | | |
 
-### 4.4 Verificação e Validação de Requisitos
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Validação com o professor | | | |
 
-  | Atividade | Método | Ferramenta | Entrega |
-  |--|--|--|--|
-  | Inspeção | Revisão por pares | Reunião da equipe de requisitos (em pares) para inspeção das entregas | Novas tarefas de correção de bugs no product backlog |
+### 3.2.4 Retrospectiva
 
-  | Atividade | Método | Ferramenta | Entrega |
-  |--|--|--|--|
-  | Acompanhamento das atividades de desenvolvimento | Comunicação constante entre equipes de Engenharia de Requisitos e Desenvolvimento | Conversas e reuniões informais durante a sprint | Maior alinhamento da equipe com os requisitos definidos |
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Recebimento dos feedbacks de entrega | | | |
 
-### 4.5 Gerenciamento de Requisitos
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Inspeção da sprint passada | | | |
 
-  | Atividade | Método | Ferramenta | Entrega |
-  |--|--|--|--|
-  | Criação de itens do product backlog | Criar os itens do product backlog com base requisitos funcionais e não-funcionais do projeto | Reuniões da equipe de requisitos com as clientes para a criação de itens no quadro Kanban (ZenHub) do projeto | Product Backlog |
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Levantamento de melhorias para as próximas sprints | | | |
 
-  | Atividade | Método | Ferramenta | Entrega |
-  |--|--|--|--|
-  | Manutenção do product backlog | Fazer o manejo do product backlog com base nos requisitos funcionais e não-funcionais do projeto. | Alinhamentos com as clientes por meio de reuniões, gerenciamento pela equipe de Engenharia de Requisitos dos itens do product backlog | Refinamento do Product Backlog |
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Avaliaçào das estratégias de desenvolvimento | | | |
 
-  | Atividade | Método | Ferramenta | Entrega |
-  |--|--|--|--|
-  | Definição das tarefas da sprint | Definição das tarefas a serem executadas na sprint com base nos itens do product backlog | Reuniões de sprint planning | Sprint Backlog |
+|Atividade | Método | Ferramenta | Entrega |
+|----------|--------|------------|---------|
+| Avaliação das estratégias da equipe | | | |
+
+## 4 Processo de Engenharia de Requisitos
+
+### 4.1 Metodologia
+
+O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definido para o desenvolvimento de software, uma vez que as equipes de engenharia de requisitos e de engenharia de software estão trabalhando conjuntamente. Isso tornará mais fácil a integração entre as duas equipes. Com isso em mente, o processo escolhido foi o Extreme Programming, ou XP, e as atividades que serão executadas pela equipe de engenharia de requisitos podem ser vistas detalhadamente nas tabelas presentes nos subtópicos abaixo.
+
+### 4.2 Atividades
+
+### 4.2.1 Planejamento
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Reuniao com os clientes para definicao / alinhamento de requisitos | | | |
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Classificacao / Organizacao dos requisitos | | | |
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Elaboracao dos criterios de aceitacao | | | |
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Definicao das tarefas da sprint | | | |
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Definir atividades de correcao de erros das sprints passadas | | | |
+
+### 4.2.2 Execucao
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Priorizacao e negociacao dos requisitos | | | |
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Documentacao dos requisitos | | | |
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Acompanhamento das atividades de desenvolvimento | | | |
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Realizacao das atividades de correcao definidas no planejamento | | | |
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Realizacao das tarefas da sprint definidas no planejamento | | | |
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Inspecao | | | |
+
+### 4.2.3 Revisao
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Reuniao com os clientes para a validacao dos requisitos | | | |
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Aprentacao da producao na sprint | | | |
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Manutencao do product backlog | | | |
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Testes de aceitacao | | | |
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Analise do progresso do projeto | | | |
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Validacao com o cliente | | | |
+
+### 4.2.4 Retrospectiva
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Analisar o feedback do professor | | | |
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Levantar pontos positivos da sprint | | | |
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Replanejamento | | | |
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Levantar pontos negativos da sprint | | | |
+
+| Atividade | Método | Ferramenta | Entrega |
+|--|--|--|--|
+| Inspecao da sprint passada | | | |
  
 ## 5 Escopo do Produto
 
 ### 5.1 Requisitos funcionais
 
-#### Lista de Requisitos Funcionais (Reengenharia)
+#### 5.1.1 Lista de Requisitos Funcionais (Reengenharia)
 
 - RF01: Realizar cadastro de uma nova conta (APP)
 - RF02: Recuperar a senha do usuário pelo e-mail cadastrado (APP)
@@ -229,26 +356,131 @@ Dentre as atividades das sprints, serão desempenhadas:
 - RF17: Visualizar mapa hospitais/unidades de saúde (APP)
 - RF18: Acessar dados de reportes de saúde (APP)
 
-### Lista de Requisitos Funcionais (Clientes)
-
-- RF19: Reportar semanalmente o estado do usuário (APP)
+### 5.1.Registar reportes ao menos uma vez na semanas)
+Visualizar histórico de saúde
+- RF19: Responder o quizemAPPlmente o estado do usuário (APP)
 - RF20: Notificar o usuário até o reporte ser realizado (APP)
 - RF21: Criar quiz (WEB)
 - RF22: Editar quiz (WEB)
 - RF23: Remover quiz (WEB)
 - RF24: Visualizar dados sobre o quiz (WEB)
 - RF25: Criar curso (WEB)
-- RF26: Editar curso (WEB)
-- RF27: Remover curso (WEB)
+Visualizar status do quiz ()APP
+Visualizar nota dos quizzes ()APP# 5.2 Requisitos Funcionais - SAFE
 
-# Requisitos Funcionais - SAFE
+<table style="width:100%">
+
 
 <table style="width:100%">
 <thead>
   <tr>
-    <th>ÉPICO</th>
+    <th>ÉPICO-v2</th>
     <th>FEATURE</th>
     <th>ID</th>
+    <th>HISTÓRIA</th>
+    <th>PRIORIDADE</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="4">Modificações no App</td>
+    <td rowspan="2">Registrar reportes ao menos uma vez na semana</td>
+    <td>US - 01</td>
+    <td>Eu, como usuário do produto, quero fazer meu reporte ao menos uma vez na semana, com o intuito de registrar meu estado de saúde nesse período de tempo</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 02</td>
+    <td>Eu, como usuário do produto, quero ser notificado do reporte, para que eu lembre de fazer o reporte semanal</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Visualizar histórico de saúde</td>
+    <td>US - 03</td>
+    <td>Eu, como usuário do produto, quero poder ver os sintomas dos dias em que eu estive mal, com o intuito de saber o que estava sentindo naquele dia</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 04</td>
+<>    <td>Eu, como usuário do produto, quero saber quantos dias tive os mesmos sintomas, com o intuito saber quantos dias eu permaneci c/td<td align="center"></td>
+</tr>
+>/
+    <td>  <tr>
+    <td rowspan="9"Responder o quiz
+    <td rowspa5="4">>Responder o qui</td>z</td>
+    <td>US - 05</td>
+    <td>Eu, como usuário do produto, quero responder os quizzes disponibilizados para mim, com o intuito de testar meus conhecimentos adquiridos sobre o tema
+    <td>Eu, como instituição, quero inserir informações sobre o conteúdo que será estudado, para que os usuários tenham um material para se informarem sobre </td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US < 06/td>os assuntos dos quizzes</td>
+    <td Eu, como usuário do produto, quero poder responder novamente o quiz caso sinta a necessidade, com o intuito de aumentar minha nota neste quiz respondidoa  </tr>
+  <tr>
+    <td>US - 07</td>
+    <td>Eu, como usuário do produto, quero visualizar o resultado das questões do quiz quando acabar de responde-lo, com o intuito de observar as respostas das questões que foram respondidas</td>
+  </tr>
+  <tr>
+    <td>US - 08</td>
+    <td></td>
+    <td align="center">Eu, como usuário do produto, quero ser notificado caso ainda não tenha respondido algum quiz do módulo, com o intuito de não esquecer nenhum quiz sem ser respondido</td>
+  </tr>
+  <tr>
+
+    <td>US - 00</td>
+    <td>Eu, como instituição, quero poder excluir um curso, para que eu consiga remover um curso que não é mais necessário</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td rowspan="3">Criar quiz semanal</td>
+    <td>US - 07</td>
+    <td>Eu, como instituição, quero criar quiz para avaliar o conhecimento dos estudantes, para dar um estímulo para ser um conhecimento básico sobre saúde</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 08</td>
+    <td>Eu, como instituição, quero poder editar o quiz, para que esteja sempre atualizado</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 09</td>
+    <td>Eu, como instituição, quero poder excluir um quiz caso. Para que esteja sempre atualizado.</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td rowspan="5">Dados do quiz</td>
+    <td>US - 10</td>
+    <td>Eu, como usuário do produto, quero saber qual foi minha nota no quiz para saber se fui aprovado e avaliar meus conhecimentos</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 11</td>
+    <td>Eu, como usuário do produto, quero saber se passei no quiz ou se preciso fazer novamente para não perder nenhuma avaliação</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 12</td>
+    <td>Eu, como usuário do produto, quero poder fazer o quiz novamente caso queira para aumentar minha nota ou não tenha obtido nota suficiente</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 13</td>
+    <td>Eu, como instituição, quero visualizar como os estudantes se saíram no quiz para avaliar seus conhecimentos</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td>US - 14</td>
+    <td>Eu, como usuário do produto, quero saber se já completei o quiz para avaliar meus conhecimentos</td>
+  <td align="center"></td>
+  </tr>
+
+
+
+
+  <tr>
+    <th>ÉPICO</th>
+    <th>FEATURE</th>
+    <th>ID</t - v1h>
     <th>HISTÓRIA</th>
     <th>PRIORIDADE</th>
   </tr>
@@ -375,7 +607,7 @@ Dentre as atividades das sprints, serão desempenhadas:
     <td rowspan="9">Requisitos de Usabilidade</td>
     <td>O produto deve funcionar em android e ios</td>
   </tr>
-  <tr>
+  <tr>i
     <td>O produto deve deixar destacado caso o usuário termine o curso</td>
   </tr>
   <tr>
