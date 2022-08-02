@@ -1,5 +1,18 @@
-site_name: Guardiões da Saúde
+site_name: Guardiões da Saúde - MDS & REQ
+repo_url: https://github.com/mdsreq-fga-unb/2022.1-GDS
 
 theme:
   name: material
-  custom_dir: overrides
+  language: pt
+  features:
+    - navigation.tabs
+  palette:
+    primary: teal
+    accent: cyan
+
+nav:
+  - Home: index.md
+  - Documentação:
+    - Dojo em React: dojo.md
+    - Visão do produto e projeto: produto.md
+  - Entregas: entregas.md
