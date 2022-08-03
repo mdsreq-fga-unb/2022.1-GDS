@@ -359,17 +359,21 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
 - RF17: Visualizar mapa hospitais/unidades de saúde (APP)
 - RF18: Acessar dados de reportes de saúde (APP)
 
-#### 5.1.2 Registar reportes ao menos uma vez na semanas
-Visualizar histórico de saúde
-- RF19: Responder o quizemAPPlmente o estado do usuário (APP)
-- RF20: Notificar o usuário até o reporte ser realizado (APP)
-- RF21: Criar quiz (WEB)
-- RF22: Editar quiz (WEB)
-- RF23: Remover quiz (WEB)
-- RF24: Visualizar dados sobre o quiz (WEB)
-- RF25: Criar curso (WEB)
-Visualizar status do quiz ()APP
-Visualizar nota dos quizzes ()APP# 5.2 Requisitos Funcionais - SAFE
+#### 5.1.2 Lista de Requisitos Funcionais (Clientes)
+
+- RF19: Registar reportes ao menos uma vez na semana (APP)
+- RF20: Visualizar histórico de saúde (APP)
+- RF21: Responder o quiz (APP)
+- RF22: Visualizar status do quiz (APP) 
+- RF23: Visualizar notas dos quizzes (APP)
+- RF24: Visualizar dados do curso (APP)
+- RF25: Vizualizar conteúdo do curso (APP)
+- RF26: Notificar o usuário até o reporte ser realizado (APP)
+- RF27: Criar quiz (WEB)
+- RF28: Editar quiz (WEB)
+- RF29: Remover quiz (WEB)
+- RF30: Visualizar dados sobre o quiz (WEB)
+- RF31: Criar curso (WEB)
 
 <table style="width:100%">
   <thead>
