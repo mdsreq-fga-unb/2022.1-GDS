@@ -653,7 +653,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
 
 # 7 Canvas MVP
 
-![Quadro Canvas MVP](./assets/Canvas_MVP.png)
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVOhHR1Q4=/?moveToViewport=-569,-317,1129,602&embedId=487783155769" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
 ## 8 Lições aprendidas
 ### 8.1 Unidade 1
