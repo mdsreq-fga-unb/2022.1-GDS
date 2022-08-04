@@ -1,7 +1,7 @@
 <h1 align="center"> GDS </h1>
 
 <div align=center">
-	![Logotipo GDS](./docs/assets/GDS.png)
+	<img src="./docs/assets/GDS.png/" alt="Logotipo Guardiões da saúde">
 </div>
 
 # 👨‍💻 Integrantes da Equipe (MDS)
