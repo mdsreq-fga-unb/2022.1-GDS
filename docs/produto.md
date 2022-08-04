@@ -82,8 +82,8 @@ Cliente|Definir necessidades de melhoria no produto e novas ferramentas a serem 
 
 ### 2.2 Planejamento das Fases e/ou Iterações do Projeto
 
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVOiyJ58M=/?moveToViewport=-667,996,1888,760&embedId=414772771427" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
-![Planejamento de iteracoes](./assets/Ciclo_agil.png)
 >A imagem acima exemplifica o processo de desenvolvimento da equipe. As atividades acima dispostas ocorrerao dentro de CADA uma das sprints salvo as sprints 1 e 2 que foram de documentacao, planejamento e capacitacao da equipe.
 
 |Sprint|Produto(Entrega)|Data Inicio|Data Fim|
