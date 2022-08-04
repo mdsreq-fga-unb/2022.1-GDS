@@ -1,6 +1,6 @@
 <h1 align="center"> GDS </h1>
 
-<div align=center">
+<div align="center">
 	<img src="./docs/assets/GDS.png/" alt="Logotipo Guardiões da saúde">
 </div>
 
