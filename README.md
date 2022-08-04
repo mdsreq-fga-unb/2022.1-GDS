@@ -1,8 +1,6 @@
 <h1 align="center"> GDS </h1>
 
-<p align="center">
-  <img src="https://pbs.twimg.com/profile_images/1270545909223436288/wJF4tcEo_400x400.jpg" width="500" hight="500">
-</p>
+![Logotipo GDS](./docs/assets/GDS.png)
 
 # 👨‍💻 Integrantes da Equipe (MDS)
 
