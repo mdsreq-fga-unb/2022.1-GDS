@@ -549,6 +549,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td align="center"></td>
     </tr>
   </tbody>
+</table>
 
 | Legenda (prioridades) | Definição |
 |-----------------------|-----------|
