@@ -1,6 +1,8 @@
 <h1 align="center"> GDS </h1>
 
-![Logotipo GDS](./docs/assets/GDS.png)
+<div align=center">
+	![Logotipo GDS](./docs/assets/GDS.png)
+</div>
 
 # 👨‍💻 Integrantes da Equipe (MDS)
 
