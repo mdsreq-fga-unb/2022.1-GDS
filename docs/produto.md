@@ -370,118 +370,10 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
 - RF25: Vizualizar conteúdo do curso (APP)
 - RF26: Notificar o usuário até o reporte ser realizado (APP)
 - RF27: Criar quiz (WEB)
-- RF28: Editar quiz (WEB)
-- RF29: Remover quiz (WEB)
 - RF30: Visualizar dados sobre o quiz (WEB)
 - RF31: Criar curso (WEB)
 
 <table style="width:100%">
-  <thead>
-    <tr>
-      <th>ÉPICO-v2</th>
-      <th>FEATURE</th>
-      <th>ID</th>
-      <th>HISTÓRIA</th>
-      <th>PRIORIDADE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="4">Modificações no App</td>
-      <td rowspan="2">Registrar reportes ao menos uma vez na semana</td>
-      <td>US - 01</td>
-      <td>Eu, como usuário do produto, quero fazer meu reporte ao menos uma vez na semana, com o intuito de registrar meu estado de saúde nesse período de tempo</td>
-      <td align="center"></td>
-    </tr>
-    <tr>
-      <td>US - 02</td>
-      <td>Eu, como usuário do produto, quero ser notificado do reporte, para que eu lembre de fazer o reporte semanal</td>
-      <td align="center"></td>
-    </tr>
-    <tr>
-      <td rowspan="2">Visualizar histórico de saúde</td>
-      <td>US - 03</td>
-      <td>Eu, como usuário do produto, quero poder ver os sintomas dos dias em que eu estive mal, com o intuito de saber o que estava sentindo naquele dia</td>
-      <td align="center"></td>
-    </tr>
-    <tr>
-      <td>US - 04</td>
-      <td>Eu, como usuário do produto, quero saber quantos dias tive os mesmos sintomas, com o intuito saber quantos dias eu permaneci </td>
-      <td align="center"></td>
-    </tr>
-    <tr>
-      <td rowspan="9">Quiz</td>
-      <td rowspan="4">Responder o quiz</td>
-      <td>US - 05</td>
-      <td>Eu, como usuário do produto, quero responder os quizzes disponibilizados para mim, com o intuito de testar meus conhecimentos adquiridos sobre o tema</td>
-      <td align="center"></td>
-    </tr>
-    <tr>
-      <td>US - 06</td>
-      <td>Eu, como usuário do produto, quero poder responder novamente o quiz caso sinta a necessidade, com o intuito de aumentar minha nota neste quiz respondido</td>
-      <td align="center"></td>
-    </tr>
-    <tr>
-      <td>US - 07</td>
-      <td>Eu, como usuário do produto, quero visualizar o resultado das questões do quiz quando acabar de responde-lo, com o intuito de observar as respostas das questões que foram respondidas</td>
-      <td align="center"></td>
-    </tr>
-    <tr>
-      <td>US - 08</td>
-      <td>Eu, como usuário do produto, quero ser notificado caso ainda não tenha respondido algum quiz do módulo, com o intuito de não esquecer nenhum quiz sem ser respondido</td>
-      <td align="center"></td>
-    </tr>
-    <tr>
-      <td rowspan="3">Visualizar status do quiz</td>
-      <td>US - 09</td>
-      <td>Eu, como usuário do produto, quero poder visualizar se os quizzes ainda não foram respondidos no módulo, com o intuito de saber qual quiz ainda não foi respondido</td>
-      <td align="center"></td>
-    </tr>
-    <tr>
-      <td>US - 10</td>
-      <td>Eu, como usuário do produto, quero poder visualizar se os quizzes então em aberto, com o intuito de saber se algum quiz não foi terminado</td>
-      <td align="center"></td>
-    </tr>
-    <tr>
-      <td>US - 11</td>
-      <td>Eu, como usuário do produto, quero poder visualizar se os quizzes foram respondidos, com o intuito de saber quais módulos foram feitos</td>
-      <td align="center"></td>
-    </tr>
-    <tr>
-      <td rowspan="2">Visualizar nota dos quizzes</td>
-      <td>US - 12</td>
-      <td>Eu, como usuário do produto, quero poder visualizar as notas dos quizzes que foram respondidos, com o intuito de saber meu desempenho</td>
-      <td align="center"></td>
-    </tr>
-    <tr>
-      <td>US - 13</td>
-      <td>Eu, como usuário do produto, quero poder visualizar a média das notas dos quizzes por módulo, com o intuito de saber meu desempenho em cada módulo</td>
-      <td align="center"></td>
-    </tr>
-    <tr>
-      <td rowspan="4">Curso</td>
-      <td rowspan="2">Visualizar dados do curso</td>
-      <td>US - 14</td>
-      <td>Eu, como usuário do produto, quero poder visualizar tema de cada módulo do curso, com o intuito de saber o que será abordado</td>
-      <td align="center"></td>
-    </tr>
-    <tr>
-      <td>US - 15</td>
-      <td>Eu, como usuário do produto, quero poder visualizar quanto módulos estão disponíveis para serem vistos, com o intuito de saber a quantidade de conteúdo para ser estudado</td>
-      <td align="center"></td>
-    </tr>
-    <tr>
-      <td rowspan="2">Visualizar conteúdo do curso</td>
-      <td>US - 16</td>
-      <td>Eu, como usuário do produto, quero poder visualizar os link de redirecionamento para os conteúdos dos curso, com o intuito de estudar o assunto abordado</td>
-    <td align="center"></td>
-    </tr>
-    <tr>
-      <td>US - 17</td>
-      <td>Eu, como usuário do produto, quero poder visualizar se o conteúdo do curso já foi acessado, com o intuito de saber se quais conteúdos já foram vistos</td>
-      <td align="center"></td>
-    </tr>
-  </tbody>
   <thead>
     <tr>
       <th>ÉPICO</th>
@@ -493,10 +385,10 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
   </thead>
   <tbody>
     <tr>
-      <td rowspan="3">Reporte Semanal (mobile)</td>
-      <td rowspan="3">Reporte semanal</td>
+      <td rowspan="6">Modificações no App</td>
+      <td rowspan="2">Registrar reportes ao menos uma vez na semana (APP)</td>
       <td>US - 01</td>
-      <td>Eu, como instituição, quero receber pelo menos um reporte por semana de cada usuário, para registrar a taxa de contaminação</td>
+      <td>Eu, como usuário do produto, quero fazer meu reporte ao menos uma vez na semana, com o intuito de registrar meu estado de saúde nesse período de tempo</td>
       <td align="center"></td>
     </tr>
     <tr>
@@ -505,29 +397,30 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td align="center"></td>
     </tr>
     <tr>
+      <td rowspan="2">Visualizar histórico de saúde (APP)</td>
       <td>US - 03</td>
-      <td>Eu, como usuário do produto, quero não ser mais notificado caso já tenha realizado o reporte, para que não seja incomodado já tendo feito o reporte</td>
+      <td>Eu, como usuário do produto, quero poder ver os sintomas dos dias em que eu estive mal, com o intuito de saber o que estava sentindo naquele dia</td>
       <td align="center"></td>
     </tr>
     <tr>
-      <td rowspan="12">Quizes</td>
-      <td rowspan="3">Criar um curso por módulo</td>
       <td>US - 04</td>
-      <td>Eu, como instituição, quero inserir informações sobre o conteúdo que será estudado, para que os usuários tenham um material para se informarem sobre os assuntos dos quizzes</td>
+      <td>Eu, como usuário do produto, quero saber quantos dias tive os mesmos sintomas, com o intuito saber quantos dias eu permaneci sintomático</td>
       <td align="center"></td>
     </tr>
     <tr>
+      <td rowspan="2">Notificar o usuário até o reporte ser realizado (APP)</td>
       <td>US - 05</td>
-      <td>Eu, como instituição, quero editar as informações inseridas no curso, para que eu consiga editar as informações caso necessário</td>
+      <td>Eu, como instituição, quero receber pelo menos um reporte por semana de cada usuário, para registrar a taxa de contaminação</td>
       <td align="center"></td>
     </tr>
     <tr>
       <td>US - 06</td>
-      <td>Eu, como instituição, quero poder excluir um curso, para que eu consiga remover um curso que não é mais necessário</td>
+      <td>Eu, como usuário do produto, não quero ser mais notificado caso já tenha realizado o reporte, para que não seja incomodado já tendo os realizado</td>
       <td align="center"></td>
     </tr>
     <tr>
-      <td rowspan="3">Criar quiz semanal</td>
+      <td rowspan="17">Quiz</td>
+      <td rowspan="3">Criar quiz (WEB)</td>
       <td>US - 07</td>
       <td>Eu, como instituição, quero criar quiz para avaliar o conhecimento dos estudantes, para dar um estímulo para ser um conhecimento básico sobre saúde</td>
       <td align="center"></td>
@@ -543,33 +436,119 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td align="center"></td>
     </tr>
     <tr>
-      <td rowspan="5">Dados do quiz</td>
+      <td rowspan="4">Responder o quiz (APP)</td>
       <td>US - 10</td>
-      <td>Eu, como usuário do produto, quero saber qual foi minha nota no quiz para saber se fui aprovado e avaliar meus conhecimentos</td>
+      <td>Eu, como usuário do produto, quero responder os quizzes disponibilizados para mim, com o intuito de testar meus conhecimentos adquiridos sobre o tema</td>
       <td align="center"></td>
     </tr>
     <tr>
       <td>US - 11</td>
-      <td>Eu, como usuário do produto, quero saber se passei no quiz ou se preciso fazer novamente para não perder nenhuma avaliação</td>
+      <td>Eu, como usuário do produto, quero poder responder novamente o quiz caso sinta a necessidade, com o intuito de aumentar minha nota neste quiz respondido</td>
       <td align="center"></td>
     </tr>
     <tr>
       <td>US - 12</td>
-      <td>Eu, como usuário do produto, quero poder fazer o quiz novamente caso queira para aumentar minha nota ou não tenha obtido nota suficiente</td>
+      <td>Eu, como usuário do produto, quero visualizar o resultado das questões do quiz quando acabar de responde-lo, com o intuito de observar as respostas das questões que foram respondidas</td>
       <td align="center"></td>
     </tr>
     <tr>
       <td>US - 13</td>
+      <td>Eu, como usuário do produto, quero ser notificado caso ainda não tenha respondido algum quiz do módulo, com o intuito de não esquecer nenhum quiz sem ser respondido</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td rowspan="3">Visualizar status do quiz (APP)</td>
+      <td>US - 14</td>
+      <td>Eu, como usuário do produto, quero poder visualizar se os quizzes ainda não foram respondidos no módulo, com o intuito de saber qual quiz ainda não foi respondido</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td>US - 15</td>
+      <td>Eu, como usuário do produto, quero poder visualizar se os quizzes estão em aberto, com o intuito de saber se algum quiz não foi terminado</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td>US - 16</td>
+      <td>Eu, como usuário do produto, quero poder visualizar se os quizzes foram respondidos, com o intuito de saber quais módulos foram feitos</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td rowspan="3">Dados do quiz (WEB)</td>
+      <td>US - 17</td>
       <td>Eu, como instituição, quero visualizar como os estudantes se saíram no quiz para avaliar seus conhecimentos</td>
       <td align="center"></td>
     </tr>
     <tr>
-      <td>US - 14</td>
-      <td>Eu, como usuário do produto, quero saber se já completei o quiz para avaliar meus conhecimentos</td>
+      <td>US - 18</td>
+      <td>Eu, como instituição, quero visualizar o nome do estudante que fez o quiz, para poder avalia-lo corretamente</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td>US - 19</td>
+      <td>Eu, como instituição, quero visualizar a matrícula do estudante que fez o quiz, para poder avalia-lo corretamente</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td rowspan="4">Visualizar nota dos quizzes (APP)</td>
+      <td>US - 20</td>
+      <td>Eu, como usuário do produto, quero poder visualizar as notas dos quizzes que foram respondidos, com o intuito de saber meu desempenho</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td>US - 21</td>
+      <td>Eu, como usuário do produto, quero poder visualizar a média das notas dos quizzes por módulo, com o intuito de saber meu desempenho em cada módulo</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td>US - 22</td>
+      <td>Eu, como usuário do produto, quero saber se passei no quiz ou se preciso fazer novamente para não perder nenhuma avaliação</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td>US - 23</td>
+      <td>Eu, como usuário do produto, quero poder fazer o quiz novamente caso queira para aumentar minha nota ou não tenha obtido nota suficiente</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td rowspan="7">Curso</td>
+      <td rowspan="3">Criar curso (WEB)</td>
+      <td>US - 24</td>
+      <td>Eu, como instituição, quero inserir informações sobre o conteúdo que será estudado, para que os usuários tenham um material para se informarem sobre os assuntos dos quizzes</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td>US - 25</td>
+      <td>Eu, como instituição, quero editar as informações inseridas no curso, para que estejam sempre atualizadas</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td>US - 26</td>
+      <td>Eu, como instituição, quero poder excluir um curso, para que eu consiga remover um curso que não é mais necessário</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td rowspan="2">Visualizar dados do curso (APP)</td>
+      <td>US - 27</td>
+      <td>Eu, como usuário do produto, quero poder visualizar tema de cada módulo do curso, com o intuito de saber o que será abordado</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td>US - 28</td>
+      <td>Eu, como usuário do produto, quero poder visualizar quanto módulos estão disponíveis para serem vistos, com o intuito de saber a quantidade de conteúdo para ser estudado</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td rowspan="2">Visualizar conteúdo do curso (APP)</td>
+      <td>US - 29</td>
+      <td>Eu, como usuário do produto, quero poder visualizar os link de redirecionamento para os conteúdos dos curso, com o intuito de estudar o assunto abordado</td>
     <td align="center"></td>
     </tr>
+    <tr>
+      <td>US - 30</td>
+      <td>Eu, como usuário do produto, quero poder visualizar se o conteúdo do curso já foi acessado, com o intuito de saber se quais conteúdos já foram vistos</td>
+      <td align="center"></td>
+    </tr>
   </tbody>
-</table>
 
 | Legenda (prioridades) | Definição |
 |-----------------------|-----------|
