@@ -29,7 +29,8 @@
   - 5.1 Requisitos funcionais
     - 5.1.1 Lista de Requisitos Funcionais (Reengenharia)
     - 5.1.2 Lista de Requisitos Funcionais (Clientes)
-    - 5.2 Requisitos Funcionais - SAFe
+    - 5.2.1 Requisitos Funcionais - SAFe
+    - 5.2.2 Requisitos não funcionais
 - 6 Referências Bibliográficas
 
 ## Visão do Produto e Projeto
@@ -364,6 +365,8 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
 - RF30: Visualizar dados sobre o quiz (WEB)
 - RF31: Criar curso (WEB)
 
+#### 5.2.1 SAFE
+
 <table style="width:100%">
   <thead>
     <tr>
@@ -520,7 +523,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
     <tr>
       <td rowspan="2">Visualizar dados do curso (APP)</td>
       <td>US - 27</td>
-      <td>Eu, como usuário do produto, quero poder visualizar tema de cada módulo do curso, com o intuito de saber o que será abordado</td>
+      <td>Eu, como usuário do produto, quero poder visualizar tema de cada curso do módulo, com o intuito de saber o que será abordado</td>
       <td align="center"></td>
     </tr>
     <tr>
@@ -548,7 +551,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
 | Média |  Requisitos importantes que podem ser postergados |
 | Baixa |  Requisitos sem os quais o Sistema funciona de maneira satisfatória |
 
-# Requisitos não funcionais
+#### 5.2.2 Requisitos não funcionais
 
 <table>
   <thead>
