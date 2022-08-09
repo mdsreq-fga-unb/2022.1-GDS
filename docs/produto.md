@@ -364,6 +364,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
 - RF27: Criar quiz (WEB)
 - RF30: Visualizar dados sobre o quiz (WEB)
 - RF31: Criar curso (WEB)
+- RF32: Visualizar resultado dos quizzes (WEB)
 
 #### 5.2.1 SAFE
 
@@ -413,7 +414,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td align="center"></td>
     </tr>
     <tr>
-      <td rowspan="19">Quiz</td>
+      <td rowspan="23">Quiz</td>
       <td rowspan="3">Criar quiz (WEB)</td>
       <td>US - 07</td>
       <td>Eu, como instituição, quero criar quiz para avaliar o conhecimento dos estudantes, para dar um estímulo para ser um conhecimento básico sobre saúde</td>
@@ -512,6 +513,27 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
     <tr>
       <td>US - 25</td>
       <td>Eu, como usuário do produto, quero poder fazer o quiz novamente caso queira para aumentar minha nota ou não tenha obtido nota suficiente</td>
+      <td align="center"></td>
+    </tr>
+     <tr>
+      <td rowspan="4">Visualizar resultado dos quizzes</td>
+      <td>US - 22</td>
+      <td>Eu, como instituição, quero saber a média da nota dos módulos disponibilizados</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td>US - 22</td>
+      <td>Eu, como instituição, quero saber a nota dos quizzes disponibilizados</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td>US - 22</td>
+      <td>Eu, como instituição, quero saber o nome do usuário e suas respectivas notas</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td>US - 22</td>
+      <td>Eu, como instituição, quero saber a matrícula do usuário e suas respectivas notas</td>
       <td align="center"></td>
     </tr>
     <tr>
