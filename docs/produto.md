@@ -430,7 +430,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td align="center"></td>
     </tr>
     <tr>
-      <td rowspan="2">Notificação do quiz</td>
+      <td rowspan="2">Notificação do quiz (APP)</td>
       <td>US - 10</td>
       <td>Eu, como usuário do produto, quero receber notificação de quizzes novos para não esquecer de realizar nenhum.</td>
       <td align="center"></td>
