@@ -84,9 +84,9 @@ Cliente|Definir necessidades de melhoria no produto e novas ferramentas a serem 
 | Sprint 2 | Definicao do MVP, Negociacao dos Requisitos, Dojos de capacitacao | 27/06/22| 08/07/22 |
 | Sprint 3 | Ajuste do ambiente de desenvolvimento | 11/07/22 | 22/07/22 |
 | Sprint 4 | Protótipo de tela | 25/07/22| 05/08/22 |
-| Sprint 5 | Desenvolvimento de ... | 08/08/22 | 19/08/22 |
-| Sprint 6 | Desenvolvimento de ... | 22/08/22 | 02/09/22 |
-| Sprint 7 | Desenvolvimento de ... | 05/09/22 | 16/09/22 |
+| Sprint 5 | Desenvolvimento do MVP 1 | 08/08/22 | 19/08/22 |
+| Sprint 6 | Desenvolvimento do MVP 2 | 22/08/22 | 02/09/22 |
+| Sprint 7 | Desenvolvimento do MVP 2 | 05/09/22 | 16/09/22 |
 | Sprint 8* | Entrega do projeto | 19/09/22 | 23/09/22 |
 
 >*= A sprint 8 sera de apenas 1 semana, por ser a sprint de entrega do projeto desenvolvido.
