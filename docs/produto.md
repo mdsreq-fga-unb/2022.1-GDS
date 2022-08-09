@@ -362,8 +362,9 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
 - RF25: Vizualizar conteúdo do curso (APP)
 - RF26: Notificar o usuário até o reporte ser realizado (APP)
 - RF27: Criar quiz (WEB)
-- RF30: Visualizar dados sobre o quiz (WEB)
-- RF31: Criar curso (WEB)
+- RF28: Visualizar dados sobre o quiz (WEB)
+- RF29: Criar curso (WEB)
+- RF30: Visualizar resultado dos quizzes (WEB)
 
 #### 5.2.1 SAFE
 
@@ -413,7 +414,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td align="center"></td>
     </tr>
     <tr>
-      <td rowspan="19">Quiz</td>
+      <td rowspan="23">Quiz</td>
       <td rowspan="3">Criar quiz (WEB)</td>
       <td>US - 07</td>
       <td>Eu, como instituição, quero criar quiz para avaliar o conhecimento dos estudantes, para dar um estímulo para ser um conhecimento básico sobre saúde</td>
@@ -514,42 +515,63 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td>Eu, como usuário do produto, quero poder fazer o quiz novamente caso queira para aumentar minha nota ou não tenha obtido nota suficiente</td>
       <td align="center"></td>
     </tr>
-    <tr>
-      <td rowspan="7">Curso</td>
-      <td rowspan="3">Criar curso (WEB)</td>
+     <tr>
+      <td rowspan="4">Visualizar resultado dos quizzes</td>
       <td>US - 26</td>
-      <td>Eu, como instituição, quero inserir informações sobre o conteúdo que será estudado, para que os usuários tenham um material para se informarem sobre os assuntos dos quizzes</td>
+      <td>Eu, como instituição, quero saber a média da nota dos módulos disponibilizados</td>
       <td align="center"></td>
     </tr>
     <tr>
       <td>US - 27</td>
-      <td>Eu, como instituição, quero editar as informações inseridas no curso, para que estejam sempre atualizadas</td>
+      <td>Eu, como instituição, quero saber a nota dos quizzes disponibilizados</td>
       <td align="center"></td>
     </tr>
     <tr>
       <td>US - 28</td>
+      <td>Eu, como instituição, quero saber o nome do usuário e suas respectivas notas</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td>US - 29</td>
+      <td>Eu, como instituição, quero saber a matrícula do usuário e suas respectivas notas</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td rowspan="7">Curso</td>
+      <td rowspan="3">Criar curso (WEB)</td>
+      <td>US - 30</td>
+      <td>Eu, como instituição, quero inserir informações sobre o conteúdo que será estudado, para que os usuários tenham um material para se informarem sobre os assuntos dos quizzes</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td>US - 31</td>
+      <td>Eu, como instituição, quero editar as informações inseridas no curso, para que estejam sempre atualizadas</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td>US - 32</td>
       <td>Eu, como instituição, quero poder excluir um curso, para que eu consiga remover um curso que não é mais necessário</td>
       <td align="center"></td>
     </tr>
     <tr>
       <td rowspan="2">Visualizar dados do curso (APP)</td>
-      <td>US - 29</td>
+      <td>US - 33</td>
       <td>Eu, como usuário do produto, quero poder visualizar tema de cada curso do módulo, com o intuito de saber o que será abordado</td>
       <td align="center"></td>
     </tr>
     <tr>
-      <td>US - 30</td>
+      <td>US - 34</td>
       <td>Eu, como usuário do produto, quero poder visualizar quanto módulos estão disponíveis para serem vistos, com o intuito de saber a quantidade de conteúdo para ser estudado</td>
       <td align="center"></td>
     </tr>
     <tr>
       <td rowspan="2">Visualizar conteúdo do curso (APP)</td>
-      <td>US - 31</td>
+      <td>US - 35</td>
       <td>Eu, como usuário do produto, quero poder visualizar os link de redirecionamento para os conteúdos dos curso, com o intuito de estudar o assunto abordado</td>
     <td align="center"></td>
     </tr>
     <tr>
-      <td>US - 32</td>
+      <td>US - 36</td>
       <td>Eu, como usuário do produto, quero poder visualizar se o conteúdo do curso já foi acessado, com o intuito de saber se quais conteúdos já foram vistos</td>
       <td align="center"></td>
     </tr>
