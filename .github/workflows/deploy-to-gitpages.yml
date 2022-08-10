@@ -1,11 +1,9 @@
 name: Deploy to gitpages
 on:
     push:
-        branches:
-            - main
+        branches: ['main']
     pull_request:
-        branches:
-            - main
+        branches: ['main']
 jobs:
     deploy:
         runs-on: ubuntu-latest
