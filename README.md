@@ -34,11 +34,6 @@ O guardiões da saúde é uma solução que foi desenvolvida graças a uma parce
 
 O projeto visa realizar a reengenharia e implementação de novas funções no aplicativo Guardiões da Saúde e foi desenvolvido por uma equipe de alunos da matéria de Métodos de Desenvolvimento de Software e Requisitos de Software.
 
-# 📦 Releases
-
-Release 
-
-
 # ⚙️ Tecnologias utilizadas
 
 As tecnologias foram escolhidas de acordo com as tecnologias utilizadas no projeto GDS.

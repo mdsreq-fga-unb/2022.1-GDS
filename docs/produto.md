@@ -22,7 +22,7 @@
 - 4 Processo de Engenharia de Requisitos
   - 4.1 Elicitação de Requisitos
   - 4.2 Análise de Requisitos
-  - 4.3 Documetação de Requisitos
+  - 4.3 Documentação de Requisitos
   - 4.4 Verificação e Validação de requisitos
   - 4.5 Gerenciamento de Requisitos
 - 5 Escopo do Produto
@@ -84,9 +84,9 @@ Cliente|Definir necessidades de melhoria no produto e novas ferramentas a serem 
 | Sprint 2 | Definicao do MVP, Negociacao dos Requisitos, Dojos de capacitacao | 27/06/22| 08/07/22 |
 | Sprint 3 | Ajuste do ambiente de desenvolvimento | 11/07/22 | 22/07/22 |
 | Sprint 4 | Protótipo de tela | 25/07/22| 05/08/22 |
-| Sprint 5 | Desenvolvimento de ... | 08/08/22 | 19/08/22 |
-| Sprint 6 | Desenvolvimento de ... | 22/08/22 | 02/09/22 |
-| Sprint 7 | Desenvolvimento de ... | 05/09/22 | 16/09/22 |
+| Sprint 5 | Desenvolvimento do MVP 1 | 08/08/22 | 19/08/22 |
+| Sprint 6 | Desenvolvimento do MVP 2 | 22/08/22 | 02/09/22 |
+| Sprint 7 | Desenvolvimento do MVP 2 | 05/09/22 | 16/09/22 |
 | Sprint 8* | Entrega do projeto | 19/09/22 | 23/09/22 |
 
 >*= A sprint 8 sera de apenas 1 semana, por ser a sprint de entrega do projeto desenvolvido.
@@ -372,6 +372,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
   <thead>
     <tr>
       <th>ÉPICO</th>
+      <th>ID</th>
       <th>FEATURE</th>
       <th>ID</th>
       <th>HISTÓRIA</th>
@@ -381,6 +382,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
   <tbody>
     <tr>
       <td rowspan="6">Modificações no App</td>
+      <td rowspan="2">FT - 01</td>
       <td rowspan="2">Registrar reportes ao menos uma vez na semana (APP)</td>
       <td>US - 01</td>
       <td>Eu, como usuário do produto, quero fazer meu reporte ao menos uma vez na semana, com o intuito de registrar meu estado de saúde nesse período de tempo</td>
@@ -392,6 +394,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td align="center"></td>
     </tr>
     <tr>
+      <td rowspan="2">FT - 02</td>
       <td rowspan="2">Visualizar histórico de saúde (APP)</td>
       <td>US - 03</td>
       <td>Eu, como usuário do produto, quero poder ver os sintomas dos dias em que eu estive mal, com o intuito de saber o que estava sentindo naquele dia</td>
@@ -403,6 +406,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td align="center"></td>
     </tr>
     <tr>
+      <td rowspan="2">FT - 03</td>
       <td rowspan="2">Notificar o usuário até o reporte ser realizado (APP)</td>
       <td>US - 05</td>
       <td>Eu, como instituição, quero receber pelo menos um reporte por semana de cada usuário, para registrar a taxa de contaminação</td>
@@ -415,6 +419,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
     </tr>
     <tr>
       <td rowspan="23">Quiz</td>
+      <td rowspan="3">FT - 04</td>
       <td rowspan="3">Criar quiz (WEB)</td>
       <td>US - 07</td>
       <td>Eu, como instituição, quero criar quiz para avaliar o conhecimento dos estudantes, para dar um estímulo para ser um conhecimento básico sobre saúde</td>
@@ -431,6 +436,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td align="center"></td>
     </tr>
     <tr>
+      <td rowspan="2">FT - 05</td>
       <td rowspan="2">Notificação do quiz (APP)</td>
       <td>US - 10</td>
       <td>Eu, como usuário do produto, quero receber notificação de quizzes novos para não esquecer de realizar nenhum.</td>
@@ -442,6 +448,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td align="center"></td>
     </tr>
     <tr>
+      <td rowspan="4">FT - 06</td>
       <td rowspan="4">Responder o quiz (APP)</td>
       <td>US - 12</td>
       <td>Eu, como usuário do produto, quero responder os quizzes disponibilizados para mim, com o intuito de testar meus conhecimentos adquiridos sobre o tema</td>
@@ -463,6 +470,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td align="center"></td>
     </tr>
     <tr>
+      <td rowspan="3">FT - 07</td>
       <td rowspan="3">Visualizar status do quiz (APP)</td>
       <td>US - 16</td>
       <td>Eu, como usuário do produto, quero poder visualizar se os quizzes ainda não foram respondidos no módulo, com o intuito de saber qual quiz ainda não foi respondido</td>
@@ -479,6 +487,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td align="center"></td>
     </tr>
     <tr>
+      <td rowspan="3">FT - 08</td>
       <td rowspan="3">Dados do quiz (WEB)</td>
       <td>US - 19</td>
       <td>Eu, como instituição, quero visualizar como os estudantes se saíram no quiz para avaliar seus conhecimentos</td>
@@ -495,6 +504,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td align="center"></td>
     </tr>
     <tr>
+      <td rowspan="4">FT - 09</td>
       <td rowspan="4">Visualizar nota dos quizzes (APP)</td>
       <td>US - 22</td>
       <td>Eu, como usuário do produto, quero poder visualizar as notas dos quizzes que foram respondidos, com o intuito de saber meu desempenho</td>
@@ -516,6 +526,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td align="center"></td>
     </tr>
      <tr>
+      <td rowspan="4">FT - 10</td>
       <td rowspan="4">Visualizar resultado dos quizzes</td>
       <td>US - 26</td>
       <td>Eu, como instituição, quero saber a média da nota dos módulos disponibilizados</td>
@@ -538,6 +549,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
     </tr>
     <tr>
       <td rowspan="7">Curso</td>
+      <td rowspan="3">FT - 11</td>
       <td rowspan="3">Criar curso (WEB)</td>
       <td>US - 30</td>
       <td>Eu, como instituição, quero inserir informações sobre o conteúdo que será estudado, para que os usuários tenham um material para se informarem sobre os assuntos dos quizzes</td>
@@ -554,6 +566,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td align="center"></td>
     </tr>
     <tr>
+      <td rowspan="2">FT - 12</td>
       <td rowspan="2">Visualizar dados do curso (APP)</td>
       <td>US - 33</td>
       <td>Eu, como usuário do produto, quero poder visualizar tema de cada curso do módulo, com o intuito de saber o que será abordado</td>
@@ -565,6 +578,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td align="center"></td>
     </tr>
     <tr>
+      <td rowspan="2">FT - 13</td>
       <td rowspan="2">Visualizar conteúdo do curso (APP)</td>
       <td>US - 35</td>
       <td>Eu, como usuário do produto, quero poder visualizar os link de redirecionamento para os conteúdos dos curso, com o intuito de estudar o assunto abordado</td>
@@ -577,6 +591,8 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
     </tr>
   </tbody>
 </table>
+
+teste
 
 | Legenda (prioridades) | Definição |
 |-----------------------|-----------|
