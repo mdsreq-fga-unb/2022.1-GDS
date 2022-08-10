@@ -64,4 +64,4 @@ Primeiro verifique se você atende aos seguintes requisitos:
 
 #  📜 Documentação
 
-A documentação pode ser encontrada na [nossa página](https://mdsreq-fga-unb.github.io/2022.1-GDS/) do Github pages.
+A documentação pode ser encontrada no [git pages do projeto](https://mdsreq-fga-unb.github.io/2022.1-GDS/).
