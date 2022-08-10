@@ -605,7 +605,7 @@ teste
 <table>
   <thead>
     <tr>
-      <th>Requisitos Não Funcionais (Classificação)</th>
+      <th>Requisitos Não Funcionais  (Classificação)</th>
       <th>RNf</th>
     </tr>
   </thead>
