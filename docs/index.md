@@ -1,6 +1,6 @@
 # Bem-vindo ao projeto
 
-O projeto de reengenharia e implementação de novas funções no aplicativo Guardiões da Saúde foi desenvolvido por uma equipe de alunos da matéria de Métodos de Desenvolvimento de Software e Requisitos de Software.
+O projeto de reengenharia e implementação de novas funções no aplicativo Guardiões da Saúde foi desenvolvido por uma equipe composta por alunos da matéria de Métodos de Desenvolvimento de Software e Requisitos de Software.
 
 ## Colaboradores
 
