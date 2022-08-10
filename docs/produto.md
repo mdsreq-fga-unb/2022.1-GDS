@@ -1,7 +1,7 @@
 # Visão Do Produto e Projeto
 
 ## Sumário
-
+teste
 - 1 Visão Geral do Produto
   - 1.1 Declaração de Posição do Produto
   - 1.2 Objetivos do Produto
@@ -605,7 +605,7 @@ teste
 <table>
   <thead>
     <tr>
-      <th>Requisitos Não Funcionais  (Classificação)</th>
+      <th>Requisitos Não Funcionais (Classificação)</th>
       <th>RNf</th>
     </tr>
   </thead>
