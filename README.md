@@ -46,8 +46,6 @@ As tecnologias foram escolhidas de acordo com as tecnologias utilizadas no proje
 
 Primeiro verifique se você atende aos seguintes requisitos:
 
-
-
 # 🤝 Colaboradores
 
 ## Equipe MDS
