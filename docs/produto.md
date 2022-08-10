@@ -666,3 +666,5 @@ teste
 </table>
 
 ## 6 Referências bibliográficas
+
+SWEBOK v3.0 - Guide to the Software Engineering body of knowledge
