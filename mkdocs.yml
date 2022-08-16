@@ -20,4 +20,5 @@ nav:
           - PBB: PBB.md
           - Licoes Aprendidas: licoes_aprendidas.md
           - Reportes: report.md
+          - Documento de Arquitetura: arquitetura.md
     - Entregas: entregas.md
