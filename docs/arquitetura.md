@@ -19,7 +19,7 @@ Este documento tem como objetivo apresentar a arquitetura de software do projeto
 | UnB | Universidade de Brasília |
 | SAFe | Scaled Agile Framework |
 
-### 2.1 Javascript+
+### 2.1 Javascript
 O JavaScript foi criado na década de 90. É uma linguagem de programação de alto nível, funcional, imperativa e versátil. Ele deixa o site mais interativo e dinâmico, além de controlar os elementos de um site em tempo real sem precisar receber dados ou resposta do servidor, ou seja, uma página pode ter o conteúdo atualizado sem precisar recarregá-la completamente quando for preencher um formulário.
 
 A utilidade principal do JavaScript é escrever scripts e funções que são adicionados em uma página HTML com atualizações das informações e interações dinâmicas com o conteúdo da página. O JavaScript pode enviar e receber dados do servidor de modo síncrono ou assíncrono com o processamento, validação e a exibição das info.
@@ -53,11 +53,14 @@ Esse ambiente de execução é ótimo para ser utilizado como base para uma bibl
 ## 3. Metas e Restrições arquiteturais
 
 ### 3.1 Suportabilidade
-O aplicativo pode ser utilizado sem problemas m dispositivos Android e iOS.
+É um aplicativo mobile que pode ser utilizado sem problemas em dispositivos Android e iOS através de um código somente, devido ao uso do React Native.
+
 ### 3.2 Usabilidade
 O programa terá a usabilidade dinâmica e intuitiva, de modo ágil e fácil para o usuário.
+
 ### 3.3 Tecnologias de Desenvolvimento
-As principais tecnologias utilizadas serão o JavaScript e o Ruby, pois são as bases das outras ferramentas para o desenvolvimento do projeto, as demais são biblioteca o nodeJS, a biblioteca Puppeteer e os frameworks Express JS e Vue JS.
+As principais tecnologias utilizadas serão o JavaScript e o Ruby, pois são as bases das outras ferramentas para o desenvolvimento do projeto, as demais são o nodeJs, a biblioteca Puppeteer e os frameworks Express JS e Vue JS.
+
 ### 3.4 Confiabilidade
 
 ## 4. SAFe
