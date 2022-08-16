@@ -138,15 +138,15 @@ Dentre as atividades das sprints, serão desempenhadas:
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
-| Planejamento de estrategias de desenvolvimento | | | |
+| Planejamento de estrategias de desenvolvimento | Reunião da equipe | Discord | Estratégias de desenvolvimento definidas |
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
-| Planejar estrategias da equipe | | | |
+| Planejar estratégias da equipe | Reunião em grupo | Discord | Estratégias da equipe definidas |
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
-| Definicao dos pares do pair programming | | | |
+| Definicao dos pares do pair programming | Reunião da equipe | Discord | Pares da semana formados |
 
 ### 3.2.2 Execução
 
@@ -160,7 +160,7 @@ Dentre as atividades das sprints, serão desempenhadas:
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
-| Desenvolvimento | | | |
+| Desenvolvimento | | Visual Studio Code |  |
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
@@ -176,7 +176,7 @@ Dentre as atividades das sprints, serão desempenhadas:
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
-| Prototipação | | | |
+| Prototipação |  | Figma | Protótipo de baixa e alta fidelidade |
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
@@ -186,7 +186,7 @@ Dentre as atividades das sprints, serão desempenhadas:
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
-| Validação com a equipe de Requisitos | | | |
+| Validação com a equipe de Requisitos | Reunião com o time de requisitos | Discord |  |
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
