@@ -29,8 +29,9 @@
   - 5.1 Requisitos funcionais
     - 5.1.1 Lista de Requisitos Funcionais (Reengenharia)
     - 5.1.2 Lista de Requisitos Funcionais (Clientes)
-    - 5.2.1 Requisitos Funcionais - SAFe
-    - 5.2.2 Requisitos não funcionais
+    - 5.2.1 Requisitos Funcionais - SAFe (Clientes)
+    - 5.2.2 Requisitos Funcionais - SAFe (Reengenharia)
+    - 5.3 Requisitos não funcionais
 - 6 Referências Bibliográficas
 
 ## Visão do Produto e Projeto
@@ -332,24 +333,26 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
 
 #### 5.1.1 Lista de Requisitos Funcionais (Reengenharia)
 
-- RF01: Realizar cadastro de uma nova conta (APP)
-- RF02: Recuperar a senha do usuário pelo e-mail cadastrado (APP)
-- RF03: Cadastrar dados da universidade (APP)
-- RF04: Reportar diariamente estado (APP)
-- RF05: Enviar notificações de report (APP)
-- RF06: Cadastrar vacinas (APP)
-- RF07: Mostrar dias que os reports foram feitos (APP)
-- RF08: Mostrar gráfico com porcentagem dos reports feitos (APP)
-- RF09: Informar localização de onde o report foi feito (APP)
-- RF10: Visualizar opções de dicas de saúde e higiene (APP)
-- RF11: Visualizar notícias do Twitter da Proepi (APP)
-- RF12: Cancelar participação no aplicativo (APP)
-- RF13: EEditar dados cadastrais do usuário (APP)
-- RF14: Visualizar número de reports seguidos marcados como bem (APP)
-- RF15: Adicionar mais contas conectadas ao aplicativo (APP)
-- RF16: Trocar de conta do usuário (APP)
-- RF17: Visualizar mapa hospitais/unidades de saúde (APP)
-- RF18: Acessar dados de reportes de saúde (APP)
+- RF01: Cadastrar nova conta de usuário (APP)
+- RF02: Cadastrar nova conta de administrador (WEB)
+- RF03: Recuperar a senha do usuário pelo e-mail cadastrado (APP)
+- RF03: Recuperar a senha de administrador pelo e-mail cadastrado (WEB)
+- RF05: Cadastrar dados do usuário (APP)
+- RF04: Cadastrar dados do administrador (WEB)
+- RF16: Adicionar mais contas conectadas ao aplicativo (APP)
+- RF17: Trocar de conta do usuário (APP)
+- RF13: Cancelar participação no aplicativo (APP)
+- RF05: Reportar diariamente estado de saúde(APP)
+- RF06: Enviar notificações de report (APP)
+- RF14: Editar dados cadastrais do usuário (APP)
+- RF07: Cadastrar vacinas (APP)
+- RF08: Mostrar dias que os reports foram feitos (APP)
+- RF09: Mostrar gráfico com porcentagem dos reports feitos (APP)
+- RF10: Informar localização de onde o report foi feito (APP)
+- RF11: Visualizar opções de dicas de saúde e higiene (APP)
+- RF12: Visualizar notícias do Twitter da Proepi (APP)
+- RF15: Visualizar número de reports seguidos marcados como bem (APP)
+- RF18: Visualizar mapa hospitais/unidades de saúde (APP)
 
 #### 5.1.2 Lista de Requisitos Funcionais (Clientes)
 
@@ -366,7 +369,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
 - RF29: Criar curso (WEB)
 - RF30: Visualizar resultado dos quizzes (WEB)
 
-#### 5.2.1 SAFE
+#### 5.2.1 SAFE (Definido com as clientes)
 
 <table style="width:100%">
   <thead>
@@ -425,7 +428,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td>Eu, como instituição, quero criar quiz para avaliar o conhecimento dos estudantes, para dar um estímulo para ser um conhecimento básico sobre saúde</td>
       <td align="center"></td>
     </tr>
-    <tr>
+    <tr>  
       <td>US - 08</td>
       <td>Eu, como instituição, quero poder editar o quiz, para que esteja sempre atualizado</td>
       <td align="center"></td>
@@ -598,7 +601,152 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
 | Média |  Requisitos importantes que podem ser postergados |
 | Baixa |  Requisitos sem os quais o Sistema funciona de maneira satisfatória |
 
-#### 5.2.2 Requisitos não funcionais
+#### 5.2.2 SAFE (Reengenharia)
+
+<table style="width:100%">
+  <thead>
+    <tr>
+      <th>ÉPICO</th>
+      <th>ID</th>
+      <th>FEATURE</th>
+      <th>ID</th>
+      <th>HISTÓRIA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="10">Autenticação</td>
+      <td rowspan="2">FT - 01</td>
+      <td rowspan="2">Realizar cadastro de uma nova conta de usuário (APP)</td>
+      <td>US - 01</td>
+      <td>Eu, como usuário do produto, desejo poder criar uma nova conta para que possa acessar as funcionalidades do APP</td>
+    </tr>
+    <tr>
+    <td>US - 02</td>
+    <td>Eu, como usuário do produto, quero poder me conectar na minha conta, para ter acesso as minhas funcionalidades</td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 02</td>
+      <td rowspan="1">Realizar cadastro de uma nova conta de administrador (WEB)</td>
+      <td>US - 03</td>
+      <td>Eu, como instituição, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 02</td>
+      <td rowspan="1">Cadastrar dados do usuário (APP)</td>
+      <td>US - 03</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 02</td>
+      <td rowspan="1">Cadastrar dados do administrador (WEB)</td>
+      <td>US - 03</td>
+      <td>Eu, como instituição, </td>
+    </tr> 
+    <tr>
+      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">Recuperar a senha do usuário pelo e-mail cadastrado (APP)</td>
+      <td>US - 05</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">Recuperar a senha do administrador pelo e-mail cadastrado (WEB)</td>
+      <td>US - 05</td>
+      <td>Eu, como instituição, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">Cancelar participação no aplicativo (APP)</td>
+      <td>US - 05</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">Adicionar mais contas conectadas ao aplicativo (APP)</td>
+      <td>US - 05</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">Trocar de conta do usuário (APP)</td>
+      <td>US - 05</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="2">Dados usuário</td>
+      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">Editar dados cadastrais do usuário (APP)</td>
+      <td>US - 05</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">Cadastrar vacinas (APP)</td>
+      <td>US - 05</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">Notificação</td>
+      <td rowspan="1">FT - 04</td>
+      <td rowspan="1">Enviar notificações de report (APP)</td>
+      <td>US - 01</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="2">Informação</td>
+      <td rowspan="2">FT - 11</td>
+      <td rowspan="1">Visualizar opções de dicas de saúde e higiene (APP)</td>
+      <td>US - 30</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+    <td rowspan="1">Visualizar notícias do Twitter da Proepi (APP)</td>
+    <td>US - </td>
+    <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="5">Reporte</td>
+      <td rowspan="1">FT - 11</td>
+      <td rowspan="1">Reportar diariamente estado de saúde(APP)</td>
+      <td>US - 30</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 11</td>
+      <td rowspan="1">Mostrar dias que os reports foram feitos (APP)</td>
+      <td>US - 30</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 11</td>
+      <td rowspan="1">Mostrar gráfico com porcentagem dos reports feitos (APP)</td>
+      <td>US - 30</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 11</td>
+      <td rowspan="1">Informar localização de onde o report foi feito (APP)</td>
+      <td>US - 30</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 11</td>
+      <td rowspan="1">Visualizar número de reports seguidos marcados como bem (APP)</td>
+      <td>US - 30</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">Reporte</td>
+      <td rowspan="1">FT - 11</td>
+      <td rowspan="1">Visualizar mapa hospitais/unidades de saúde (APP)</td>
+      <td>US - 30</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.3 Requisitos não funcionais
 
 <table>
   <thead>
