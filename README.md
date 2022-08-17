@@ -34,11 +34,6 @@ O guardiões da saúde é uma solução que foi desenvolvida graças a uma parce
 
 O projeto visa realizar a reengenharia e implementação de novas funções no aplicativo Guardiões da Saúde e foi desenvolvido por uma equipe de alunos da matéria de Métodos de Desenvolvimento de Software e Requisitos de Software.
 
-# 📦 Releases
-
-Release 
-
-
 # ⚙️ Tecnologias utilizadas
 
 As tecnologias foram escolhidas de acordo com as tecnologias utilizadas no projeto GDS.
@@ -50,8 +45,6 @@ As tecnologias foram escolhidas de acordo com as tecnologias utilizadas no proje
 # 💻 Pré-requisitos
 
 Primeiro verifique se você atende aos seguintes requisitos:
-
-
 
 # 🤝 Colaboradores
 
@@ -69,4 +62,4 @@ Primeiro verifique se você atende aos seguintes requisitos:
 
 #  📜 Documentação
 
-A documentação pode ser encontrada na [nossa página](https://mdsreq-fga-unb.github.io/2022.1-GDS/) do Github pages.
+A documentação pode ser encontrada no [git pages do projeto](https://mdsreq-fga-unb.github.io/2022.1-GDS/).

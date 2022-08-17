@@ -1,11 +1,11 @@
-name: ci 
+name: Deploy to git pages
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+    push:
+      branches:
+        - main
+    pull_request:
+      branches:
+        - main
 jobs:
   deploy:
     runs-on: ubuntu-latest
