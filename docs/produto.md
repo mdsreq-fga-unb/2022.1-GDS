@@ -29,8 +29,9 @@
   - 5.1 Requisitos funcionais
     - 5.1.1 Lista de Requisitos Funcionais (Reengenharia)
     - 5.1.2 Lista de Requisitos Funcionais (Clientes)
-    - 5.2.1 Requisitos Funcionais - SAFe
-    - 5.2.2 Requisitos não funcionais
+    - 5.2.1 Requisitos Funcionais - SAFe (Clientes)
+    - 5.2.2 Requisitos Funcionais - SAFe (Reengenharia)
+    - 5.3 Requisitos não funcionais
 - 6 Referências Bibliográficas
 
 ## Visão do Produto e Projeto
@@ -138,15 +139,15 @@ Dentre as atividades das sprints, serão desempenhadas:
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
-| Planejamento de estrategias de desenvolvimento | | | |
+| Planejamento de estrategias de desenvolvimento | Reunião da equipe | Discord | Estratégias de desenvolvimento definidas |
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
-| Planejar estrategias da equipe | | | |
+| Planejar estratégias da equipe | Reunião em grupo | Discord | Estratégias da equipe definidas |
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
-| Definicao dos pares do pair programming | | | |
+| Definicao dos pares do pair programming | Reunião da equipe | Discord | Pares da semana formados |
 
 ### 3.2.2 Execução
 
@@ -160,7 +161,7 @@ Dentre as atividades das sprints, serão desempenhadas:
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
-| Desenvolvimento | | | |
+| Desenvolvimento | | Visual Studio Code |  |
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
@@ -176,7 +177,7 @@ Dentre as atividades das sprints, serão desempenhadas:
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
-| Prototipação | | | |
+| Prototipação |  | Figma | Protótipo de baixa e alta fidelidade |
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
@@ -186,19 +187,19 @@ Dentre as atividades das sprints, serão desempenhadas:
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
-| Validação com a equipe de Requisitos | | | |
+| Validação com a equipe de Requisitos | Reunião com o time de requisitos | Discord | Funcionalidades Alteradas se nescessario para validação com o professor |
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
-| Análise do feedback do professor | | | |
+| Análise do feedback do professor | Reunião com a equipe de requisitos | Discord | Alterações com base na analise |
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
-| Apresentação dos resultados da sprint | | | |
+| Apresentação dos resultados da sprint | Reunião | Discord | Validação ou reprovação dos métodos usados nas issues |
 
 |Atividade | Método | Ferramenta | Entrega |
 |----------|--------|------------|---------|
-| Validação com o professor | | | |
+| Validação com o professor | Reunião com o professor em sala de aula |    | Entrega das funcionalidades aprovadas |
 
 ### 3.2.4 Retrospectiva
 
@@ -332,41 +333,43 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
 
 #### 5.1.1 Lista de Requisitos Funcionais (Reengenharia)
 
-- RF01: Realizar cadastro de uma nova conta (APP)
-- RF02: Recuperar a senha do usuário pelo e-mail cadastrado (APP)
-- RF03: Cadastrar dados da universidade (APP)
-- RF04: Reportar diariamente estado (APP)
-- RF05: Enviar notificações de report (APP)
-- RF06: Cadastrar vacinas (APP)
-- RF07: Mostrar dias que os reports foram feitos (APP)
-- RF08: Mostrar gráfico com porcentagem dos reports feitos (APP)
-- RF09: Informar localização de onde o report foi feito (APP)
-- RF10: Visualizar opções de dicas de saúde e higiene (APP)
-- RF11: Visualizar notícias do Twitter da Proepi (APP)
-- RF12: Cancelar participação no aplicativo (APP)
-- RF13: EEditar dados cadastrais do usuário (APP)
-- RF14: Visualizar número de reports seguidos marcados como bem (APP)
-- RF15: Adicionar mais contas conectadas ao aplicativo (APP)
-- RF16: Trocar de conta do usuário (APP)
-- RF17: Visualizar mapa hospitais/unidades de saúde (APP)
-- RF18: Acessar dados de reportes de saúde (APP)
+- RF01: Cadastrar nova conta de usuário (APP)
+- RF02: Cadastrar nova conta de administrador (WEB)
+- RF03: Recuperar a senha do usuário pelo e-mail cadastrado (APP)
+- RF04: Recuperar a senha de administrador pelo e-mail cadastrado (WEB)
+- RF05: Cadastrar dados do usuário (APP)
+- RF06: Cadastrar dados do administrador (WEB)
+- RF07: Adicionar mais contas conectadas ao aplicativo (APP)
+- RF08: Trocar de conta do usuário (APP)
+- RF09: Cancelar participação no aplicativo (APP)
+- RF10: Reportar diariamente estado de saúde(APP)
+- RF11: Enviar notificações de report (APP)
+- RF12: Editar dados cadastrais do usuário (APP)
+- RF13: Cadastrar vacinas (APP)
+- RF14: Mostrar dias que os reports foram feitos (APP)
+- RF15: Mostrar gráfico com porcentagem dos reports feitos (APP)
+- RF16: Informar localização de onde o report foi feito (APP)
+- RF17: Visualizar opções de dicas de saúde e higiene (APP)
+- RF18: Visualizar notícias do Twitter da Proepi (APP)
+- RF19: Visualizar número de reports seguidos marcados como bem (APP)
+- RF20: Visualizar mapa hospitais/unidades de saúde (APP)
 
 #### 5.1.2 Lista de Requisitos Funcionais (Clientes)
 
-- RF19: Registar reportes ao menos uma vez na semana (APP)
-- RF20: Visualizar histórico de saúde (APP)
-- RF21: Responder o quiz (APP)
-- RF22: Visualizar status do quiz (APP) 
-- RF23: Visualizar notas dos quizzes (APP)
-- RF24: Visualizar dados do curso (APP)
-- RF25: Vizualizar conteúdo do curso (APP)
-- RF26: Notificar o usuário até o reporte ser realizado (APP)
-- RF27: Criar quiz (WEB)
-- RF28: Visualizar dados sobre o quiz (WEB)
-- RF29: Criar curso (WEB)
-- RF30: Visualizar resultado dos quizzes (WEB)
+- RF21: Registar reportes ao menos uma vez na semana (APP)
+- RF22: Visualizar histórico de saúde (APP)
+- RF23: Responder o quiz (APP)
+- RF24: Visualizar status do quiz (APP) 
+- RF25: Visualizar notas dos quizzes (APP)
+- RF26: Visualizar dados do curso (APP)
+- RF27: Vizualizar conteúdo do curso (APP)
+- RF28: Notificar o usuário até o reporte ser realizado (APP)
+- RF29: Criar quiz (WEB)
+- RF30: Visualizar dados sobre o quiz (WEB)
+- RF31: Criar curso (WEB)
+- RF32: Visualizar resultado dos quizzes (WEB)
 
-#### 5.2.1 SAFE
+#### 5.2.1 SAFE (Definido com as clientes)
 
 <table style="width:100%">
   <thead>
@@ -425,7 +428,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td>Eu, como instituição, quero criar quiz para avaliar o conhecimento dos estudantes, para dar um estímulo para ser um conhecimento básico sobre saúde</td>
       <td align="center"></td>
     </tr>
-    <tr>
+    <tr>  
       <td>US - 08</td>
       <td>Eu, como instituição, quero poder editar o quiz, para que esteja sempre atualizado</td>
       <td align="center"></td>
@@ -592,7 +595,6 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
   </tbody>
 </table>
 
-teste
 
 | Legenda (prioridades) | Definição |
 |-----------------------|-----------|
@@ -600,7 +602,152 @@ teste
 | Média |  Requisitos importantes que podem ser postergados |
 | Baixa |  Requisitos sem os quais o Sistema funciona de maneira satisfatória |
 
-#### 5.2.2 Requisitos não funcionais
+#### 5.2.2 SAFE (Reengenharia)
+
+<table style="width:100%">
+  <thead>
+    <tr>
+      <th>ÉPICO</th>
+      <th>ID</th>
+      <th>FEATURE</th>
+      <th>ID</th>
+      <th>HISTÓRIA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="10">Autenticação</td>
+      <td rowspan="2">FT - 01</td>
+      <td rowspan="2">Realizar cadastro de uma nova conta de usuário (APP)</td>
+      <td>US - 01</td>
+      <td>Eu, como usuário do produto, desejo poder criar uma nova conta para que possa acessar as funcionalidades do APP</td>
+    </tr>
+    <tr>
+    <td>US - 02</td>
+    <td>Eu, como usuário do produto, quero poder me conectar na minha conta, para ter acesso as minhas funcionalidades</td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 02</td>
+      <td rowspan="1">Realizar cadastro de uma nova conta de administrador (WEB)</td>
+      <td>US - 03</td>
+      <td>Eu, como instituição, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 02</td>
+      <td rowspan="1">Cadastrar dados do usuário (APP)</td>
+      <td>US - 03</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 02</td>
+      <td rowspan="1">Cadastrar dados do administrador (WEB)</td>
+      <td>US - 03</td>
+      <td>Eu, como instituição, </td>
+    </tr> 
+    <tr>
+      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">Recuperar a senha do usuário pelo e-mail cadastrado (APP)</td>
+      <td>US - 05</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">Recuperar a senha do administrador pelo e-mail cadastrado (WEB)</td>
+      <td>US - 05</td>
+      <td>Eu, como instituição, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">Cancelar participação no aplicativo (APP)</td>
+      <td>US - 05</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">Adicionar mais contas conectadas ao aplicativo (APP)</td>
+      <td>US - 05</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">Trocar de conta do usuário (APP)</td>
+      <td>US - 05</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="2">Dados usuário</td>
+      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">Editar dados cadastrais do usuário (APP)</td>
+      <td>US - 05</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">Cadastrar vacinas (APP)</td>
+      <td>US - 05</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">Notificação</td>
+      <td rowspan="1">FT - 04</td>
+      <td rowspan="1">Enviar notificações de report (APP)</td>
+      <td>US - 01</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="2">Informação</td>
+      <td rowspan="2">FT - 11</td>
+      <td rowspan="1">Visualizar opções de dicas de saúde e higiene (APP)</td>
+      <td>US - 30</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+    <td rowspan="1">Visualizar notícias do Twitter da Proepi (APP)</td>
+    <td>US - </td>
+    <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="5">Reporte</td>
+      <td rowspan="1">FT - 11</td>
+      <td rowspan="1">Reportar diariamente estado de saúde(APP)</td>
+      <td>US - 30</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 11</td>
+      <td rowspan="1">Mostrar dias que os reports foram feitos (APP)</td>
+      <td>US - 30</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 11</td>
+      <td rowspan="1">Mostrar gráfico com porcentagem dos reports feitos (APP)</td>
+      <td>US - 30</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 11</td>
+      <td rowspan="1">Informar localização de onde o report foi feito (APP)</td>
+      <td>US - 30</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">FT - 11</td>
+      <td rowspan="1">Visualizar número de reports seguidos marcados como bem (APP)</td>
+      <td>US - 30</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+    <tr>
+      <td rowspan="1">Mapa</td>
+      <td rowspan="1">FT - 11</td>
+      <td rowspan="1">Visualizar mapa hospitais/unidades de saúde (APP)</td>
+      <td>US - 30</td>
+      <td>Eu, como usuário do produto, </td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.3 Requisitos não funcionais
 
 <table>
   <thead>
