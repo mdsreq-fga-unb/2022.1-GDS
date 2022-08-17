@@ -738,7 +738,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td>Eu, como usuário do produto, </td>
     </tr>
     <tr>
-      <td rowspan="1">Reporte</td>
+      <td rowspan="1">Mapa</td>
       <td rowspan="1">FT - 11</td>
       <td rowspan="1">Visualizar mapa hospitais/unidades de saúde (APP)</td>
       <td>US - 30</td>
