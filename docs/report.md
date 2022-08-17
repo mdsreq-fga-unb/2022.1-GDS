@@ -2,6 +2,15 @@
 
 ## Reporte sobre soft skills
 
+Nesta seção, estarão separados o reporte sobre as soft skills de cada um dos membros do grupo e como elas foram percebidas ao longo da unidade 3.
+
+- Juan Mangueira: Demonstrou bastante organização e capacidade de comunicação.
+- Marcus Martins: Demonstrou bastante capacidade de comunicação, trabalho em equipe, proatividade constante, uma ótima gestão de tempo e bastante dedicação ao projeto. Com sua produtividade, buscou o ao máximo o melhor resultado para o projeto.
+- Iago Campelo: Demonstrou bastante empatia e capacidade de lidar com situações difíceis ao longo da unidade 3. Uma boa gestão de tempo, capacidade de liderança e uma ótima capacidade de comunicação trabalhando em equipe.
+- Igor Thiago: Demonstrou estar aberto à críticas e buscou melhorar e se dedicar mais ao projeto na reta final, mostrando um bom trabalho em equipe e uma ótima capacidade de comunicação.
+- Thiago Vivan: Demonstrou ter bastante empatia para com os membros de equipe e se mostrou disponível para ajudar para a reta final, se dedicando mais ao projeto, com um bom trabalho em equipe e uma boa capacidade de comunicação.
+
+Thiago: tem muita empatia, é esforçado, ótimo trabalho em equipe.
 
 ## Reporte sobre práticas
 
