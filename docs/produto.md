@@ -632,77 +632,77 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td rowspan="1">FT - 09</td>
       <td rowspan="1">Trocar de conta do usuário (APP)</td>
       <td>US - 05</td>
-      <td>Eu, como usuário do produto, </td>
+      <td>Eu, como usuário do produto, quero poder trocar de conta durante o uso do app para que todas as contas acessem as funcionalidades e seus dados</td>
     </tr>
     <tr>
       <td rowspan="2">Dados usuário</td>
       <td rowspan="1">FT - 10</td>
       <td rowspan="1">Editar dados cadastrais do usuário (APP)</td>
       <td>US - 05</td>
-      <td>Eu, como usuário do produto, </td>
+      <td>Eu, como usuário do produto, quero poder ataulizar meus dados a qualquer momento para que todos as minhas informações estejam corretas</td>
     </tr>
     <tr>
       <td rowspan="1">FT - 11</td>
       <td rowspan="1">Cadastrar vacinas (APP)</td>
       <td>US - 05</td>
-      <td>Eu, como usuário do produto, </td>
+      <td>Eu, como usuário do produto, quero poder adicionar todas as doses de vacina que tomei para que tenha um maior controle sobre a minha saúde</td>
     </tr>
     <tr>
       <td rowspan="1">Notificação</td>
       <td rowspan="1">FT - 12</td>
       <td rowspan="1">Enviar notificações de report (APP)</td>
       <td>US - 01</td>
-      <td>Eu, como usuário do produto, </td>
+      <td>Eu, como usuário do produto, quero receber notificações sobre o reporte para que não esquece de realizá-lo</td>
     </tr>
     <tr>
       <td rowspan="2">Informação</td>
       <td rowspan="2">FT - 13</td>
       <td rowspan="1">Visualizar opções de dicas de saúde e higiene (APP)</td>
       <td>US - 30</td>
-      <td>Eu, como usuário do produto, </td>
+      <td>Eu, como usuário do produto, quero poder me informações sobre questões de saúde e higiêne para me manter sempre atualizado</td>
     </tr>
     <tr>
     <td rowspan="1">Visualizar notícias do Twitter da Proepi (APP)</td>
     <td>US - </td>
-    <td>Eu, como usuário do produto, </td>
+    <td>Eu, como usuário do produto, quero visualizar as notícias da Proepi para me manter atualizado</td>
     </tr>
     <tr>
       <td rowspan="5">Reporte</td>
       <td rowspan="1">FT - 14</td>
       <td rowspan="1">Reportar diariamente estado de saúde(APP)</td>
       <td>US - 30</td>
-      <td>Eu, como usuário do produto, </td>
+      <td>Eu, como usuário do produto, quero realizar o reporte todos os dias para que possa saber como tenho me sentido</td>
     </tr>
     <tr>
       <td rowspan="1">FT - 15</td>
       <td rowspan="1">Mostrar dias que os reports foram feitos (APP)</td>
       <td>US - 30</td>
-      <td>Eu, como usuário do produto, </td>
+      <td>Eu, como usuário do produto, quero poder ver quais dias realizei o reporte para ter maior controle sobre minha saúde</td>
     </tr>
     <tr>
       <td rowspan="1">FT - 16</td>
       <td rowspan="1">Mostrar gráfico com porcentagem dos reports feitos (APP)</td>
       <td>US - 30</td>
-      <td>Eu, como usuário do produto, </td>
+      <td>Eu, como usuário do produto, quero ver o comparativo de como tenho me sentido para mapear melhor minha saúde e melhorar minhas atitudes de acordo com meu histórico</td>
     </tr>
     <tr>
       <td rowspan="1">FT - 17</td>
       <td rowspan="1">Informar localização de onde o report foi feito (APP)</td>
       <td>US - 30</td>
-      <td>Eu, como usuário do produto, </td>
+      <td>Eu, como usuário do produto, quero poder mostrar minha localização para ter noção de como as pessoas estão ao meu redor e ver quais postos estão perto de mim</td>
     </tr>
     <tr>
       <td rowspan="1">FT - 18</td>
       <td rowspan="1">Visualizar número de reports seguidos marcados como bem (APP)</td>
       <td>US - 30</td>
-      <td>Eu, como usuário do produto, </td>
+      <td>Eu, como usuário do produto, quero ver quantos dias permaneci assintomático para saber se meus cuidados estão permanecendo suficientes</td>
     </tr>
     <tr>
       <td rowspan="1">Mapa</td>
       <td rowspan="1">FT - 19</td>
       <td rowspan="1">Visualizar mapa hospitais/unidades de saúde (APP)</td>
       <td>US - 30</td>
-      <td>Eu, como usuário do produto, </td>
+      <td>Eu, como usuário do produto, quero saber quais unidades de saúde estão perto de mim para que no caso de uma emergência eu saiba para onde ir</td>
     </tr>
   </tbody>
 </table>
