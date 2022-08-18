@@ -137,91 +137,83 @@ Dentre as atividades das sprints, serão desempenhadas:
 
 ### 3.2.1 Planejamento
 
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Planejamento de estrategias de desenvolvimento | Reunião da equipe | Discord | Estratégias de desenvolvimento definidas |
+|Atividade | Entrega |
+|----------|---------|
+| Planejamento de estrategias de desenvolvimento | Estratégias de desenvolvimento definidas |
 
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Planejar estratégias da equipe | Reunião em grupo | Discord | Estratégias da equipe definidas |
+|Atividade | Entrega |
+|----------|---------|
+| Planejar estratégias da equipe | Estratégias da equipe definidas |
 
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Definicao dos pares do pair programming | Reunião da equipe | Discord | Pares da semana formados |
+|Atividade | Entrega |
+|----------|---------|
+| Definicao dos pares do pair programming | Pares da semana formados |
 
 ### 3.2.2 Execução
 
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Manutenção | | | |
+|Atividade | Entrega |
+|----------|---------|
+| Manutenção de código de Sprints passadas | Bugs corrigidos |
 
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Evolução | | | |
+|Atividade | Entrega |
+|----------|---------|
+| Evolução de código de Sprints passadas | Melhorias de performance e aperfeiçoamento de código |
 
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Desenvolvimento | | Visual Studio Code |  |
+|Atividade | Entrega |
+|----------|---------|
+| Desenvolvimento de funcionalidades| Código pronto para validação com equipe de requisitos e clientes |
 
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Testes manuais | | | |
+|Atividade | Entrega |
+|----------|---------|
+| Execução das estratégias de desenvolvimento | Estratégias executadas e feedback das estratégias pronto pra Revisão |
 
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Testes Unitários Automatizados | | | |
+|Atividade | Entrega |
+|----------|---------|
+| Prototipação |  Protótipos de baixa e alta fidelidade prontos para validação com clientes|
 
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Execução das estratégias de desenvolvimento | | | |
-
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Prototipação |  | Figma | Protótipo de baixa e alta fidelidade |
-
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Execução das estratégias de time | | | |
+|Atividade | Entrega |
+|----------|---------|
+| Execução das estratégias de time | Estatégias executadas e Feedback pronto para ser Revisado |
 
 ### 3.2.3 Revisão
 
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Validação com a equipe de Requisitos | Reunião com o time de requisitos | Discord | Funcionalidades Alteradas se nescessario para validação com o professor |
+|Atividade | Entrega |
+|----------|---------|
+| Validação com a equipe de Requisitos | Funcionalidades Alteradas se nescessario para validação com o professor |
 
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Análise do feedback do professor | Reunião com a equipe de requisitos | Discord | Alterações com base na analise |
+|Atividade | Entrega |
+|----------|---------|
+| Análise do feedback do professor |  Alterações com base na analise |
 
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Apresentação dos resultados da sprint | Reunião | Discord | Validação ou reprovação dos métodos usados nas issues |
+|Atividade | Entrega |
+|----------|---------|
+| Apresentação dos resultados da sprint | Validação ou reprovação dos métodos utilizados na sprint |
 
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Validação com o professor | Reunião com o professor em sala de aula |    | Entrega das funcionalidades aprovadas |
+|Atividade | Entrega |
+|----------|---------|
+| Validação com o professor | Entrega das funcionalidades aprovadas |
 
 ### 3.2.4 Retrospectiva
 
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Recebimento dos feedbacks de entrega | | | |
+|Atividade | Entrega |
+|----------|---------|
+| Recebimento dos feedbacks de entrega |  Feedbacks discutidos com resoluções para feedbacks negativos|
 
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Inspeção da sprint passada | | | |
+|Atividade | Entrega |
+|----------|---------|
+| Inspeção da sprint passada |  Sprint revisada com pontos de melhoria |
 
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Levantamento de melhorias para as próximas sprints | | | |
+|Atividade | Entrega |
+|----------|---------|
+| Levantamento de melhorias para as próximas sprints | Pontos de melhoria claros |
 
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Avaliaçào das estratégias de desenvolvimento | | | |
+|Atividade | Entrega |
+|----------|---------|
+| Avaliaçào das estratégias de desenvolvimento |  Pontos positivos e negativos da estratégia e possíveis mudanças se necessário |
 
-|Atividade | Método | Ferramenta | Entrega |
-|----------|--------|------------|---------|
-| Avaliação das estratégias da equipe | | | |
+|Atividade | Entrega |
+|----------|---------|
+| Avaliação das estratégias da equipe | Pontos positivos e negativos da estratégia e pontos de melhoria |
 
 ## 4 Processo de Engenharia de Requisitos
 
@@ -235,97 +227,97 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Reuniao com os clientes para definicao / alinhamento de requisitos | | | |
+| Reuniao com os clientes para definicao / alinhamento de requisitos | Validação de requisitos | Whatsapp | Requisitos bem definidos de acordo com Histórias de usuário |
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Classificacao / Organizacao dos requisitos | | | |
+| Classificação / Organização dos requisitos | Verificação de prioridades de acordo com as Histórias de usuário | Discord | Requisitos organizados |
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Elaboracao dos criterios de aceitacao | | | |
+| Elaboração dos criterios de aceitacao | Criação de critérios seguindo as definições do DoR e Dod | Zenhub | Critérios concisos e de acordo com as Histórias de usuários |
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Definicao das tarefas da sprint | | | |
+| Definição das tarefas da sprint | Reunião com a equipe e definição de papéis | Discord | Tarefas e papeis definidos |
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Definir atividades de correcao de erros das sprints passadas | | | |
+| Definir atividades de correção de erros das sprints passadas | Reunião para discutir o motivo dos erros e trata-los | Discord | Atividades de correção de erros definidas |
 
 #### 4.2.2 Execucao
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Priorizacao e negociacao dos requisitos | | | |
+| Priorização e negociação dos requisitos | Reunião com Clientes | Whatsapp | Requisitos organizados por prioridade |
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Documentacao dos requisitos | | | |
+| Documentação dos requisitos | Transcrição de requisitos definidos com Clientes | GitHub Pages | Requisitos documentados na Página GitHub Pages|
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Acompanhamento das atividades de desenvolvimento | | | |
+| Acompanhamento das atividades de desenvolvimento | Reunião com equipe de MDS e REQ | Discord | Atividades de desenvolvimento monitoradas |
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Realizacao das atividades de correcao definidas no planejamento | | | |
+| Realizacao das atividades de correcao definidas no planejamento | Tratamento de erros definidos | VsCode | erros corrigidos |
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Realizacao das tarefas da sprint definidas no planejamento | | | |
+| Realizacao das tarefas da sprint definidas no planejamento | Execução das tarefas de acordo com pares definidos|  | Tarefas realizadas |
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Inspecao | | | |
+| Inspeção | Revisão de tarefas cumpridas pelos membros da equipe  | Discord | Erros identificados e reportados |
 
 #### 4.2.3 Revisao
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Reuniao com os clientes para a validacao dos requisitos | | | |
+| Reuniao com os clientes para a validacao dos requisitos | Reunião | Whatsapp | Requisitos validados |
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Aprentacao da producao na sprint | | | |
+| Aprentação da produção na sprint | | | |
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Manutencao do product backlog | | | |
+| Manutenção do product backlog | | | |
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Testes de aceitacao | | | |
+| Testes de aceitação | | | |
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Analise do progresso do projeto | | | |
+| Analise do progresso do projeto | Comparação do que foi feito com o planejamento | Discord | Atual situação do andamento do projeto |
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Validacao com o cliente | | | |
+| Validacao com o cliente | Apresentação de entregas prontas | Whatsapp | Entregas validadas |
 
 #### 4.2.4 Retrospectiva
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Analisar o feedback do professor | | | |
+| Analisar o feedback do professor | Reunião com a equipe de REQ | Discord | Alterações e replanejamento com base na análise |
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Levantar pontos positivos da sprint | | | |
+| Levantar pontos positivos da sprint | Reunião com a equipe | Discord | Pontos positivos definidos |
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Replanejamento | | | |
+| Replanejamento | Análise levando em consideração pontos positivos, negativos e feedbacks| Discord | Replanejamento feito |
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Levantar pontos negativos da sprint | | | |
+| Levantar pontos negativos da sprint | Reunião com a equipe | Discord | Pontos negativos definidos |
 
 | Atividade | Método | Ferramenta | Entrega |
 |--|--|--|--|
-| Inspecao da sprint passada | | | |
+| Inspecao da sprint passada | Levantamento de espectativas e trabalho cumprido | Discord | Pontos de melhora e erros levantados |
  
 ## 5 Escopo do Produto
 
