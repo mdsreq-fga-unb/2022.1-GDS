@@ -1,40 +1,4 @@
-# Visão Do Produto e Projeto
-
-## Sumário
-
-- 1 Visão Geral do Produto
-  - 1.1 Declaração de Posição do Produto
-  - 1.2 Objetivos do Produto
-  - 1.3 Tecnologias a serem Utilizadas
-- 2 Visão Geral do Projeto
-  - 2.1 Organização do Projeto
-  - 2.2 Planejamento das Fases e/ou Iterações
-  - 2.3 Matriz de Comunicação
-  - 2.4 Gerenciamento de Riscos
-  - 2.5 Critérios de Replanejamento
-- 3 Processo de Desenvolvimento de Software
-  - 3.1 Metodologia Adotada
-  - 3.2 Atividades de Desenvolvimento
-    - 3.2.1 Planejamento
-    - 3.2.2 Execução
-    - 3.2.3 Revisão
-    - 3.2.4 Retrospectiva
-- 4 Processo de Engenharia de Requisitos
-  - 4.1 Elicitação de Requisitos
-  - 4.2 Análise de Requisitos
-  - 4.3 Documentação de Requisitos
-  - 4.4 Verificação e Validação de requisitos
-  - 4.5 Gerenciamento de Requisitos
-- 5 Escopo do Produto
-  - 5.1 Requisitos funcionais
-    - 5.1.1 Lista de Requisitos Funcionais (Reengenharia)
-    - 5.1.2 Lista de Requisitos Funcionais (Clientes)
-    - 5.2.1 Requisitos Funcionais - SAFe (Clientes)
-    - 5.2.2 Requisitos Funcionais - SAFe (Reengenharia)
-    - 5.3 Requisitos não funcionais
-- 6 Referências Bibliográficas
-
-## Visão do Produto e Projeto
+# Visão do Produto e Projeto
 
 O guardiões da saúde é uma solução que foi desenvolvida graças a uma parceria entre Skoll Global Threats Found (SGTF), o Ministério da Saúde, a startup Epitrack e a ProEpi, com intuito de realizar vigilância participatiiva.
 
