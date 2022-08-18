@@ -77,6 +77,10 @@ Cliente|Definir necessidades de melhoria no produto e novas ferramentas a serem 
 
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVOiyJ58M=/?moveToViewport=-667,996,1888,760&embedId=414772771427" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
+#### Unidade 2
+
+![Processo da sprint](./assets/Processos.jpg)
+
 >A imagem acima exemplifica o processo de desenvolvimento da equipe. As atividades acima dispostas ocorrerao dentro de CADA uma das sprints salvo as sprints 1 e 2 que foram de documentacao, planejamento e capacitacao da equipe.
 
 |Sprint|Produto(Entrega)|Data Inicio|Data Fim|
