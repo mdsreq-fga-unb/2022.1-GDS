@@ -81,7 +81,7 @@ As principais tecnologias utilizadas serão o JavaScript e o Ruby, pois são as 
 ![Diagrama de Arquitetura](assets/diagramaArquitetura.png)
 
 ## 6. Visão de Implementação
-A partir das estrutura de projeto conceituais apresentadas acima
+A partir das estruturas conceituais do projeto apresentadas acima, acreditamos que a implementação das mesmas seja possível, dado o maior conhecimento das tecnologias e funcionamento do código previamente estabelecido. Sendo apenas o serviço fornecido pelo repositório da parte Web da aplicação não estando sob nosso controle, a codificação tem utilizado práticas de Clean Code para facilitar a posterior manutenção pela equipe de desenvolvimento da ProEpi.
 
 ## 7. Referências:
 
