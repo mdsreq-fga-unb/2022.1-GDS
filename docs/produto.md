@@ -572,7 +572,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
   </thead>
   <tbody>
     <tr>
-      <td rowspan="10">Autenticação</td>
+      <td rowspan="11">Autenticação</td>
       <td rowspan="2">FT - 01</td>
       <td rowspan="2">Realizar cadastro de uma nova conta de usuário (APP)</td>
       <td>US - 01</td>
@@ -583,76 +583,80 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
     <td>Eu, como usuário do produto, quero poder me conectar na minha conta, para ter acesso as minhas funcionalidades</td>
     </tr>
     <tr>
-      <td rowspan="1">FT - 02</td>
-      <td rowspan="1">Realizar cadastro de uma nova conta de administrador (WEB)</td>
+      <td rowspan="2">FT - 02</td>
+      <td rowspan="2">Realizar cadastro de uma nova conta de administrador (WEB)</td>
       <td>US - 03</td>
-      <td>Eu, como instituição, </td>
+      <td>Eu, como instituição, desejo poder criar uma nova conta para que possa acessar as funcionalidades do APP</td>
+    </tr>
+      <tr>
+      <td>US - 04</td>
+      <td>Eu, como instituição, quero poder me conectar na minha conta, para ter acesso as minhas funcionalidades</td>
     </tr>
     <tr>
-      <td rowspan="1">FT - 02</td>
+      <td rowspan="1">FT - 03</td>
       <td rowspan="1">Cadastrar dados do usuário (APP)</td>
-      <td>US - 03</td>
-      <td>Eu, como usuário do produto, </td>
+      <td>US - 05</td>
+      <td>Eu, como usuário do produto, quero poder adicionar as minhas informações para que meus dados estejam corretos</td>
     </tr>
     <tr>
-      <td rowspan="1">FT - 02</td>
+      <td rowspan="1">FT - 04</td>
       <td rowspan="1">Cadastrar dados do administrador (WEB)</td>
-      <td>US - 03</td>
-      <td>Eu, como instituição, </td>
+      <td>US - 06</td>
+      <td>Eu, como instituição, quero poder adicionar as minhas informações para que meus dados estejam corretos</td>
     </tr> 
     <tr>
-      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">FT - 05</td>
       <td rowspan="1">Recuperar a senha do usuário pelo e-mail cadastrado (APP)</td>
-      <td>US - 05</td>
-      <td>Eu, como usuário do produto, </td>
+      <td>US - 07</td>
+      <td>Eu, como usuário do produto, quero poder recuperar minha senha para que sempre possa acessar as funcionalidades do app</td>
     </tr>
     <tr>
-      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">FT - 06</td>
       <td rowspan="1">Recuperar a senha do administrador pelo e-mail cadastrado (WEB)</td>
-      <td>US - 05</td>
-      <td>Eu, como instituição, </td>
+      <td>US - 08</td>
+      <td>Eu, como instituição, quero poder recuperar minha senha para que sempre possa acessar as funcionalidades do app</td>
     </tr>
     <tr>
-      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">FT - 07</td>
       <td rowspan="1">Cancelar participação no aplicativo (APP)</td>
-      <td>US - 05</td>
-      <td>Eu, como usuário do produto, </td>
+      <td>US - 09</td>
+      <td>Eu, como usuário do produto, quero poder deletar a minha conta caso não queira participar do app</td>
     </tr>
     <tr>
-      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">FT - 08</td>
       <td rowspan="1">Adicionar mais contas conectadas ao aplicativo (APP)</td>
-      <td>US - 05</td>
-      <td>Eu, como usuário do produto, </td>
+      <td>US - 10</td>
+      <td>Eu, como usuário do produto, quero poder conectar várias contas no aplicativo para que outras pessoas tenham acesso as funcionalidades do app</td>
     </tr>
     <tr>
-      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">FT - 09</td>
       <td rowspan="1">Trocar de conta do usuário (APP)</td>
       <td>US - 05</td>
       <td>Eu, como usuário do produto, </td>
     </tr>
     <tr>
       <td rowspan="2">Dados usuário</td>
-      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">FT - 10</td>
       <td rowspan="1">Editar dados cadastrais do usuário (APP)</td>
       <td>US - 05</td>
       <td>Eu, como usuário do produto, </td>
     </tr>
     <tr>
-      <td rowspan="1">FT - 03</td>
+      <td rowspan="1">FT - 11</td>
       <td rowspan="1">Cadastrar vacinas (APP)</td>
       <td>US - 05</td>
       <td>Eu, como usuário do produto, </td>
     </tr>
     <tr>
       <td rowspan="1">Notificação</td>
-      <td rowspan="1">FT - 04</td>
+      <td rowspan="1">FT - 12</td>
       <td rowspan="1">Enviar notificações de report (APP)</td>
       <td>US - 01</td>
       <td>Eu, como usuário do produto, </td>
     </tr>
     <tr>
       <td rowspan="2">Informação</td>
-      <td rowspan="2">FT - 11</td>
+      <td rowspan="2">FT - 13</td>
       <td rowspan="1">Visualizar opções de dicas de saúde e higiene (APP)</td>
       <td>US - 30</td>
       <td>Eu, como usuário do produto, </td>
@@ -664,38 +668,38 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
     </tr>
     <tr>
       <td rowspan="5">Reporte</td>
-      <td rowspan="1">FT - 11</td>
+      <td rowspan="1">FT - 14</td>
       <td rowspan="1">Reportar diariamente estado de saúde(APP)</td>
       <td>US - 30</td>
       <td>Eu, como usuário do produto, </td>
     </tr>
     <tr>
-      <td rowspan="1">FT - 11</td>
+      <td rowspan="1">FT - 15</td>
       <td rowspan="1">Mostrar dias que os reports foram feitos (APP)</td>
       <td>US - 30</td>
       <td>Eu, como usuário do produto, </td>
     </tr>
     <tr>
-      <td rowspan="1">FT - 11</td>
+      <td rowspan="1">FT - 16</td>
       <td rowspan="1">Mostrar gráfico com porcentagem dos reports feitos (APP)</td>
       <td>US - 30</td>
       <td>Eu, como usuário do produto, </td>
     </tr>
     <tr>
-      <td rowspan="1">FT - 11</td>
+      <td rowspan="1">FT - 17</td>
       <td rowspan="1">Informar localização de onde o report foi feito (APP)</td>
       <td>US - 30</td>
       <td>Eu, como usuário do produto, </td>
     </tr>
     <tr>
-      <td rowspan="1">FT - 11</td>
+      <td rowspan="1">FT - 18</td>
       <td rowspan="1">Visualizar número de reports seguidos marcados como bem (APP)</td>
       <td>US - 30</td>
       <td>Eu, como usuário do produto, </td>
     </tr>
     <tr>
       <td rowspan="1">Mapa</td>
-      <td rowspan="1">FT - 11</td>
+      <td rowspan="1">FT - 19</td>
       <td rowspan="1">Visualizar mapa hospitais/unidades de saúde (APP)</td>
       <td>US - 30</td>
       <td>Eu, como usuário do produto, </td>
