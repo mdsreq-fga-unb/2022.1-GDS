@@ -13,11 +13,12 @@ theme:
 nav:
     - Home: index.md
     - Documentação:
-          - Dojo em React: dojo.md
           - Visão do produto e projeto: produto.md
           - Canvas: canvas.md
           - MVPs: MVPs.md
           - PBB: PBB.md
+          - User Story Mapping: Us-Mapping.md
+          - Dojo em React: dojo.md
           - Licoes Aprendidas: licoes_aprendidas.md
           - Reportes: report.md
           - Documento de Arquitetura: arquitetura.md

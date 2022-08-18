@@ -29,8 +29,7 @@ As duas equipes aprenderam a melhorar a comunicação de ambas as partes, para s
 
 ## Unidade 3
 ### MDS
-
-
+Nesta unidade, percebemos que a comunicação é um cerne muito importante no trabalho em equipe, e que houveram falhas na comunicação até um pouco antes da reta final, e nisso precisamos da ajuda da equipe de Requisitos para ajudar na gestão de tempo e de atividades. Aprendemos também que não podemos confiar totalmente no que sabemos, ou no que achamos que sabemos, pois devido ao fato da construção do código ter começado tardiamente, não conseguimos entregar tudo o que queríamos, e nem estudar o tanto quanto queríamos. Com isso, tentaremos ir para uma próxima unidade mais unidos, mais constantes, mais transparentes quanto à dificuldades e mais dedicados a ajudar a equipe, com o intuito de não sobrecarregar nenhum membro.
 
 ### Requisitos
 
