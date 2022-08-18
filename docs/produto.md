@@ -345,36 +345,36 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td rowspan="2">Registrar reportes ao menos uma vez na semana (APP)</td>
       <td>US - 01</td>
       <td>Eu, como usuário do produto, quero fazer meu reporte ao menos uma vez na semana, com o intuito de registrar meu estado de saúde nesse período de tempo</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>
       <td>US - 02</td>
       <td>Eu, como usuário do produto, quero ser notificado do reporte, para que eu lembre de fazer o reporte semanal</td>
-      <td align="center"></td>
+      <td align="center">MÉDIA</td>
     </tr>
     <tr>
       <td rowspan="2">FT - 02</td>
       <td rowspan="2">Visualizar histórico de saúde (APP)</td>
       <td>US - 03</td>
       <td>Eu, como usuário do produto, quero poder ver os sintomas dos dias em que eu estive mal, com o intuito de saber o que estava sentindo naquele dia</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>
       <td>US - 04</td>
       <td>Eu, como usuário do produto, quero saber quantos dias tive os mesmos sintomas, com o intuito saber quantos dias eu permaneci sintomático</td>
-      <td align="center"></td>
+      <td align="center">BAIXA</td>
     </tr>
     <tr>
       <td rowspan="2">FT - 03</td>
       <td rowspan="2">Notificar o usuário até o reporte ser realizado (APP)</td>
       <td>US - 05</td>
       <td>Eu, como instituição, quero receber pelo menos um reporte por semana de cada usuário, para registrar a taxa de contaminação</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>
       <td>US - 06</td>
       <td>Eu, como usuário do produto, não quero ser mais notificado caso já tenha realizado o reporte, para que não seja incomodado já tendo os realizado</td>
-      <td align="center"></td>
+      <td align="center">MÉDIA</td>
     </tr>
     <tr>
       <td rowspan="23">Quiz</td>
@@ -512,41 +512,41 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td rowspan="3">Criar curso (WEB)</td>
       <td>US - 30</td>
       <td>Eu, como instituição, quero inserir informações sobre o conteúdo que será estudado, para que os usuários tenham um material para se informarem sobre os assuntos dos quizzes</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>
       <td>US - 31</td>
       <td>Eu, como instituição, quero editar as informações inseridas no curso, para que estejam sempre atualizadas</td>
-      <td align="center"></td>
+      <td align="center">MÉDIA</td>
     </tr>
     <tr>
       <td>US - 32</td>
       <td>Eu, como instituição, quero poder excluir um curso, para que eu consiga remover um curso que não é mais necessário</td>
-      <td align="center"></td>
+      <td align="center">MÉDIA</td>
     </tr>
     <tr>
       <td rowspan="2">FT - 12</td>
       <td rowspan="2">Visualizar dados do curso (APP)</td>
       <td>US - 33</td>
       <td>Eu, como usuário do produto, quero poder visualizar tema de cada curso do módulo, com o intuito de saber o que será abordado</td>
-      <td align="center"></td>
+      <td align="center">MÉDIA</td>
     </tr>
     <tr>
       <td>US - 34</td>
       <td>Eu, como usuário do produto, quero poder visualizar quanto módulos estão disponíveis para serem vistos, com o intuito de saber a quantidade de conteúdo para ser estudado</td>
-      <td align="center"></td>
+      <td align="center">MÉDIA</td>
     </tr>
     <tr>
       <td rowspan="2">FT - 13</td>
       <td rowspan="2">Visualizar conteúdo do curso (APP)</td>
       <td>US - 35</td>
       <td>Eu, como usuário do produto, quero poder visualizar os link de redirecionamento para os conteúdos dos curso, com o intuito de estudar o assunto abordado</td>
-    <td align="center"></td>
+    <td align="center">ALTA</td>
     </tr>
     <tr>
       <td>US - 36</td>
       <td>Eu, como usuário do produto, quero poder visualizar se o conteúdo do curso já foi acessado, com o intuito de saber se quais conteúdos já foram vistos</td>
-      <td align="center"></td>
+      <td align="center">MÉDIA</td>
     </tr>
   </tbody>
 </table>
