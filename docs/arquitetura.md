@@ -63,8 +63,6 @@ O programa terá a usabilidade dinâmica e intuitiva, de modo ágil e fácil par
 ### 3.3 Tecnologias de Desenvolvimento
 As principais tecnologias utilizadas serão o JavaScript e o Ruby, pois são as bases das outras ferramentas para o desenvolvimento do projeto, as demais são o nodeJs, a biblioteca Puppeteer e os frameworks Express JS e Vue JS.
 
-### 3.4 Confiabilidade
-
 ## 4. SAFe
 
 
@@ -77,6 +75,10 @@ As principais tecnologias utilizadas serão o JavaScript e o Ruby, pois são as 
 ### 5.2 Diagrama de Pacotes
 
 ![Diagrama de Pacotes](assets/diagramaPacotes.png)
+
+### 5.3 Diagrama de Arquitetura
+
+![Diagrama de Arquitetura](assets/diagramaArquitetura.png)
 
 ## 6. Visão de Implementação
 A partir das estrutura de projeto conceituais apresentadas acima
