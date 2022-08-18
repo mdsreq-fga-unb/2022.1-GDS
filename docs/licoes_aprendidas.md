@@ -33,11 +33,11 @@ Nesta unidade, percebemos que a comunicação é um cerne muito importante no tr
 
 ### Requisitos
 
-
+Nesta unidade, percebemos que para um bom desempenho do projeto precisamos de uma melhor comunicação com os integrantes de MDS. Por conta disso houveram algumas falhas e perdemos algum tempo, assim não conseguimos entregar tudo que foi proposto. Por consequência disso teremos que auxiliar a equipe de MDS na parte de programação, para que assim conseguirmos fazer as entregas que estão em débito.
 
 ### MDS-Requisitos
 
-
+Por conta da falha de comunicação de ambos os grupo, tivemos alguns problemas em relação ao tempo de entrega do MVP 1, com isso foi decidido que o equipe de Requisitos vão ajudar na parte de programação para que todos as entregas sejam concluídas, e por consequência disso o grupo irá ficar mais unido, assim facilitando o entendimento dos problemas de ambas as partes
 
 ## Unidade 4
 ### MDS
