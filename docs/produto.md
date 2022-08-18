@@ -133,13 +133,13 @@ O produto será replanejado caso entenda-se que o escopo está inadequado, isto 
 
 A partir da abordagem Gupta, percebemos que era melhor um ciclo de vida evolutivo devido ao pouco conhecimento da tecnologia utilizada pelo projeto dos clientes por parte dos integrantes da equipe. Portanto escolhemos a metodologia ScrumXP (seguindo o manual essencial do SAFe), aderindo seus valores de comunicação, simplicidade, feedbacks, coragem e respeito.
 
-### 3.2 Atividades de Desenvolvimento
+#### 3.2 Atividades de Desenvolvimento
 
 Utilizaremos para a gestão de tarefas as Sprints, da metodologia Scrum, tendo intervalos de uma semana entre as entregas, e a tabela vinda da metodologia KanBan
 
 Dentre as atividades das sprints, serão desempenhadas:
 
-### 3.2.1 Planejamento
+#### 3.2.1 Planejamento
 
 |Atividade | Entrega |
 |----------|---------|
@@ -153,7 +153,7 @@ Dentre as atividades das sprints, serão desempenhadas:
 |----------|---------|
 | Definicao dos pares do pair programming | Pares da semana formados |
 
-### 3.2.2 Execução
+#### 3.2.2 Execução
 
 |Atividade | Entrega |
 |----------|---------|
@@ -179,7 +179,7 @@ Dentre as atividades das sprints, serão desempenhadas:
 |----------|---------|
 | Execução das estratégias de time | Estatégias executadas e Feedback pronto para ser Revisado |
 
-### 3.2.3 Revisão
+#### 3.2.3 Revisão
 
 |Atividade | Entrega |
 |----------|---------|
@@ -197,7 +197,7 @@ Dentre as atividades das sprints, serão desempenhadas:
 |----------|---------|
 | Validação com o professor | Entrega das funcionalidades aprovadas |
 
-### 3.2.4 Retrospectiva
+#### 3.2.4 Retrospectiva
 
 |Atividade | Entrega |
 |----------|---------|
