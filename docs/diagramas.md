@@ -2,7 +2,7 @@
 
 ## Diagrama de atividades
 
-![Diagrama de atividades](./assets/diagramaArquitetura.png)
+![Diagrama de atividades](./assets/diagramaAtividades.png)
 
 ## Diagrama de arquitetura
 
