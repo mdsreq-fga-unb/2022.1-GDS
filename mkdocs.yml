@@ -23,4 +23,6 @@ nav:
           - Reportes: report.md
           - Documento de Arquitetura: arquitetura.md
           - Identidade Visual: id_visual.md
+          - Documentação dos Casos de Uso:
+            - Criar Módulo: criar_modulo.md
     - Entregas: entregas.md
