@@ -26,4 +26,5 @@ nav:
         - Documentação dos Casos de Uso:
             - Criar Módulo: ./UCs/criar_modulo.md
             - Reporte Semanal: ./UCs/reporte_semanal.md
+            - Visualizar Métricas: 
     - Entregas: entregas.md
