@@ -31,3 +31,7 @@ E2. O usuário seleciona a opção de Módulos na barra lateral.<br>
 E3. Visualiza os módulos disponíveis no momento.<br>
 E4. O usuário seleciona um módulo que ainda não foi liberado.<br>
 E5. O sistema informa que esse módulo ainda não foi liberado.<br>
+
+# Documento dos Casos de Uso
+
+O documento com os casos de uso está disponível [aqui](https://lucid.app/lucidchart/2177ac08-1b4a-401c-9047-ee3df682c233/edit?viewport_loc=-61%2C-203%2C2130%2C996%2C0_0&invitationId=inv_31318015-e18b-4767-9aa8-2501d5bbfde3#).
