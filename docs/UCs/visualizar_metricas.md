@@ -27,3 +27,7 @@ E1. Administrador seleciona a opção de visualizar métricas de módulos na ár
 E2. Sistema apresenta a solicitação de escolha de um módulo.<br>
 E3. Administrador não escolhe o módulo e tenta avançar.<br>
 E4. Sistema informa que é necessário selecionar um módulo para avançar.<br>
+
+# Documento dos Casos de Uso
+
+O documento com os casos de uso está disponível [aqui](https://lucid.app/lucidchart/2177ac08-1b4a-401c-9047-ee3df682c233/edit?viewport_loc=-61%2C-203%2C2130%2C996%2C0_0&invitationId=inv_31318015-e18b-4767-9aa8-2501d5bbfde3#).
