@@ -24,5 +24,6 @@ nav:
           - Documento de Arquitetura: arquitetura.md
           - Identidade Visual: id_visual.md
           - Documentação dos Casos de Uso:
-                - Criar Módulo: docs/caso_uso/criar_modulo.md
+                - Criar Módulo: ./UCs/criar_modulo.md
+                - Reporte Semanal: ./UCs/reporte_semanal.md
     - Entregas: entregas.md
