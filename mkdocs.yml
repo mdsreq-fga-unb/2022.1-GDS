@@ -13,18 +13,18 @@ theme:
 nav:
     - Home: index.md
     - Documentação:
-        - Visão do produto e projeto: produto.md
-        - Canvas: canvas.md
-        - MVPs: MVPs.md
-        - PBB: PBB.md
-        - User Story Mapping: Us-Mapping.md
-        - Dojo em React: dojo.md
-        - Licoes Aprendidas: licoes_aprendidas.md
-        - Reportes: report.md
-    	- Documento de Arquitetura: arquitetura.md
-        - Identidade Visual: id_visual.md
-        - Documentação dos Casos de Uso:
-            - Criar Módulo: ./UCs/criar_modulo.md
-            - Reporte Semanal: ./UCs/reporte_semanal.md
-            - Visualizar Métricas: 
+          - Visão do produto e projeto: produto.md
+          - Canvas: canvas.md
+          - MVPs: MVPs.md
+          - PBB: PBB.md
+          - User Story Mapping: Us-Mapping.md
+          - Dojo em React: dojo.md
+          - Licoes Aprendidas: licoes_aprendidas.md
+          - Reportes: report.md
+          - Documento de Arquitetura: arquitetura.md
+          - Identidade Visual: id_visual.md
+          - Documentação dos Casos de Uso:
+                - Criar Módulo: ./UCs/criar_modulo.md
+                - Reporte Semanal: ./UCs/reporte_semanal.md
+                - Visualizar Métricas: dojo.md
     - Entregas: entregas.md
