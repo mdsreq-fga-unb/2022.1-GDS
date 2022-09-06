@@ -25,6 +25,7 @@ nav:
           - Identidade Visual: id_visual.md
           - Documentação dos Casos de Uso:
                 - Criar Módulo: ./UCs/criar_modulo.md
+                - Editar Módulo: ./UCs/editar_modulo.md
                 - Reporte Semanal: ./UCs/reporte_semanal.md
                 - Visualizar Métricas: ./UCs/visualizar_metricas.md
     - Entregas: entregas.md
