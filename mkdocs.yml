@@ -28,4 +28,5 @@ nav:
                 - Editar Módulo: ./UCs/editar_modulo.md
                 - Reporte Semanal: ./UCs/reporte_semanal.md
                 - Visualizar Métricas: ./UCs/visualizar_metricas.md
+                - Visualizar Módulos disponíveis: ./UCs/visualizar_modulos.md
     - Entregas: entregas.md
