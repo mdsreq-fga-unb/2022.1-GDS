@@ -2,12 +2,12 @@ site_name: Guardiões da Saúde - MDS & REQ
 repo_url: https://github.com/mdsreq-fga-unb/2022.1-GDS
 
 theme:
-    logo: assets/GDS.png
-    favicon: assets/GDS.png
     name: material
     language: pt
     features:
         - navigation.tabs
+    logo: ./assets/GDS.png
+    favicon: ./assets/GDS.png
     palette:
         primary: teal
         accent: cyan
