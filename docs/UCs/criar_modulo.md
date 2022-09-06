@@ -84,3 +84,7 @@ E5. Administrador seleciona a opção de criar curso.<br>
 E6. Sistema exibe campos para inserir link(s) para acessar o curso e descrição sobre o curso.<br>
 E7. Administrador tenta avançar sem inserir uma descrição para o curso.<br>
 E8. Sistema informa que é obrigatório a descrição para criar o curso.<br>
+
+# Documento dos Casos de Uso
+
+O documento com os casos de uso está disponível [aqui](https://lucid.app/lucidchart/2177ac08-1b4a-401c-9047-ee3df682c233/edit?viewport_loc=-61%2C-203%2C2130%2C996%2C0_0&invitationId=inv_31318015-e18b-4767-9aa8-2501d5bbfde3#).
