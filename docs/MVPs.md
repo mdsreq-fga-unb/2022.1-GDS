@@ -10,7 +10,7 @@ O MVP 1 será composto pelas seguintes implementações:
   - US-02: Eu, como usuário do produto, quero ser notificado do reporte, para que eu lembre de fazer o reporte semanal
 #### Visualizar histórico de saúde (APP)
   - US-03: Eu, como usuário do produto, quero poder ver os sintomas dos dias em que eu estive mal, com o intuito de saber o que estava sentindo naquele dia
-  -  US-04: Eu, como usuário do produto, quero saber quantos dias tive os mesmos sintomas, com o intuito saber quantos dias eu permaneci sintomático
+  - US-04: Eu, como usuário do produto, quero saber quantos dias tive os mesmos sintomas, com o intuito saber quantos dias eu permaneci sintomático
 #### Notificar o usuário até o reporte ser realizado (APP)
   - US-05: Eu, como instituição, quero receber pelo menos um reporte por semana de cada usuário, para registrar a taxa de contaminação
   - US-06: Eu, como usuário do produto, não quero ser mais notificado caso já tenha realizado o reporte, para que não seja incomodado já tendo os realizado
@@ -21,8 +21,8 @@ O MVP 1 será composto pelas seguintes implementações:
   - US-27: Eu, como instituição, quero editar as informações inseridas no curso, para que estejam sempre atualizadas
   - US-28: Eu, como instituição, quero poder excluir um curso, para que eu consiga remover um curso que não é mais necessário
 #### Visualizar dados do curso (APP)
-  - US-29: Eu, como usuário do produto, quero poder visualizar tema de cada curso do módulo, com o intuito de saber o que será abordado
-  - US-30: Eu, como usuário do produto, quero poder visualizar quanto módulos estão disponíveis para serem vistos, com o intuito de saber a quantidade de conteúdo para ser estudado
+  - US-33: Eu, como usuário do produto, quero poder visualizar tema de cada curso do módulo, com o intuito de saber o que será abordado
+  - US-34: Eu, como usuário do produto, quero poder visualizar quanto módulos estão disponíveis para serem vistos, com o intuito de saber a quantidade de conteúdo para ser estudado
 #### Visualizar conteúdo do curso (APP)
   - US-31: Eu, como usuário do produto, quero poder visualizar os link de redirecionamento para os conteúdos dos curso, com o intuito de estudar o assunto abordado
   - US-32: Eu, como usuário do produto, quero poder visualizar se o conteúdo do curso já foi acessado, com o intuito de saber se quais conteúdos já foram vistos
