@@ -25,7 +25,7 @@ A2. Sistema deve apresentar opções de cursos criados para edição. <br>
 A3. Administrador seleciona um curso. <br>
 A4. Sistema deve apresentar opções para alterar os dados nos campos ou deletar o curso. ([RN02](#rn02)) <br>
 A5. Administrador preenche os campos com novos dados e solicita o salvamento da edição do curso. ([RN02](#rn02)) <br>
-A6. Sistema valida os dados inseridos. ([RN03](#rn03)) <br>
+A6. Sistema valida os dados inseridos. ([RN03](#rn03), [FE01](#fe01), [FE02](#fe02), [FE03](#fe03)) <br>
 A7. O caso de uso é encerrado com o curso editado. ([RN04](#rn04)) <br>
 
 ## FA02
@@ -37,7 +37,7 @@ A2. Sistema deve apresentar opções de cursos criados para edição. <br>
 A3. Administrador seleciona um curso. <br>
 A4. Sistema deve apresentar opções para alterar os dados nos campos ou deletar o curso. ([RN02](#rn02)) <br>
 A5. Administrador seleciona a opção de deletar o curso. <br>
-A6. Sistema envia uma mensagem perguntando se o administrador tem certeza da opção selecionada. <br>
+A6. Sistema envia uma mensagem perguntando se o administrador tem certeza da opção selecionada. ([FE04](#fe04))<br>
 A7. Administrador confirma a opção. <br>
 A8. Sistema deleta o curso. <br>
 A9. O caso de uso é encerrado com o curso deletado. ([RN04](#rn04)) <br>
@@ -49,7 +49,7 @@ A9. O caso de uso é encerrado com o curso deletado. ([RN04](#rn04)) <br>
 
 A partir do passo 6 no [Fluxo Base](#fluxo-base), caso o administrador insira uma descrição com mais de 150 caracteres:
 
-E1. Sistema informa que a descrição inserida deve ter menos de 150 caracteres.<br>
+E1. Sistema informa que a descrição inserida deve ter menos de 150 caracteres. ([RN03](#rn03)) <br>
 E2. Administrador fecha janela informativa.<br>
 E3. Sistema retorna administrador para o passo 5 no [Fluxo Base](#fluxo-base).<br>
             
@@ -57,7 +57,7 @@ E3. Sistema retorna administrador para o passo 5 no [Fluxo Base](#fluxo-base).<b
 
 A partir do passo 6 no [Fluxo Base](#fluxo-base), caso o administrador insira um link com mais de 200 caracteres:
 
-E1. Sistema informa que o link inserido deve ter menos de 200 caracteres.<br>
+E1. Sistema informa que o link inserido deve ter menos de 200 caracteres. ([RN03](#rn03)) <br>
 E2. Administrador fecha janela informativa.<br>
 E3. Sistema retorna administrador para o passo 5 no [Fluxo Base](#fluxo-base).<br>
 
@@ -65,31 +65,16 @@ E3. Sistema retorna administrador para o passo 5 no [Fluxo Base](#fluxo-base).<b
 
 A partir do passo 6 no [Fluxo Base](#fluxo-base), caso o administrador não insira nenhum link:
 
-E1. Sistema informa que deve ser inserido ao menos um link.<br>
+E1. Sistema informa que deve ser inserido ao menos um link. ([RN03](#rn03)) <br>
 E2. Administrador fecha janela informativa.<br>
 E3. Sistema retorna administrador para o passo 5 no [Fluxo Base](#fluxo-base).<br>
 
-# 
+## FE04 
 
-E1. Administrador seleciona a opção de criar um módulo na área de gerenciamento do sistema.<br>
-E2. Sistema apresenta a solicitação de nome para o módulo.<br>
-E3. Administrador insere o nome do módulo.<br>
-E4. Sistema exibe a opção de criar quiz e criar curso.<br>
-E5. Administrador seleciona a opção de criar curso.<br>
-E6. Sistema exibe campos para inserir link(s) para acessar o curso e descrição sobre o curso.<br>
-E7. Administrador tenta avançar sem inserir um link para acessar o curso.<br>
-E8. Sistema informa que é necessário ao menos um link para criar o curso.<br>
+A partir do passo A6 no [Fluxo Alternativo 02](#fa02), caso o administrador selecione a opção de não ter certeza:
 
-# 
-
-E1. Administrador seleciona a opção de criar um módulo na área de gerenciamento do sistema.<br>
-E2. Sistema apresenta a solicitação de nome para o módulo.<br>
-E3. Administrador insere o nome do módulo.<br>
-E4. Sistema exibe a opção de criar quiz e criar curso.<br>
-E5. Administrador seleciona a opção de criar curso.<br>
-E6. Sistema exibe campos para inserir link(s) para acessar o curso e descrição sobre o curso.<br>
-E7. Administrador tenta avançar sem inserir uma descrição para o curso.<br>
-E8. Sistema informa que é obrigatório a descrição para criar o curso.<br>
+E1. Administrador seleciona a opção de não ter certeza. <br>
+E3. Sistema retorna administrador para o passo A4 no [Fluxo Alternativo 02](#fa02).<br>
 
 # Regras de Negócio
 
