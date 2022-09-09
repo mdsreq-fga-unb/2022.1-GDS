@@ -7,58 +7,67 @@ Nesse documento será documentado o caso de uso de objetivo Gerenciar Curso, res
 # Fluxo Base
 
 1. Administrador acessa a área de gerenciamento do sistema.
-2. Sistema deve apresentar opções de criar um curso ou editar cursos criados. ([RN01](#rn01), [FA01](#fa01))
+2. Sistema deve apresentar opções de criar um curso ou editar cursos criados. ([RN01](#rn01), [FA01](#fa01), [FA02](#fa02))
 3. Administrador seleciona a opção de criar um curso na área de gerenciamento do sistema.
 4. Sistema apresenta a solicitação dos campos para criar um curso. ([RN02](#rn02))
-5. Administrador preenche os campos e solicita a criação de curso. ([RN02](#rn02))
-6. Sistema valida os dados inseridos. ([RN03](#rn03))
+5. Administrador preenche os campos e solicita a criação do curso. ([RN02](#rn02))
+6. Sistema valida os dados inseridos. ([RN03](#rn03), [FE01](#fe01), [FE02](#fe02), [FE03](#fe03))
 7. O caso de uso é encerrado com o curso criado. ([RN04](#rn04))
 
 # Fluxos Alternativos
 
 ## FA01
 
-A1. Sistema deve apresentar opções de criar um curso ou editar cursos criados. <br>
-A2. Sistema apresenta a solicitação de nome para o módulo. <br>
-A3. Administrador insere o nome do módulo.<br>
-A4. Sistema exibe a opção de criar quiz e criar curso.<br>
-A5. Administrador seleciona a opção de criar curso.<br>
-A6. Sistema exibe campos para inserir link(s) para acessar o curso e descrição sobre o curso.<br>
-A7. Administrador insere seu(s) respectivo(s) link(s) desejados.<br>
-A8. Administrador conclui a criação do curso e finaliza tarefa.<br>
-A9. Sistema apresenta uma mensagem indicando que foi salvo a criação.<br>
+A partir do passo 2 no [Fluxo Base](#fluxo-base) é gerado o fluxo alternativo 01 a seguir clicando na opção de editar cursos criados: 
 
-* Campos presentes na funcionalidade: campo para inserir um link para acessar o curso.
-* Regras de Negócio: o curso deve ter um link válido, a descrição não pode estar vazia.
+A1. Administrador seleciona a opção de editar cursos criados na área de gerenciamento do sistema. ([RN01](#rn01))<br>
+A2. Sistema deve apresentar opções de cursos criados para edição. <br>
+A3. Administrador seleciona um curso. <br>
+A4. Sistema deve apresentar opções para alterar os dados nos campos ou deletar o curso. ([RN02](#rn02)) <br>
+A5. Administrador preenche os campos com novos dados e solicita o salvamento da edição do curso. ([RN02](#rn02)) <br>
+A6. Sistema valida os dados inseridos. ([RN03](#rn03)) <br>
+A7. O caso de uso é encerrado com o curso editado. ([RN04](#rn04)) <br>
 
-### Fluxos de Exceção
+## FA02
 
-E1. Administrador seleciona a opção de criar um módulo na área de gerenciamento do sistema.<br>
-E2. Sistema apresenta a solicitação de nome para o módulo.<br>
-E3. Administrador não insere o nome do módulo e tenta avançar.<br>
-E4. Sistema informa que é necessário um nome para o módulo para avançar.<br>
+A partir do passo 2 no [Fluxo Base](#fluxo-base) é gerado o fluxo alternativo 02 a seguir clicando na opção de editar cursos criados: 
 
-# 
+A1. Administrador seleciona a opção de editar cursos criados na área de gerenciamento do sistema. ([RN01](#rn01))<br>
+A2. Sistema deve apresentar opções de cursos criados para edição. <br>
+A3. Administrador seleciona um curso. <br>
+A4. Sistema deve apresentar opções para alterar os dados nos campos ou deletar o curso. ([RN02](#rn02)) <br>
+A5. Administrador seleciona a opção de deletar o curso. <br>
+A6. Sistema envia uma mensagem perguntando se o administrador tem certeza da opção selecionada. <br>
+A7. Administrador confirma a opção. <br>
+A8. Sistema deleta o curso. <br>
+A9. O caso de uso é encerrado com o curso deletado. ([RN04](#rn04)) <br>
 
-E1. Administrador seleciona a opção de criar um módulo na área de gerenciamento do sistema.<br>
-E2. Sistema apresenta a solicitação de nome para o módulo.<br>
-E3. Administrador insere o nome do módulo.<br>
-E4. Sistema exibe a opção de criar quiz e criar curso.<br>
-E5. Administrador seleciona a opção de criar quiz.<br>
-E6. Sistema exibe campos para inserir perguntas e alternativas para formar um questionário.<br>
-E7. Administrador tenta avançar sem inserir nenhuma pergunta.<br>
-E8. Sistema informa que é necessário perguntas com alternativas para a criação de um quiz.<br>
 
-# 
+# Fluxos de Exceção
 
-E1. Administrador seleciona a opção de criar um módulo na área de gerenciamento do sistema.<br>
-E2. Sistema apresenta a solicitação de nome para o módulo.<br>
-E3. Administrador insere o nome do módulo.<br>
-E4. Sistema exibe a opção de criar quiz e criar curso.<br>
-E5. Administrador seleciona a opção de criar quiz.<br>
-E6. Sistema exibe campos para inserir perguntas e alternativas para formar um questionário.<br>
-E7. Administrador tenta avançar deixando uma pergunta sem alternativas.<br>
-E8. Sistema informa que é necessário perguntas com alternativas para a criação de um quiz.<br>
+## FE01
+
+A partir do passo 6 no [Fluxo Base](#fluxo-base), caso o administrador insira uma descrição com mais de 150 caracteres:
+
+E1. Sistema informa que a descrição inserida deve ter menos de 150 caracteres.<br>
+E2. Administrador fecha janela informativa.<br>
+E3. Sistema retorna administrador para o passo 5 no [Fluxo Base](#fluxo-base).<br>
+            
+## FE02
+
+A partir do passo 6 no [Fluxo Base](#fluxo-base), caso o administrador insira um link com mais de 200 caracteres:
+
+E1. Sistema informa que o link inserido deve ter menos de 200 caracteres.<br>
+E2. Administrador fecha janela informativa.<br>
+E3. Sistema retorna administrador para o passo 5 no [Fluxo Base](#fluxo-base).<br>
+
+## FE03
+
+A partir do passo 6 no [Fluxo Base](#fluxo-base), caso o administrador não insira nenhum link:
+
+E1. Sistema informa que deve ser inserido ao menos um link.<br>
+E2. Administrador fecha janela informativa.<br>
+E3. Sistema retorna administrador para o passo 5 no [Fluxo Base](#fluxo-base).<br>
 
 # 
 
@@ -96,11 +105,11 @@ Os campos serão:
 
 ## RN03
 
-No passo 4 do [Fluxo Base](#fluxo-base) o administrador deve ter inserido ao menos um link para um curso com no máximo 200 caracteres por link e opcionalmente uma breve descrição sobre o curso de no máximo 150 caracteres.
+O administrador deve ter inserido ao menos um link para um curso com no máximo 200 caracteres por link e opcionalmente uma breve descrição sobre o curso de no máximo 150 caracteres.
 
 ## RN04
 
-O sistema deve ser responsivo e retornar pro usuário uma mensagem informando que o curso foi criado.
+O sistema deve ser responsivo e retornar pro usuário uma mensagem informando que sua ação foi salva.
 
 # Documento dos Casos de Uso
 
