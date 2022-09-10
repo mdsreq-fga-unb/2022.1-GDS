@@ -3,6 +3,7 @@
 Na 1° e 2° unidade o trabalho em equipe se concentrou em sua maioria com a equipe de Requisitos (REQ), onde tiveram mais reuniões entre si, com o cliente e com o pessoal
 de Métodos de Desenvolivmento de Software (MDS) para repassar as informações obtidas e decidas pela equipe de REQ, em relação as atividades e sua divisão foi feita da
 seguinte forma: 
+
 * Primeiramente foram listadas as atividades;
 * Em seguida definido um nível de complexidade para cada uma;
 * Por fim, dividas entre a equipe tentando sempre manter um equilíbrio para evitar que um integrante ficasse com atividades muito complexas e outro com atividades mais 
