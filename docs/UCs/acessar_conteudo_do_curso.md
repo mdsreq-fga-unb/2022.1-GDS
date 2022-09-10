@@ -1,4 +1,5 @@
 # Acessar conteúdo do curso
+
 Nesse documento será documentado o caso de uso de Acessar conteúdo do curso, resumidamente consiste em o usuário do aplicativo poder acessar o conteúdo do curso que está disponível para ele no momento.
 
 ## Descrição Numerada
