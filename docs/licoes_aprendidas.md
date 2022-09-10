@@ -40,14 +40,14 @@ Nesta unidade, percebemos que para um bom desempenho do projeto precisamos de um
 Por conta da falha de comunicação de ambos os grupo, tivemos alguns problemas em relação ao tempo de entrega do MVP 1, com isso foi decidido que o equipe de Requisitos vão ajudar na parte de programação para que todos as entregas sejam concluídas, e por consequência disso o grupo irá ficar mais unido, assim facilitando o entendimento dos problemas de ambas as partes
 
 ## Unidade 4
-### MDS
 
+### MDS
 
 
 ### Requisitos
 
-
+Nesta unidade, um dos grandes aprendizados para a equipe foi sobre os casos de uso, houve muita dúvida ao longo do desenvolvimento das atividades relacionadas a essa parte da matéria, mas por fim, depois de muitos erros, podemos dizer que aprendemos ao menos o básico sobre essa área que é tão extensa. Como em todas as unidades aprendemos melhor do que nunca trabalhar em equipe, tendo em vista que enfrentamos variados problemas e a qualquer momento um integrante poderia desistir, mas passamos por obstáculos juntos e aprendemos juntos como agir em determinadas situações, como a quantidade excessiva de atividades paralelas com a matéria. Comunicação com certeza foi um dos pontos cruciais para o desenvolver dessa unidade e foi uma das habilidades aprimoradas em cada um.
 
 ### MDS-Requisitos
 
-
+A integração entre as equipes nessa unidade foi a maior, tivemos que enfrentar juntos problemas como as entregas não estarem alinhadas com o tempo restante da matéria, repensar formas de evoluir entregando o máximo possível e conseguir aceitar a falha do que faltou ser entregue. Contudo, podemos tirar lições importantes, como a flexibilidade, a empatia e a comunicação, esses três aspectos nos mostraram que precisamos ser mais flexíveis em relação à matéria, ou seja, ser realistas em relação ao que era possível de se realizar e saber nos programar com o possível, empatia pelos integrantes que estavam sofrendo com Burnout e por último, mas não menos importante, saber se comunicar sobre o que estava acontecendo a cada ponto do desenvolvimento das atividades.
