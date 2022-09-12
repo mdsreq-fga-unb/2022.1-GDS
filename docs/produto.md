@@ -377,7 +377,7 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td align="center">MÉDIA</td>
     </tr>
     <tr>
-      <td rowspan="23">Quiz</td>
+      <td rowspan="22">Quiz</td>
       <td rowspan="3">FT - 04</td>
       <td rowspan="3">Criar quiz (WEB)</td>
       <td>US - 07</td>
