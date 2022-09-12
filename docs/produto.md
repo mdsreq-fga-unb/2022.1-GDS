@@ -377,129 +377,124 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td align="center">MÉDIA</td>
     </tr>
     <tr>
-      <td rowspan="22">Quiz</td>
+      <td rowspan="21">Quiz</td>
       <td rowspan="3">FT - 04</td>
       <td rowspan="3">Criar quiz (WEB)</td>
       <td>US - 07</td>
       <td>Eu, como instituição, quero criar quiz para avaliar o conhecimento dos estudantes, para dar um estímulo para ser um conhecimento básico sobre saúde</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>  
       <td>US - 08</td>
       <td>Eu, como instituição, quero poder editar o quiz, para que esteja sempre atualizado</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>
       <td>US - 09</td>
-      <td>Eu, como instituição, quero poder excluir um quiz caso. Para que esteja sempre atualizado.</td>
-      <td align="center"></td>
+      <td>Eu, como instituição, quero poder excluir um quiz caso queira. Para que esteja sempre atualizado.</td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>
       <td rowspan="2">FT - 05</td>
       <td rowspan="2">Notificação do quiz (APP)</td>
       <td>US - 10</td>
       <td>Eu, como usuário do produto, quero receber notificação de quizzes novos para não esquecer de realizar nenhum.</td>
-      <td align="center"></td>
+      <td align="center">MÉDIA</td>
     </tr>
     <tr>
       <td>US - 11</td>
       <td>Eu, como usuário do produto, quero receber notificação caso não tenha enviado a resolução de um quiz, para que a minha nota não fique prejudicada.</td>
-      <td align="center"></td>
+      <td align="center">MÉDIA</td>
     </tr>
     <tr>
-      <td rowspan="4">FT - 06</td>
-      <td rowspan="4">Responder o quiz (APP)</td>
+      <td rowspan="3">FT - 06</td>
+      <td rowspan="3">Responder o quiz (APP)</td>
       <td>US - 12</td>
       <td>Eu, como usuário do produto, quero responder os quizzes disponibilizados para mim, com o intuito de testar meus conhecimentos adquiridos sobre o tema</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>
       <td>US - 13</td>
       <td>Eu, como usuário do produto, quero poder responder novamente o quiz caso sinta a necessidade, com o intuito de aumentar minha nota neste quiz respondido</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>
       <td>US - 14</td>
       <td>Eu, como usuário do produto, quero visualizar o resultado das questões do quiz quando acabar de responde-lo, com o intuito de observar as respostas das questões que foram respondidas</td>
-      <td align="center"></td>
-    </tr>
-    <tr>
-      <td>US - 15</td>
-      <td>Eu, como usuário do produto, quero ser notificado caso ainda não tenha respondido algum quiz do módulo, com o intuito de não esquecer nenhum quiz sem ser respondido</td>
-      <td align="center"></td>
+      <td align="center">BAIXA</td>
     </tr>
     <tr>
       <td rowspan="3">FT - 07</td>
       <td rowspan="3">Visualizar status do quiz (APP)</td>
       <td>US - 16</td>
       <td>Eu, como usuário do produto, quero poder visualizar se os quizzes ainda não foram respondidos no módulo, com o intuito de saber qual quiz ainda não foi respondido</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>
       <td>US - 17</td>
       <td>Eu, como usuário do produto, quero poder visualizar se os quizzes estão em aberto, com o intuito de saber se algum quiz não foi terminado</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>
       <td>US - 18</td>
       <td>Eu, como usuário do produto, quero poder visualizar se os quizzes foram respondidos, com o intuito de saber quais módulos foram feitos</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>
       <td rowspan="3">FT - 08</td>
       <td rowspan="3">Dados do quiz (WEB)</td>
       <td>US - 19</td>
       <td>Eu, como instituição, quero visualizar como os estudantes se saíram no quiz para avaliar seus conhecimentos</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>
       <td>US - 20</td>
       <td>Eu, como instituição, quero visualizar o nome do estudante que fez o quiz, para poder avalia-lo corretamente</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>
       <td>US - 21</td>
       <td>Eu, como instituição, quero visualizar a matrícula do estudante que fez o quiz, para poder avalia-lo corretamente</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>
       <td rowspan="3">FT - 09</td>
       <td rowspan="3">Visualizar nota dos quizzes (APP)</td>
       <td>US - 22</td>
       <td>Eu, como usuário do produto, quero poder visualizar as notas dos quizzes que foram respondidos, com o intuito de saber meu desempenho</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>
       <td>US - 23</td>
       <td>Eu, como usuário do produto, quero poder visualizar a média das notas dos quizzes por módulo, com o intuito de saber meu desempenho em cada módulo</td>
-      <td align="center"></td>
+      <td align="center">MÉDIA</td>
     </tr>
     <tr>
       <td>US - 24</td>
       <td>Eu, como usuário do produto, quero saber se passei no quiz ou se preciso fazer novamente para não perder nenhuma avaliação</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
      <tr>
       <td rowspan="4">FT - 10</td>
       <td rowspan="4">Visualizar resultado dos quizzes</td>
       <td>US - 26</td>
       <td>Eu, como instituição, quero saber a média da nota dos módulos disponibilizados</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>
       <td>US - 27</td>
       <td>Eu, como instituição, quero saber a nota dos quizzes disponibilizados</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>
       <td>US - 28</td>
       <td>Eu, como instituição, quero saber o nome do usuário e suas respectivas notas</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>
       <td>US - 29</td>
       <td>Eu, como instituição, quero saber a matrícula do usuário e suas respectivas notas</td>
-      <td align="center"></td>
+      <td align="center">ALTA</td>
     </tr>
     <tr>
       <td rowspan="7">Curso</td>
