@@ -463,8 +463,8 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
       <td align="center"></td>
     </tr>
     <tr>
-      <td rowspan="4">FT - 09</td>
-      <td rowspan="4">Visualizar nota dos quizzes (APP)</td>
+      <td rowspan="3">FT - 09</td>
+      <td rowspan="3">Visualizar nota dos quizzes (APP)</td>
       <td>US - 22</td>
       <td>Eu, como usuário do produto, quero poder visualizar as notas dos quizzes que foram respondidos, com o intuito de saber meu desempenho</td>
       <td align="center"></td>
@@ -477,11 +477,6 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
     <tr>
       <td>US - 24</td>
       <td>Eu, como usuário do produto, quero saber se passei no quiz ou se preciso fazer novamente para não perder nenhuma avaliação</td>
-      <td align="center"></td>
-    </tr>
-    <tr>
-      <td>US - 25</td>
-      <td>Eu, como usuário do produto, quero poder fazer o quiz novamente caso queira para aumentar minha nota ou não tenha obtido nota suficiente</td>
       <td align="center"></td>
     </tr>
      <tr>
