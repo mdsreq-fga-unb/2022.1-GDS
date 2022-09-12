@@ -54,8 +54,8 @@ Cliente|Definir necessidades de melhoria no produto e novas ferramentas a serem 
 | Sprint 3 | Ajuste do ambiente de desenvolvimento | 11/07/22 | 22/07/22 |
 | Sprint 4 | Protótipo de tela | 25/07/22| 05/08/22 |
 | Sprint 5 | US-01 & US-02 (Registrar reportes ao menos uma vez na semana) | 08/08/22 | 19/08/22 |
-| Sprint 6 | Desenvolvimento dos débitos (US-01 & US-02) + User Story Mapping & PBB | 22/08/22 | 02/09/22 |
-| Sprint 7 | Desenvolvimento dos débitos (US-01 & US-02) + Documento Casos de Uso | 05/09/22 | 16/09/22 |
+| Sprint 6 | Desenvolvimento dos débitos (US-01 & US-02) | 22/08/22 | 02/09/22 |
+| Sprint 7 | Desenvolvimento dos débitos (US-01 & US-02) | 05/09/22 | 16/09/22 |
 | Sprint 8* | Entrega das funcionalidades desenvolvidas | 19/09/22 | 23/09/22 |
 
 >*= A sprint 8 sera de apenas 1 semana, por ser a sprint de entrega do projeto desenvolvido.
@@ -105,83 +105,75 @@ Dentre as atividades das sprints, serão desempenhadas:
 
 #### 3.2.1 Planejamento
 
-|Atividade | Entrega |
-|----------|---------|
-| Planejamento de estrategias de desenvolvimento | Estratégias de desenvolvimento definidas |
+|Atividade | Entrega | Método | Ferramenta |
+|----------|---------|--------|------------|
+| Planejamento de estrategias de desenvolvimento | Estratégias de desenvolvimento definidas | Reunião de planejamento (Planning) | Discord da equipe |
 
-|Atividade | Entrega |
-|----------|---------|
-| Planejar estratégias da equipe | Estratégias da equipe definidas |
+|Atividade | Entrega | Método | Ferramenta |
+|----------|---------|--------|------------|
+| Planejar estratégias da equipe | Estratégias da equipe definidas | Reunião de planejamento (Planning) | Discord da equipe |
 
-|Atividade | Entrega |
-|----------|---------|
-| Definicao dos pares do pair programming | Pares da semana formados |
+|Atividade | Entrega | Método | Ferramenta |
+|----------|---------|--------|------------|
+| Definicao dos pares do pair programming | Pares da semana formados | Reunião de planejamento (Planning) | Discord da equipe |
 
 #### 3.2.2 Execução
 
-|Atividade | Entrega |
-|----------|---------|
-| Manutenção de código de Sprints passadas | Bugs corrigidos |
+|Atividade | Entrega | Método | Ferramenta |
+|----------|---------|--------|------------|
+| Manutenção de código de Sprints passadas | Bugs corrigidos | programação em pares | Discord da equipe |
 
-|Atividade | Entrega |
-|----------|---------|
-| Evolução de código de Sprints passadas | Melhorias de performance e aperfeiçoamento de código |
+|Atividade | Entrega | Método | Ferramenta |
+|----------|---------|--------|------------|
+| Evolução de código de Sprints passadas | Melhorias de performance e aperfeiçoamento de código | programação em pares | Discord da equipe |
 
-|Atividade | Entrega |
-|----------|---------|
-| Desenvolvimento de funcionalidades| Código pronto para validação com equipe de requisitos e clientes |
+|Atividade | Entrega | Método | Ferramenta |
+|----------|---------|--------|------------|
+| Desenvolvimento de novas funcionalidades | Código para validação com equipe de requisitos |  programação em pares | Discord da equipe |
 
-|Atividade | Entrega |
-|----------|---------|
-| Execução das estratégias de desenvolvimento | Estratégias executadas e feedback das estratégias pronto pra Revisão |
-
-|Atividade | Entrega |
-|----------|---------|
-| Prototipação |  Protótipos de baixa e alta fidelidade prontos para validação com clientes|
-
-|Atividade | Entrega |
-|----------|---------|
-| Execução das estratégias de time | Estatégias executadas e Feedback pronto para ser Revisado |
+|Atividade | Entrega | Método | Ferramenta |
+|----------|---------|--------|------------|
+| Prototipação | Protótipos de baixa e alta fidelidade prontos para validação com clientes | prototipação em pares | Figma + Discord da equipe |
 
 #### 3.2.3 Revisão
 
-|Atividade | Entrega |
-|----------|---------|
-| Validação com a equipe de Requisitos | Funcionalidades Alteradas se nescessario para validação com o professor |
+|Atividade | Entrega | Método | Ferramenta |
+|----------|---------|--------|------------|
+| Validação com a equipe de Requisitos | Funcionalidades Alteradas se nescessario para validação com o professor | Inspeção de código | Discord da equipe |
 
-|Atividade | Entrega |
-|----------|---------|
-| Análise do feedback do professor |  Alterações com base na analise |
+|Atividade | Entrega | Método | Ferramenta |
+|----------|---------|--------|------------|
+| Análise do feedback do professor | Alterações com base na analise | Reunião de revisão (Review) | Discord da equipe |
 
-|Atividade | Entrega |
-|----------|---------|
-| Apresentação dos resultados da sprint | Validação ou reprovação dos métodos utilizados na sprint |
+|Atividade | Entrega | Método | Ferramenta |
+|----------|---------|--------|------------|
+| Apresentação dos resultados da sprint | Validação ou reprovação dos métodos utilizados na sprint | Reunião de revisão (Review) | Discord da equipe |
 
-|Atividade | Entrega |
-|----------|---------|
-| Validação com o professor | Entrega das funcionalidades aprovadas |
+|Atividade | Entrega | Método | Ferramenta |
+|----------|---------|--------|------------|
+| Validação com o professor | Entrega das funcionalidades aprovadas | Apresentação de ponto de controle | Aula |
 
 #### 3.2.4 Retrospectiva
 
-|Atividade | Entrega |
-|----------|---------|
-| Recebimento dos feedbacks de entrega |  Feedbacks discutidos com resoluções para feedbacks negativos|
+|Atividade | Entrega | Método | Ferramenta |
+|----------|---------|--------|------------|
+| Recebimento dos feedbacks de entrega | Feedbacks discutidos com resoluções para feedbacks negativos | Apresentação da unidade | Aula |
 
-|Atividade | Entrega |
-|----------|---------|
-| Inspeção da sprint passada |  Sprint revisada com pontos de melhoria |
+|Atividade | Entrega | Método | Ferramenta |
+|----------|---------|--------|------------|
+| Inspeção da sprint passada | Sprint revisada com pontos de melhoria | Reunião de retrospectiva (Retrospective) | Discord da equipe |
 
-|Atividade | Entrega |
-|----------|---------|
-| Levantamento de melhorias para as próximas sprints | Pontos de melhoria claros |
+|Atividade | Entrega | Método | Ferramenta |
+|----------|---------|--------|------------|
+| Levantamento de melhorias para as próximas sprints | Pontos de melhoria claros | Reunião de retrospectiva (Retrospective) | Discord da equipe |
 
-|Atividade | Entrega |
-|----------|---------|
-| Avaliaçào das estratégias de desenvolvimento |  Pontos positivos e negativos da estratégia e possíveis mudanças se necessário |
+|Atividade | Entrega | Método | Ferramenta |
+|----------|---------|--------|------------|
+| Avaliaçào das estratégias de desenvolvimento |  Pontos positivos e negativos da estratégia e possíveis mudanças se necessário | Reunião de retrospectiva (Retrospective) | Discord da equipe |
 
-|Atividade | Entrega |
-|----------|---------|
-| Avaliação das estratégias da equipe | Pontos positivos e negativos da estratégia e pontos de melhoria |
+|Atividade | Entrega | Método | Ferramenta |
+|----------|---------|--------|------------|
+| Avaliação das estratégias da equipe | Pontos positivos e negativos da estratégia e pontos de melhoria | Reunião de retrospectiva (Retrospective) | Discord da equipe |
 
 ## 4 Processo de Engenharia de Requisitos
 
