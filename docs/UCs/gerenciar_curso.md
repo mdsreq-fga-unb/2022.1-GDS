@@ -11,7 +11,7 @@ Nesse documento será documentado o caso de uso de objetivo Gerenciar Curso, res
 3. Administrador seleciona a opção de criar um curso na área de gerenciamento do sistema.
 4. Sistema apresenta a solicitação dos campos para criar um curso. ([RN02](#rn02))
 5. Administrador preenche os campos e solicita a criação do curso. ([RN02](#rn02))
-6. Sistema valida os dados inseridos. ([RN03](#rn03), [FE01](#fe01), [FE02](#fe02), [FE03](#fe03))
+6. Sistema valida os dados inseridos. ([RN03](#rn03), [FE01](#fe01), [FE02](#fe02), [FE03](#fe03), [FE05](#fe05), [FE06](#fe06), [FE07](#fe07))
 7. O caso de uso é encerrado com o curso criado. ([RN04](#rn04))
 
 # Fluxos Alternativos
@@ -25,7 +25,7 @@ A2. Sistema deve apresentar opções de cursos criados para edição. <br>
 A3. Administrador seleciona um curso. <br>
 A4. Sistema deve apresentar opções para alterar os dados nos campos ou deletar o curso. ([RN02](#rn02)) <br>
 A5. Administrador preenche os campos com novos dados e solicita o salvamento da edição do curso. ([RN02](#rn02)) <br>
-A6. Sistema valida os dados inseridos. ([RN03](#rn03), [FE01](#fe01), [FE02](#fe02), [FE03](#fe03), [FE05](#fe05), [FE06](#fe06)) <br>
+A6. Sistema valida os dados inseridos. ([RN03](#rn03), [FE01](#fe01), [FE02](#fe02), [FE03](#fe03), [FE05](#fe05), [FE06](#fe06), [FE07](#fe07)) <br>
 A7. O caso de uso é encerrado com o curso editado. ([RN04](#rn04)) <br>
 
 ## FA02
@@ -47,7 +47,7 @@ A9. O caso de uso é encerrado com o curso deletado. ([RN04](#rn04)) <br>
 
 ## FE01
 
-A partir do passo 6 no [Fluxo Base](#fluxo-base), caso o administrador insira uma descrição com mais de 150 caracteres:
+A partir do passo 6 no [Fluxo Base](#fluxo-base) ou passo A6 no [Fluxo Alternativo 01](#fa01), caso o administrador insira uma descrição com mais de 150 caracteres:
 
 E1. Sistema informa que a descrição é obrigatória e deve ter menos de 150 caracteres. ([RN03](#rn03)) <br>
 E2. Administrador fecha janela informativa.<br>
@@ -55,7 +55,7 @@ E3. Sistema retorna administrador para o passo 5 no [Fluxo Base](#fluxo-base).<b
             
 ## FE02
 
-A partir do passo 6 no [Fluxo Base](#fluxo-base), caso o administrador insira um link com mais de 200 caracteres:
+A partir do passo 6 no [Fluxo Base](#fluxo-base) ou passo A6 no [Fluxo Alternativo 01](#fa01), caso o administrador insira um link com mais de 200 caracteres:
 
 E1. Sistema informa que o link inserido deve ter menos de 200 caracteres. ([RN03](#rn03)) <br>
 E2. Administrador fecha janela informativa.<br>
@@ -63,7 +63,7 @@ E3. Sistema retorna administrador para o passo 5 no [Fluxo Base](#fluxo-base).<b
 
 ## FE03
 
-A partir do passo 6 no [Fluxo Base](#fluxo-base), caso o administrador não insira nenhum link:
+A partir do passo 6 no [Fluxo Base](#fluxo-base) ou passo A6 no [Fluxo Alternativo 01](#fa01), caso o administrador não insira nenhum link:
 
 E1. Sistema informa que deve ser inserido ao menos um link. ([RN03](#rn03)) <br>
 E2. Administrador fecha janela informativa.<br>
@@ -78,7 +78,7 @@ E3. Sistema retorna administrador para o passo A4 no [Fluxo Alternativo 02](#fa0
 
 ## FE05
 
-A partir do passo 6 no [Fluxo Base](#fluxo-base), caso o administrador não insira uma descrição:
+A partir do passo 6 no [Fluxo Base](#fluxo-base) ou passo A6 no [Fluxo Alternativo 01](#fa01), caso o administrador não insira uma descrição:
 
 E1. Sistema informa que a descrição é obrigatória e deve ter menos de 150 caracteres. ([RN03](#rn03)) <br>
 E2. Administrador fecha janela informativa.<br>
@@ -86,7 +86,7 @@ E3. Sistema retorna administrador para o passo 5 no [Fluxo Base](#fluxo-base).<b
 
 ## FE06
 
-A partir do passo 6 no [Fluxo Base](#fluxo-base), caso o administrador não insira um título:
+A partir do passo 6 no [Fluxo Base](#fluxo-base) ou passo A6 no [Fluxo Alternativo 01](#fa01), caso o administrador não insira um título:
 
 E1. Sistema informa que o título é obrigatória e deve ter menos de 70 caracteres. ([RN03](#rn03)) <br>
 E2. Administrador fecha janela informativa.<br>
@@ -94,7 +94,7 @@ E3. Sistema retorna administrador para o passo 5 no [Fluxo Base](#fluxo-base).<b
 
 ## FE07
 
-A partir do passo 6 no [Fluxo Base](#fluxo-base), caso o administrador insira um título com mais de 70 caracteres:
+A partir do passo 6 no [Fluxo Base](#fluxo-base) ou passo A6 no [Fluxo Alternativo 01](#fa01), caso o administrador insira um título com mais de 70 caracteres:
 
 E1. Sistema informa que o título é obrigatória e deve ter menos de 70 caracteres. ([RN03](#rn03)) <br>
 E2. Administrador fecha janela informativa.<br>
