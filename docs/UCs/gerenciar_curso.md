@@ -25,7 +25,7 @@ A2. Sistema deve apresentar opções de cursos criados para edição. <br>
 A3. Administrador seleciona um curso. <br>
 A4. Sistema deve apresentar opções para alterar os dados nos campos ou deletar o curso. ([RN02](#rn02)) <br>
 A5. Administrador preenche os campos com novos dados e solicita o salvamento da edição do curso. ([RN02](#rn02)) <br>
-A6. Sistema valida os dados inseridos. ([RN03](#rn03), [FE01](#fe01), [FE02](#fe02), [FE03](#fe03)) <br>
+A6. Sistema valida os dados inseridos. ([RN03](#rn03), [FE01](#fe01), [FE02](#fe02), [FE03](#fe03), [FE05](#fe05), [FE06](#fe06)) <br>
 A7. O caso de uso é encerrado com o curso editado. ([RN04](#rn04)) <br>
 
 ## FA02
@@ -49,7 +49,7 @@ A9. O caso de uso é encerrado com o curso deletado. ([RN04](#rn04)) <br>
 
 A partir do passo 6 no [Fluxo Base](#fluxo-base), caso o administrador insira uma descrição com mais de 150 caracteres:
 
-E1. Sistema informa que a descrição inserida deve ter menos de 150 caracteres. ([RN03](#rn03)) <br>
+E1. Sistema informa que a descrição é obrigatória e deve ter menos de 150 caracteres. ([RN03](#rn03)) <br>
 E2. Administrador fecha janela informativa.<br>
 E3. Sistema retorna administrador para o passo 5 no [Fluxo Base](#fluxo-base).<br>
             
@@ -76,6 +76,30 @@ A partir do passo A6 no [Fluxo Alternativo 02](#fa02), caso o administrador sele
 E1. Administrador seleciona a opção de não ter certeza. <br>
 E3. Sistema retorna administrador para o passo A4 no [Fluxo Alternativo 02](#fa02).<br>
 
+## FE05
+
+A partir do passo 6 no [Fluxo Base](#fluxo-base), caso o administrador não insira uma descrição:
+
+E1. Sistema informa que a descrição é obrigatória e deve ter menos de 150 caracteres. ([RN03](#rn03)) <br>
+E2. Administrador fecha janela informativa.<br>
+E3. Sistema retorna administrador para o passo 5 no [Fluxo Base](#fluxo-base).<br>
+
+## FE06
+
+A partir do passo 6 no [Fluxo Base](#fluxo-base), caso o administrador não insira um título:
+
+E1. Sistema informa que o título é obrigatória e deve ter menos de 70 caracteres. ([RN03](#rn03)) <br>
+E2. Administrador fecha janela informativa.<br>
+E3. Sistema retorna administrador para o passo 5 no [Fluxo Base](#fluxo-base).<br>
+
+## FE07
+
+A partir do passo 6 no [Fluxo Base](#fluxo-base), caso o administrador insira um título com mais de 70 caracteres:
+
+E1. Sistema informa que o título é obrigatória e deve ter menos de 70 caracteres. ([RN03](#rn03)) <br>
+E2. Administrador fecha janela informativa.<br>
+E3. Sistema retorna administrador para o passo 5 no [Fluxo Base](#fluxo-base).<br>
+
 # Regras de Negócio
 
 ## RN01
@@ -91,7 +115,7 @@ Os campos serão:
 
 ## RN03
 
-O administrador deve ter inserido ao menos um link para um curso com no máximo 200 caracteres por link e opcionalmente uma breve descrição sobre o curso de no máximo 150 caracteres.
+O administrador deve ter inserido ao menos um link para um curso com no máximo 250 caracteres por link, obrigatoriamente uma breve descrição sobre o curso de no máximo 150 caracteres e obrigatoriamente um título com no máximo 70 caracteres.
 
 ## RN04
 
