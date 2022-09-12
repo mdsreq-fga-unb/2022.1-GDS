@@ -756,4 +756,11 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
 
 ## 6 Referências bibliográficas
 
-SWEBOK v3.0 - Guide to the Software Engineering body of knowledge
+- SWEBOK v3.0 - Guide to the Software Engineering body of knowledge
+- SAFe 5 - https://www.scaledagileframework.com/
+- Aguiar, F. e Caroli, P. “Product Backlo Building: Um guia prático para a criação e refinamento de backlog para produtos de sucesso”. Edtora Caroli, RJ. 2021.
+- Aguiar, F.  Scrum PBB. Disponível em: http://www.productbacklogbuilding.com/slides/ScrumPBB.pdf
+- Succeeding with Agile Software development using Scrum. Mike Cohn. Addison-Wesley, 2010.
+- Agile Product Management with Scrum Creating Products that Customers Love. Roman Pichler. Addison-Wesley, 2010.
+- Agile: Desenvolvimento de software frequentes e foco no valor de negócio. André Faria Gomes. Casa do Código.
+- Agile Practice Guide. Project Management Institute, Inc. 2017.
