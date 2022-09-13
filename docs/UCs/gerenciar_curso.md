@@ -109,6 +109,7 @@ O sistema não deve permitir que seja selecionado a opção de editar curso caso
 ## RN02
 
 Os campos serão:
+
 * Título: campo obrigatório com capacidade máxima de até 70 caracteres e mínima de um caractere.
 * Campo para inserir link(s) para acessar o curso: campo obrigatório separando os links por quebra de linha com capacidade de até 250 caracteres por link e máximo de 10 linhas (10 links).
 * Campo para inserir a descrição do curso: campo obrigatório com capacidade máxima de até 150 caracteres e mínima de um caractere.
@@ -120,7 +121,3 @@ O administrador deve ter inserido ao menos um link para um curso com no máximo 
 ## RN04
 
 O sistema deve ser responsivo e retornar pro usuário uma mensagem informando que sua ação foi salva.
-
-# Documento dos Casos de Uso
-
-O documento com os casos de uso está disponível [aqui](https://lucid.app/lucidchart/2177ac08-1b4a-401c-9047-ee3df682c233/edit?viewport_loc=-61%2C-203%2C2130%2C996%2C0_0&invitationId=inv_31318015-e18b-4767-9aa8-2501d5bbfde3#).
