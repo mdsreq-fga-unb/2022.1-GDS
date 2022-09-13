@@ -9,7 +9,7 @@ ou o controle de doenças em uma cidade.<br>
 ## Casos de Uso - Usuário
 
 Os casos de uso do usuário foram inspirados e definidos com base nos requisitos funiconais definidos para o sistema, disponíveis no tópico 5.1.2 no documento 
-[Visão do Produto e Projeto](./docs/produto.md):
+[Visão do Produto e Projeto](produto.md):
 
 ![image](https://user-images.githubusercontent.com/54439337/189785188-680018fb-d681-47f7-ace9-9c0627228fcc.png)
  
@@ -25,7 +25,7 @@ Sendo os casos de uso:
 ## Casos de Uso - Administrador
 
 Os casos de uso do administrador foram inspirados e definidos com base nos requisitos funiconais definidos para o sistema, disponíveis no tópico 5.1.2 no documento 
-[Visão do Produto e Projeto](./docs/produto.md):
+[Visão do Produto e Projeto](produto.md):
 
 ![image](https://user-images.githubusercontent.com/54439337/189785392-bd5eb7fc-d2cc-43f9-ae9b-02f83a07b2dd.png)
 
