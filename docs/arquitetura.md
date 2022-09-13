@@ -77,7 +77,13 @@ As principais tecnologias utilizadas serão o JavaScript e o Ruby, pois são as 
 
 ### 5.3 Diagrama de Arquitetura
 
-![Diagrama de Arquitetura](assets/diagramaArquitetura.png)
+![Diagrama de Arquitetura App](assets/diagramaArquitetura.png)
+
+![Diagrama de Arquitetura API](assets/diagramaArquiteturaAPI.png)
+
+### 5.3 Diagrama de Classes App
+
+![Diagrama de Classes App](assets/diagramaClassesApp.png)
 
 ## 6. Visão de Implementação
 A partir das estruturas conceituais do projeto apresentadas acima, acreditamos que a implementação das mesmas seja possível, dado o maior conhecimento das tecnologias e funcionamento do código previamente estabelecido. Sendo apenas o serviço fornecido pelo repositório da parte Web da aplicação não estando sob nosso controle, a codificação tem utilizado práticas de Clean Code para facilitar a posterior manutenção pela equipe de desenvolvimento da ProEpi.
