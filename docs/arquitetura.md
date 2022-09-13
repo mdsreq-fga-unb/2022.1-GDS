@@ -77,8 +77,10 @@ As principais tecnologias utilizadas serão o JavaScript e o Ruby, pois são as 
 
 ### 5.3 Diagrama de Arquitetura
 
+* App
 ![Diagrama de Arquitetura App](assets/diagramaArquitetura.png)
 
+* API
 ![Diagrama de Arquitetura API](assets/diagramaArquiteturaAPI.png)
 
 ### 5.3 Diagrama de Classes App
