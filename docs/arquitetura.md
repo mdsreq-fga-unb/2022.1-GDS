@@ -83,7 +83,7 @@ As principais tecnologias utilizadas serão o JavaScript e o Ruby, pois são as 
 * API
 ![Diagrama de Arquitetura API](assets/diagramaArquiteturaAPI.png)
 
-### 5.3 Diagrama de Classes App
+### [5.3 Diagrama de Classes App](https://lucid.app/lucidchart/758e91c8-366f-42a7-8ead-3fc982255c92/edit?viewport_loc=-2353%2C-1932%2C3840%2C1962%2CfZ5PjUMRxCIX&invitationId=inv_24c36e56-7acd-4588-bf00-c296f4739211#)
 
 ![Diagrama de Classes App](assets/diagramaClassesApp.png)
 
