@@ -23,10 +23,12 @@ A6. Mensagem disponibilizada para mostrar o HealthMap <br>
 
 ### Fluxo de Exceção
 
+## FE01
+
 E1. Usuário seleciona a opção de registrar reporte no estado Good pela segunda vez no dia. <br>
 E2. O sistema responde com uma mensagem informando que o reporte já foi registrado no dia atual <br>
 
-#
+## FE02
 
 E1. Usuário seleciona a opção de registrar reporte no estado Bad pela segunda vez no dia. <br>
 E2. O sistema apresenta uma tela perguntando a o usuário o período dos sintomas e quais os sintomas que o usuário está sentindo. <br>
