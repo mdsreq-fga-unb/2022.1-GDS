@@ -43,6 +43,7 @@ Por conta da falha de comunicação de ambos os grupo, tivemos alguns problemas 
 
 ### MDS
 
+Durante o desempenho da unidade 4, a última entrega, onde haviam débitos técnicos e a equipe estava sobrecarregada com as diversas demandas que aconteceram ao longo do semestre, seja pelo projeto ou fatores externos, tivemos momentos de crise na equipe, os quais pudemos enxergar o valor de soft skills como comunicação, resiliência, vulnerabilidade, escuta ativa e aprendizagem ativa, que nos auxiliaram a resolver as adversidades que surgiram. Com isso, tivemos espaço para entender dores e consequências de negligência de processos, como a formação de time, tanto em termos técnicos quanto humanos, e do planejamento prévio de execução. Em seguida, entendemos que devemos respeitar nossos limites individuais e coletivos, tanto em termos físicos, mentais e mesmo de realidade, como outros compromissos e necessidades dos colegas. Nossos limites não são barreiras, mas indicadores de até onde e como devemos ir. Assim, tivemos um desfecho do semestre, ainda que não com todas as entregas feitas perfeitamente, mas com grandes lições de vida e profissionais para cada um de nós em nossa jornada.
 
 ### Requisitos
 
