@@ -36,5 +36,5 @@ nav:
                 - Reporte Semanal: ./UCs/reporte_semanal.md
                 - Responder Quiz: ./UCs/responder_quiz.md
                 - Visualizar Historico de Saude: ./UCs/visualizar_historico_de_saude.md
-                - Visualizar Metricas: ./UCs/visualizar_metricas.md
+                - Visualizar Metricas Reportes: ./UCs/visualizar_métricas_sobre_os_reportes_dos_usuários.md
     - Entregas: entregas.md

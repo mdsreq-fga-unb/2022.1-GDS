@@ -1,6 +1,6 @@
 # Gerenciar Quiz
 
-Nesse documento será registrado o caso de uso de Gerenciar Quiz, resumidamente consiste em uma funcionalidade disponível apenas para o administrador do sistema, sendo bem descritiva, representando justamente a criação de um quiz e a sua edição dentro da aplicação.
+Nesse documento será registrado o caso de uso de *Gerenciar Quiz*, resumidamente consiste em uma funcionalidade disponível apenas para o administrador do sistema, sendo bem descritiva, representando justamente a criação de um quiz e a sua edição dentro da aplicação.
 
 ## Descrição Numerada
 
