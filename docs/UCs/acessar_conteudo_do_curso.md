@@ -4,29 +4,39 @@ Nesse documento será documentado o caso de uso de Acessar conteúdo do curso, r
 
 ## Descrição Numerada
 
-### Fluxo Base
+# Fluxo Base
 
 1. O usuário entra com sua conta no aplicativo.
 2. O usuário seleciona a opção de Módulos na barra lateral.
 3. Visualiza os módulos disponíveis no momento.
 4. O usuário seleciona o módulo.
 5. O usuário seleciona a opção de ver os cursos disponíveis.
-6. O usuário acessa o conteúdo do curso selecionado. (RN-01, RN-02)
+6. O usuário acessa o conteúdo do curso selecionado. ([RN01](#rn01), [RN02](#rn02))
 
-#### Regras de negócio
+# Fluxo Alternativo
 
-* (RN-01) Visualizar o curso não é obrigatório para fazer o quiz.
-* (RN-02) O conteúdo do curso deve ser disponibilizado por meio de link externos.
+# Fluxos de Exceção
 
-### Fluxo Alternativo
+## FE01
 
-### Fluxos de Exceção
+A partir do passo 3 no [Fluxo Base](#fluxo-base), caso o usuário entre para ver os módulos:
 
-E1. O usuário não possui módulos disponíveis. (FB-03 -> FB-02)<br>
+E1. O usuário não possui módulos disponíveis.<br>
+E2. O sistema retorna para o passo 2 do [Fluxo Base](#fluxo-base)<br>
 
-# 
+## FE02
 
-E2. O usuário não possui cursos disponíveis no módulo. (FB-04 -> FB-03)<br>
+A partir do passo 4 no [Fluxo Base](#fluxo-base), caso o usuário siga para ver os cursos:
+
+E1. O usuário não possui cursos disponíveis no módulo.<br>
+E2. O sistema retorna para o passo 3 do [Fluxo Base](#fluxo-base)<br>
+
+# Regras de negócio
+
+## RN01
+ Visualizar o curso não é obrigatório para fazer o quiz.
+## RN02
+ O conteúdo do curso deve ser disponibilizado por meio de link externos.
 
 # Documento dos Casos de Uso
 

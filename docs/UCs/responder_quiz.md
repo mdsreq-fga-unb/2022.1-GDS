@@ -35,7 +35,7 @@ E2.O sistema retorna ao passo 2 no [Fluxo Base](#fluxo-base).
 
 A partir do passo 5 no [Fluxo Base](#fluxo-base) ou no A1 no [Fluxo Alternativo 01](#fa01), caso o usuário não tenha quizzes disponiveis:
 
-E2. O usuário não possui quiz disponíveis no módulo ([RN02](#rn02))<br>
+E1. O usuário não possui quiz disponíveis no módulo ([RN02](#rn02))<br>
 E2.O sistema retorna ao passo 4 no [Fluxo Base](#fluxo-base).<br>
 
 ## FE03
