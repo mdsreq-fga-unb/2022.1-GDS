@@ -301,21 +301,28 @@ O processo de engenharia de requisitos escolhido seguirá o mesmo modelo definid
 - RF18: Visualizar notícias do Twitter da Proepi (APP)
 - RF19: Visualizar número de reports seguidos marcados como bem (APP)
 - RF20: Visualizar mapa hospitais/unidades de saúde (APP)
+- RF21: Visualizar métricas de reporte (WEB)
+- RF22: Visualizar contatos da Proepi (WEB)
+- RF23: Visualizar dados da equipe técnica (WEB)
+- RF24: Confirgurar Apps (WEB)
+ 
+
+* Administrador: administrador, gerente, gerente de município, instituição equipe de instituição.
 
 #### 5.1.2 Lista de Requisitos Funcionais (Clientes)
 
-- RF21: Registar reportes ao menos uma vez na semana (APP)
-- RF22: Visualizar histórico de saúde (APP)
-- RF23: Responder o quiz (APP)
-- RF24: Visualizar status do quiz (APP) 
-- RF25: Visualizar notas dos quizzes (APP)
-- RF26: Visualizar dados do curso (APP)
-- RF27: Vizualizar conteúdo do curso (APP)
-- RF28: Notificar o usuário até o reporte ser realizado (APP)
-- RF29: Criar quiz (WEB)
-- RF30: Visualizar dados sobre o quiz (WEB)
-- RF31: Criar curso (WEB)
-- RF32: Visualizar resultado dos quizzes (WEB)
+- RF01: Registar reportes ao menos uma vez na semana (APP)
+- RF02: Visualizar histórico de saúde (APP)
+- RF03: Responder o quiz (APP)
+- RF04: Visualizar status do quiz (APP) 
+- RF05: Visualizar notas dos quizzes (APP)
+- RF06: Visualizar dados do curso (APP)
+- RF07: Vizualizar conteúdo do curso (APP)
+- RF08: Notificar o usuário até o reporte ser realizado (APP)
+- RF09: Criar quiz (WEB)
+- RF10: Visualizar dados sobre o quiz (WEB)
+- RF11: Criar curso (WEB)
+- RF12: Visualizar resultado dos quizzes (WEB)
 
 #### 5.2.1 SAFE (Definido com as clientes)
 
