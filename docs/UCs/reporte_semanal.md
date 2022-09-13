@@ -8,13 +8,13 @@ o registro semanal do estado atual do usuário.
 
 ### Fluxo Base
 
-1. Usuário seleciona a opção de registrar reporte no estado Good.
+1. Usuário seleciona a opção de registrar reporte no estado Good. ([RN01](#rn01))
 2. O sistema apresenta opções para uso do GPS para que a funcionalidade do HealthMap possa usufruir do reporte.
 3. O sistema apresenta uma mensagem indicando que o reporte foi registrado.
 
 ### Fluxo Alternativo
 
-A1. Usuário seleciona a opção de registrar reporte no estado Bad. <br>
+A1. Usuário seleciona a opção de registrar reporte no estado Bad. ([RN01](#rn01)) <br> 
 A2. O sistema apresenta uma tela perguntando a o usuário o período dos sintomas e quais os sintomas que o usuário está sentindo. <br>
 A3. O sistema pede para o usuário responder algumas perguntas. <br>
 A4. O sistema apresenta uma mensagem de acordo com os sintomas do usuário. <br>
@@ -25,17 +25,23 @@ A6. Mensagem disponibilizada para mostrar o HealthMap <br>
 
 ## FE01
 
-E1. Usuário seleciona a opção de registrar reporte no estado Good pela segunda vez no dia. <br>
+E1. Usuário seleciona a opção de registrar reporte no estado Good pela segunda vez no dia. ([RN01](#rn01)) <br>
 E2. O sistema responde com uma mensagem informando que o reporte já foi registrado no dia atual <br>
 
 ## FE02
 
-E1. Usuário seleciona a opção de registrar reporte no estado Bad pela segunda vez no dia. <br>
+E1. Usuário seleciona a opção de registrar reporte no estado Bad pela segunda vez no dia. ([RN01](#rn01)) <br>
 E2. O sistema apresenta uma tela perguntando a o usuário o período dos sintomas e quais os sintomas que o usuário está sentindo. <br>
 E3. O sistema pede para o usuário responder algumas perguntas. <br>
 E4. O sistema apresenta uma mensagem de acordo com os sintomas do usuário. <br>
 E5. O sistema responde com uma mensagem informando que o reporte já foi registrado no dia atual. <br>
 E6. Mensagem disponibilizada para mostrar o HealthMap. <br>
+
+# Regras de Negócio
+
+## RN01
+
+O sistema não deve permitir que o usuário realize o reporte mais de uma vez em um mesmo dia.
 
 # Documento dos Casos de Uso
 

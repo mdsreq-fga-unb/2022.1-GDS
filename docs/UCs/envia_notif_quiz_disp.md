@@ -6,17 +6,17 @@ Nesse documento será documentado o caso de uso de objetivo Notificação sobre 
 
 # Fluxo Base
 
-1. Asignal gera a Notificação de Novo Quiz.
-2. O Guardiões da Saúde envia a notificaçao para o usuário.
+1. Asignal gera a Notificação de Novo Quiz. 
+2. O Guardiões da Saúde envia a notificaçao para o usuário. ([RN01](#rn01))
 3. O usuário recebe a notificação.
 
 # Fluxos de Exceção
 
 ## FE01
 
-A partir do passo 1 no [Fluxo Base](#fluxo-base), caso o usuário já tenha realizado o Quiz novo:
+A partir do passo 1 no [Fluxo Base](#fluxo-base), caso o usuário já tenha realizado o Quiz novo: 
 
-E1. O Guardiões não envia a notificação para o usuário.
+E1. O Guardiões não envia a notificação para o usuário. ([RN01](#rn01))
             
 
 # Regras de Negócio

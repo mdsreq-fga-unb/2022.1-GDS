@@ -54,8 +54,8 @@ Cliente|Definir necessidades de melhoria no produto e novas ferramentas a serem 
 | Sprint 3 | Ajuste do ambiente de desenvolvimento | 11/07/22 | 22/07/22 |
 | Sprint 4 | Protótipo de tela | 25/07/22| 05/08/22 |
 | Sprint 5 | US-01 & US-02 (Registrar reportes ao menos uma vez na semana) | 08/08/22 | 19/08/22 |
-| Sprint 6 | Desenvolvimento dos débitos (US-01 & US-02) | 22/08/22 | 02/09/22 |
-| Sprint 7 | Desenvolvimento dos débitos (US-01 & US-02) | 05/09/22 | 16/09/22 |
+| Sprint 6 | Desenvolvimento dos débitos (US-03 & US-04) | 22/08/22 | 02/09/22 |
+| Sprint 7 | Desenvolvimento dos débitos (US-33 & US-34) | 05/09/22 | 16/09/22 |
 | Sprint 8* | Entrega das funcionalidades desenvolvidas | 19/09/22 | 23/09/22 |
 
 >*= A sprint 8 sera de apenas 1 semana, por ser a sprint de entrega do projeto desenvolvido.
